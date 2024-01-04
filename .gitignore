@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+raw/raw-data/datsemshift-data/shift*.html
+raw/raw-data/datsemshift-concepts/*.html
 
 # C extensions
 *.so
