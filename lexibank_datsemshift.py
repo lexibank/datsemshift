@@ -3,10 +3,11 @@ import attr
 from clldutils.misc import slug
 from pylexibank import Dataset as BaseDataset
 from pylexibank import progressbar as pb
-from pylexibank import Language
+from pylexibank import Language, Lexeme, Concept
 from pylexibank import FormSpec
 from csvw.dsv import UnicodeWriter
 import re
+from collections import defaultdict
 
 
 DOWNLOAD = False
@@ -23,15 +24,41 @@ def refine_gloss(gloss):
 
 
 @attr.s
-class CustomLanguage(Language):
-    Location = attr.ib(default=None)
-    Remark = attr.ib(default=None)
+class CustomConcept(Concept):
+    Linked_Concepts = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
+    Target_Concepts = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
+    Shifts = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
 
+
+
+@attr.s
+class CustomLexeme(Lexeme):
+    Shifts = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
+    Concepts_in_Source = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " // "})
+
+
+
+@attr.s
+class CustomLanguage(Language):
+    SubGroup = attr.ib(default=None)
+    Words = attr.ib(default=None, metadata={"datatype": "integer"})
 
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "datsemshift"
     language_class = CustomLanguage
+    concept_class = CustomConcept
+    lexeme_class = CustomLexeme
     form_spec = FormSpec(separators="~;,/", missing_data=["∅"], first_form_only=True)
     
     def cmd_download(self, args):
@@ -60,15 +87,38 @@ class Dataset(BaseDataset):
         
 
         args.log.info("assembling languages...")
+        correct_glottolog = {
+                "kirikiri1256": "",
+                "wuz1236": "",
+                "none": "",
+                "Na-Dene": "",
+                "class1250": "",
+                "None": "",
+                "hmong1333": "hmon1333",
+                "Afroasiatic": "",
+                "litel1248": "lite1248",
+                "sout 2976": "sout2976",
+                "cccc": "",
+                "Kra-Dai": "",
+                "taa1242": "",
+                "soo1256": "",
+                "blaan1241": "",
+                "Kra–Dai": "",
+                "middl1321": "",
+                
+                }
         with open(self.raw_dir / "raw-data" / "languages.html") as f:
             languages = f.read()
-        language_table = [['ID', "Name", "Glottocode", "Family", "Words"]]
+        language_table = [['ID', "Name", "Glottocode", "Family", "SubGroup", "Words"]]
         all_languages = re.findall("<tr[^>]*>(.*?)</tr>", languages, re.DOTALL)
         for lng in all_languages:
             tabs = re.findall("<td[^>]*>(.*?)</td>", lng)
             if tabs:
-                idf, name, glottolog, family, words = tabs[0], tabs[1], tabs[2], tabs[3], tabs[4]
-                language_table += [[idf, name, glottolog, family, words]]
+                idf, name, glottolog, family, sgr, words = (
+                        tabs[1].strip(), tabs[2].strip(), tabs[3].strip(),
+                        tabs[4].strip(), tabs[5].strip(), tabs[6].strip())
+                language_table += [[idf, name, correct_glottolog.get(
+                    glottolog, glottolog), family, sgr, words]]
         lidx = max([int(row[0]) for row in language_table[1:]]) + 1
         language_lookup = {row[1]: row[0] for row in language_table[1:]}
         args.log.info('... assembled languages')
@@ -93,8 +143,8 @@ class Dataset(BaseDataset):
                             alias.strip(),
                             taxon.strip()
                             ]]
-                        cidx += 1
                         concept_lookup[gloss.strip()] = cidx
+                        cidx += 1
         args.log.info("... assembled concepts")
         args.log.info("assembling shifts...")
         table = [["ID", "Shift_ID", "Type", "Realization", "Status",
@@ -111,7 +161,7 @@ class Dataset(BaseDataset):
         for pth in pb(self.raw_dir.glob("raw-data/datsemshift-data/shift*.html"), desc="loading data"):
             with open(pth) as f:
                 data = f.read()
-            shift_id = str(pth).split("/")[-1][:-4]
+            shift_id = str(pth).split("/")[-1][:-5]
             shifts = re.findall(
                     '<table class="realization__table"[^>]*>(.*?)</table>',
                     data,
@@ -208,7 +258,7 @@ class Dataset(BaseDataset):
                             language_table += [[
                                 lidx,
                                 refine_gloss(language),
-                                "", "", "0"]]
+                                "", "", "", 0]]
                             language_lookup[language] = lidx
                             lids += [lidx]
                             lidx += 1
@@ -322,5 +372,69 @@ class Dataset(BaseDataset):
         # add bib
         args.writer.add_sources()
         args.log.info("added sources")
+
+        # load concepts
+        c2i = {c.english: (c.concepticon_id, c.concepticon_gloss) for c in
+               self.conceptlists[0].concepts.values()}
+        # load concepts
+        concepts = {}
+        for concept in self.concepts:
+            idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
+            cid, cgl = c2i.get(concept["ENGLISH"], ("", ""))
+            args.writer.add_concept(
+                    ID=idx,
+                    Name=concept["ENGLISH"],
+                    Concepticon_ID=cid,
+                    Concepticon_Gloss=cgl)
+            concepts[concept["NUMBER"]] = idx
+
+        # load languages
+        languages = args.writer.add_languages(lookup_factory="Name")
+
+        language_data = defaultdict(list)
+
+        # load individual semantic shifts
+        shifts = self.raw_dir.read_csv("lexemes.tsv", delimiter="\t",
+                                       dicts=True)
+        for row in shifts:
+            language_data[
+                    concepts[row["Source_Concept_ID"]],
+                    row["Source_Language_ID"],
+                    row["Source_Word"]
+                    ] += [{
+                        "Gloss": row["Source_Meaning"],
+                        "Parameter_ID": concepts[row["Source_Concept_ID"]],
+                        "Language_ID": row["Source_Language_ID"],
+                        "Shift_ID": row["Shift_ID"],
+                        "Value": row["Source_Word"]
+                        }]
+            language_data[
+                    concepts[row["Target_Concept_ID"]],
+                    row["Target_Language_ID"],
+                    row["Target_Word"]
+                    ] += [{
+                        "Gloss": row["Target_Meaning"],
+                        "Parameter_ID": concepts[row["Target_Concept_ID"]],
+                        "Language_ID": row["Target_Language_ID"],
+                        "Shift_ID": row["Shift_ID"],
+                        "Value": row["Target_Word"]
+                        }]
+        for (c, l, w), values in pb(language_data.items()):
+            if len(values) > 1:
+                args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
+            shifts = [c["Shift_ID"] for c in values]
+            concepts = [c["Gloss"] for c in values]
+
+            args.writer.add_form(
+                    Language_ID=l,
+                    Parameter_ID=c,
+                    Value=w,
+                    Form=w,
+                    Concepts_in_Source=concepts,
+                    Shifts=shifts,
+                    Source="DatSemShift"
+                    )
+                    
+
 
 

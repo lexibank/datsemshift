@@ -1,0 +1,65 @@
+{
+    "title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2023",
+    "access_right": "open",
+    "keywords": [
+        "cldf:Wordlist",
+        "linguistics"
+    ],
+    "creators": [
+        {
+            "name": "Anna Zalizniak"
+        },
+        {
+            "name": "Anna Smirnitskaya"
+        },
+        {
+            "name": "Maksim Russo (Rousseau)"
+        },
+        {
+            "name": "Ilya Gruntov"
+        },
+        {
+            "name": "Timur Maisak"
+        },
+        {
+            "name": "Dmitry Ganenkov"
+        },
+        {
+            "name": "Maria Bulakh"
+        },
+        {
+            "name": "Maria Orlova"
+        },
+        {
+            "name": "Marina Bobrik-Fremke"
+        },
+        {
+            "name": "Oksana Dereza"
+        },
+        {
+            "name": "Tatiana Mikhailova"
+        },
+        {
+            "name": "Maria Bibaeva"
+        },
+        {
+            "name": "Mikhail Voronov"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Johann-Mattis List",
+            "type": "Editor"
+        }
+    ],
+    "communities": [
+        {
+            "identifier": "lexibank"
+        }
+    ],
+    "upload_type": "dataset",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zalizniak A. et al (2016-2020). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]</p>\n</blockquote>",
+    "license": {
+        "id": "CC-BY-4.0"
+    }
+}

@@ -1,3406 +1,1729 @@
-ID	Name	Glottocode	Family	Words
-1	157	Russian	russ1263	Indo-European
-2	122	Turkish	nucl1301	Altaic
-3	153	English	stan1293	Indo-European
-4	159	French	stan1290	Indo-European
-5	116	Ancient Greek	anci1242	Indo-European
-6	158	Spanish	stan1288	Indo-European
-7	245	Latin	lati1261	Indo-European
-8	1093	Serbian	serb1264	Indo-European
-9	169	German	stan1295	Indo-European
-10	139	Romanian	roma1327	Indo-European
-11	71	Classical Arabic	stan1318	Afro-Asiatic
-12	175	Hungarian	hung1274	Uralic
-13	812	Croatian	croa1245	Indo-European
-14	181	Mandarin Chinese	mand1415	Sino-Tibetan
-15	161	Italian	ital1282	Indo-European
-16	149	Sanskrit	sans1269	Indo-European
-17	304	Tamil	tami1289	Dravidian
-18	119	Amharic	amha1245	Afro-Asiatic
-19	706	Batsbi	bats1242	Northeast Caucasian
-20	109	Mongolian (Khalkha)	halh1238	Altaic
-21	24	Norwegian	norw1258	Indo-European
-22	135	Swedish	swed1254	Indo-European
-23	173	Danish	dani1285	Indo-European
-24	222	Yakut	yaku1245	Altaic
-25	176	Armenian	nucl1235	Indo-European
-26	171	Polish	poli1260	Indo-European
-27	244	Komi	komi1268	Uralic
-28	163	Lezgian	lezg1247	Northeast Caucasian
-29	174	Czech	czec1258	Indo-European
-30	252	Icelandic	icel1247	Indo-European
-31	232	Japanese	nucl1643	Altaic
-32	141	Finnish	finn1318	Uralic
-33	130	Geez	geez1241	Afro-Asiatic
-34	380	Swahili	swah1253	Atlantic–Congo
-35	138	Ukrainian	ukra1253	Indo-European
-36	260	Tigrinya	tigr1271	Afro-Asiatic
-37	110	Bulgarian	bulg1262	Indo-European
-38	211	Gagauz	gaga1249	Altaic
-39	178	Farsi	fars1254	Indo-European
-40	142	Udmurt	udmu1245	Uralic
-41	224	Karaim	kara1464	Altaic
-42	257	Tibetan	tibe1272	Sino-Tibetan
-43	85	Kannada	nucl1305	Dravidian
-44	117	Portuguese	port1283	Indo-European
-45	324	Indonesian	indo1316	Austronesian
-46	126	Lithuanian	lith1251	Indo-European
-47	255	Dutch	dutc1256	Indo-European
-48	136	Tabassaran	taba1259	Northeast Caucasian
-49	355	Thai	thai1261	Kra–Dai
-50	371	Khmer	cent1989	Austroasiatic
-51	450	Hill Mari	west2392	Uralic
-52	238	Meadow Mari	mari1278	Uralic
-53	239	Modern Greek	mode1248	Indo-European
-54	201	Akkadian	akka1240	Afro-Asiatic
-55	7	Lao	laoo1244	Kra–Dai
-56	219	Erzya	erzy1239	Uralic
-57	166	Vietnamese	viet1252	Austroasiatic
-58	242	Belarusan	bela1254	Indo-European
-59	60	Burmese	nucl1310	Sino-Tibetan
-60	184	Azerbaijani	mode1262	Altaic
-61	261	Tigre	tigr1270	Afro-Asiatic
-62	179	Kazakh	kaza1248	Altaic
-63	111	Bashkir	bash1264	Altaic
-64	137	Ancient Hebrew	anci1244	Afro-Asiatic
-65	330	Malay	stan1306	Austronesian
-66	160	Old East Slavic	oldr1238	Indo-European
-67	185	Selkup	selk1253	Uralic
-68	247	Tundra Yukaghir	nort2745	Yukaghir
-69	375	Tagalog	taga1270	Austronesian
-70	395	Karelian	kare1335	Uralic
-71	237	Estonian	esto1258	Uralic
-72	148	Tuvan	tuvi1240	Altaic
-73	272	Zulu	zulu1248	Atlantic–Congo
-74	861	Khamnigan Mongol	kham1281	Altaic
-75	536	Abaza	abaz1241	Northwest Caucasian
-76	151	Evenki	even1260	Altaic
-77	282	Adyghe	adyg1241	Northwest Caucasian
-78	600	Veps	veps1250	Uralic
-79	210	Irish Gaelic	iris1253	Indo-European
-80	129	Aghul	aghu1253	Northeast Caucasian
-81	165	Tatar	tata1255	Altaic
-82	218	Moksha	moks1248	Uralic
-83	243	Ingush	ingu1240	Northeast Caucasian
-84	248	Buriat	buri1258	Altaic
-85	323	Nganasan	ngan1291	Uralic
-86	183	Chukchee	chuk1273	Chukotko-Kamchatkan
-87	485	Malak-Malak	mull1237	Malak-Malak
-88	339	Koryak	kory1246	Chukotko-Kamchatkan
-89	495	Nivkh	gily1242	Nivkh
-90	194	Even	even1260	Altaic
-91	246	Udihe	udih1248	Altaic
-92	312	Catalan	stan1289	Indo-European
-93	393	Maori	maor1246	Austronesian
-94	499	Yaqui (Hiaki)	yaqu1251	Uto-Aztecan
-95	30	Tofa	kara1462	Altaic
-96	443	Kubachi	kuba1248	Northeast Caucasian
-97	140	Latvian	latv1249	Indo-European
-98	114	Old English	stan1293	Indo-European
-99	118	Macedonian	mace1250	Indo-European
-100	234	Slovak	slov1269	Indo-European
-101	204	Telugu	telu1262	Dravidian
-102	180	Ossetian	osse1243	Indo-European
-103	220	Romani	roma1329 	Indo-European
-104	817	Galician	gali1258	Indo-European
-105	190	Slovenian	slov1268	Indo-European
-106	155	Old Church Slavonic	chur1257	Indo-European
-107	208	Welsh	wels1247	Indo-European
-108	290	Javanese	java1254	Austronesian
-109	340	Chaha	seba1251	Afro-Asiatic
-110	629	Rutul	rutu1240	Northeast Caucasian
-111	134	Udi	udii1243	Northeast Caucasian
-112	236	Old Norse	oldn1244	Indo-European
-113	293	Classical Armenian	clas1249	Indo-European
-114	382	Soqotri	soqo1240	Afro-Asiatic
-115	357	Modern Written Arabic	stan1318	Afro-Asiatic
-116	326	Balinese	bali1278	Austronesian
-117	78	Jarawara	jama1261	Arawan
-118	345	Albanian	alba1267	Indo-European
-119	229	Old Irish	oldi1245	Indo-European
-120	494	Somali	soma1255	Afro-Asiatic
-121	52	Kurux	kuru1301	Dravidian
-122	420	Hindi	hind1269	Indo-European
-123	124	Chuvash	chuv1255	Altaic
-124	258	Syriac	clas1252	Afro-Asiatic
-125	1532	Oriya	oriy1255	Indo-European
-126	209	Breton	bret1244	Indo-European
-127	38	Georgian	nucl1302	Kartvelian
-128	578	Hiligaynon	hili1240	Austronesian
-129	396	Livvi-Karelian	livv1243	Uralic
-130	583	Botlikh	botl1242	Northeast Caucasian
-131	112	Korean	kore1280	Altaic
-132	164	Avar	avar1256	Northeast Caucasian
-133	51	Fula	fula1264	Atlantic–Congo
-134	1154	Cantonese Chinese	cant1236	Sino-Tibetan
-135	582	Modern Mon	monn1252	Austroasiatic
-136	146	Hausa	haus1257	Afro-Asiatic
-137	559	Waray	wara1300	Austronesian
-138	168	Kyrghyz	kirg1245	Altaic
-139	226	Old French	oldf1239	Indo-European
-140	348	Navajo	nava1243	Na-Dené
-141	308	Basque	basq1248	Basque
-142	544	Shan	shan1277	Kra–Dai
-143	125	Karakhanid Uighur	uigh1240	Altaic
-144	288	Hawaiian	hawa1245	Austronesian
-145	70	Itelmen	itel1242	Chukotko-Kamchatkan
-146	143	Uzbek	uzbe1247	Altaic
-147	81	Kui (India)	kuii1252	Dravidian
-148	840	Luxembourgish	luxe1241	Indo-European
-149	44	Medieval Latin	medi1250	Indo-European
-150	147	Old High German	stan1295	Indo-European
-151	202	Malayalam	mala1464	Dravidian
-152	228	Gothic	goth1244	Indo-European
-153	328	Brahui	brah1256	Dravidian
-154	113	Kurdish	kurd1259	Indo-European
-155	133	Modern Hebrew	hebr1245	Afro-Asiatic
-156	152	Kildin Saami	kild1236	Uralic
-157	215	Yir Yoront	yiry1245	Pama–Nyungan
-158	249	Manchu	manc1252	Altaic
-159	579	Ilocano	ilok1237	Austronesian
-160	128	Lak	lakk1252	Northeast Caucasian
-161	131	Arabic	stan1318	Afro-Asiatic
-162	212	Kumyk	kumy1244	Altaic
-163	365	Maranao	mara1404	Austronesian
-164	6	Middle English	midd1317	Indo-European
-165	9	Lower Sorbian	lowe1385	Indo-European
-166	223	Nanai	nana1257	Altaic
-167	231	Khakas	khak1248	Altaic
-168	379	Jewish Aramaic	nort3242	Afro-Asiatic
-169	28	Nahuatl	azte1234	Uto-Aztecan
-170	115	Turkmen	turk1304	Altaic
-171	186	Uighur	uigh1240	Altaic
-172	154	Bagvalal	bagv1239	Northeast Caucasian
-173	156	Serbo-Croatian	sout1528	Indo-European
-174	162	Chamalal	cham1309	Northeast Caucasian
-175	189	Tajiki	taji1245	Indo-European
-176	572	Guarani	para1311	Tupian
-177	108	Archi	arch1244	Northeast Caucasian
-178	372	Malagasy	plat1254	Austronesian
-179	842	Bengali	beng1280	Indo-European
-180	87	Tahitian	tahi1242	Austronesian
-181	177	Pashto	pash1269	Indo-European
-182	611	Otomi	otom1300	Oto-Manguean
-183	863	Scottish Gaelic	scot1245	Indo-European
-184	1185	Assamese	assa1263	Indo-European
-185	1303	Doromu-Koki	doro1266	Trans–New Guinea
-186	172	Bezhta	bezh1248	Northeast Caucasian
-187	501	Wintu	nucl1651	Wintuan
-188	1438	Ojibwe 	ojib1241	Algic
-189	62	Quechua	cusc1236	Quechuan
-190	317	Chechen	chec1245	Northeast Caucasian
-191	624	Marathi	mara1378	Indo-European
-192	1067	New Latin	lati1261	Indo-European
-193	14	Batak Toba	bata1289	Austronesian
-194	31	Abkhaz	abkh1244	Northwest Caucasian
-195	145	Karata	kara1474	Northeast Caucasian
-196	182	Mansi	mans1269	Uralic
-197	325	Oromo	nucl1701	Afro-Asiatic
-198	343	Hup	hupd1244	Naduhup
-199	397	Tver Karelian	tver1240	Uralic
-200	558	White Hmong (Hmong Daw)	hmong1333	Hmong–Mien
-201	693	Punjabi	panj1256	Indo-European
-202	845	Cham	east2563	Austronesian
-203	83	Tzotzil	tzot1259	Mayan
-204	92	Faroese	faro1244	Indo-European
-205	267	Avestan	aves1237	Indo-European
-206	287	Alabama	alab1237	Muskogean
-207	314	Rapanui	rapa1244	Austronesian
-208	337	Cebuano	cebu1242	Austronesian
-209	835	Afrikaans	afri1274	Indo-European
-210	80	Occitan	occi1239	Indo-European
-211	235	Church Slavonic	chur1257	Indo-European
-212	253	Nogai	noga1249	Altaic
-213	605	Kaingang	kain1271	Macro-Jê
-214	1436	Nez Perce (Nimipuutímt)	nezp1238	Plateau Penutian
-215	43	Niuean	niue1239	Austronesian
-216	93	Cherokee	cher1273	Iroquoian
-217	364	Upper Sorbian	uppe1395	Indo-European
-218	700	Shipibo-Conibo	ship1253	Panoan
-219	747	Q&#39;eqchi&#39;	kekc1242	Mayan
-220	1192	West Frisian	west2354	Indo-European
-221	1231	Aromanian	arom1237	Indo-European
-222	1445	Mairasi	nucl1594	Mairasi
-223	187	Karachay-Balkar	kara1465	Altaic
-224	297	Ket	kett1243	Yeniseian
-225	529	Lakota	lako1247	Siouan
-226	622	Gurindji	guri1247	Pama–Nyungan
-227	896	Manda (of India)	mand1413	Dravidian
-228	904	Pengo	peng1244	Dravidian
-229	1320	Ngardi	ngar1288	Pama–Nyungan
-230	67	Khinalug	khin1240	Northeast Caucasian
-231	262	Shughni	shug1248	Indo-European
-232	281	Takia	taki1248	Austronesian
-233	360	Yoruba	yoru1245	Atlantic–Congo
-234	805	Skolt Sami	skol1241	Uralic
-235	820	Crimean Tatar	crim1257	Altaic
-236	1340	Luiseño	luis1253	Uto-Aztecan
-237	127	Old Turkic	oldt1247	Altaic
-238	214	Dargwa (literary)	darg1241	Northeast Caucasian
-239	230	Hittite	hitt1242	Indo-European
-240	411	Hopi	hopi1249	Uto-Aztecan
-241	547	Yegha	kora1294	Trans–New Guinea
-242	694	Gawwada (Ale)	gaww1239	Afro-Asiatic
-243	897	Bosnian	bosn1245	Indo-European
-244	1156	Southern Min (Min Nan)	minn1241	Sino-Tibetan
-245	41	Tolai (Kuanua)	kuan1248	Austronesian
-246	366	Jewish Palestinian Aramaic	pale1261	Afro-Asiatic
-247	469	Telefol	tele1256	Trans–New Guinea
-248	603	Marquesan	nort2845	Austronesian
-249	617	Tongan	tong1325	Austronesian
-250	821	Southern Altai	sout2694	Altaic
-251	1147	Late Latin	late1252	Indo-European
-252	1201	Tlingit	Na-Dene	Tlingit
-253	35	Romansh	roma1326	Indo-European
-254	37	Mehri	mehr1241	Afro-Asiatic
-255	59	Shor	shor1247	Altaic
-256	69	Sumerian	sume1241	Sumerian
-257	95	Egyptian	egyp1246	Afro-Asiatic
-258	213	Khanty	khan1273	Uralic
-259	284	Brazilian Portuguese	 braz1246	Indo-European
-260	305	Ginukh	hinu1240	Northeast Caucasian
-261	350	Godoberi	ghod1238	Northeast Caucasian
-262	352	Samoan	samo1305	Austronesian
-263	417	Aleut	aleu1260	Eskimo–Aleut
-264	606	Eastern Wichí	wich1263	Matacoan
-265	612	Seychellois Creole	sese1246	French-based creole
-266	614	Cofán	cofa1242	Cofán
-267	630	Khwarshi	khwa1239	Northeast Caucasian
-268	635	Kanuri	kanu1279	Saharan
-269	653	Colorado (Tsafiki)	colo1256	Barbacoan
-270	909	Kawi (Old Javanese)	kawi1241	Austronesian
-271	931	Wolio	woli1241	Austronesian
-272	992	Rotuman	rotu1241	Austronesian
-273	1245	Koasati	koas1236	Muskogean
-274	1297	Masai	masa1300	Saharan
-275	1308	Kombio	komb1272	Torricelli
-276	167	Karakalpak	kara1467	Altaic
-277	192	Tindi	tind1238	Northeast Caucasian
-278	203	Tulu	tulu1258	Dravidian
-279	240	Middle Persian (Pahlavi)	pahl1241	Indo-European
-280	251	Ottoman Turkish	otto1234	Altaic
-281	285	Paiwan	paiw1248	Austronesian
-282	295	Kashub	kash1274	Indo-European
-283	320	Yaghnobi	yagn1238	Indo-European
-284	349	Hunzib	hunz1247	Northeast Caucasian
-285	363	Lushai	lush1249	Sino-Tibetan
-286	409	Mwotlap	motl1237	Austronesian
-287	421	Greenlandic Inuit	gree1280	Eskimo–Aleut
-288	525	Seri	seri1257	Hokan
-289	569	Kichwa	colo1257	Quechuan
-290	576	Buginese	bugi1244	Austronesian
-291	602	Nepali	nepa1254	Indo-European
-292	690	Akhvakh	akhv1239	Northeast Caucasian
-293	702	Tai Nuea (Dehong)	tain1252	Kra–Dai
-294	738	Yuwana (Hodï)	yuwa1244	Yuwana (Hodï)
-295	792	Kali&#39;na (Carib)	gali1262	Cariban
-296	826	Gondi	nort3258	Dravidian
-297	914	Bikol	biko1240	Austronesian
-298	1080	Makassarese	maka1311	Austronesian
-299	1254	Livonian	livv1244	Uralic
-300	1264	Mojave	moha1256	Yuman
-301	1448	Pela (Bolo)	pela1242	Sino-Tibetan
-302	3	Mikir	karb1241	Sino-Tibetan
-303	10	Middle High German	stan1295	Indo-European
-304	46	Tok Pisin	tokp1240	English-based creole
-305	64	Kapampangan	pamp1243	Austronesian
-306	94	Old Sweden	None	Indo-European
-307	107	Byzantine Greek	medi1251	Indo-European
-308	120	Kalmyk	kalm1243	Altaic
-309	188	Nenets	nene1249	Uralic
-310	206	Pitjantjatjara	pitj1243	Pama–Nyungan
-311	266	Dari	dari1249	Indo-European
-312	316	Choctaw	choc1276	Muskogean
-313	322	Classical Persian	midd1352	Indo-European
-314	341	Yiddish	yidd1255	Indo-European
-315	497	Chʼol	chol1282	Mayan
-316	509	Ventureño	vent1242	Chumashan
-317	545	Fijian	fiji1243	Austronesian
-318	640	Rennellese	renn1242	Austronesian
-319	825	Malto (Sauria Paharia, references do not distinguish from Kumarbhag Paharia)	saur1249	Dravidian
-320	839	Ngadha	ngad1261	Austronesian
-321	906	Iban	iban1264	Austronesian
-322	1129	Tunebo (Uwa)	tune1260	Chibchan
-323	1283	Sursurunga	surs1246	Austronesian
-324	1298	Dinka	dink1262	Saharan
-325	1304	Fataluku	fata1247	Trans–New Guinea
-326	1311	Ambulas (Abelam)	ambu1247	Sepik
-327	1339	Ute	utee1244	Uto-Aztecan
-328	1441	Igbo	nucl1417	Niger–Congo
-329	1444	Narak	nara1264	Trans–New Guinea
-330	1531	Urdu	urdu1245	Indo-European
-331	27	Kilivila	kili1267	Austronesian
-332	29	Wolane	wola1253	Afro-Asiatic
-333	34	Thao	thao1240	Austronesian
-334	72	Ilokano	ilok1237	Austronesian
-335	88	Pangasinan	pang1290	Austronesian
-336	98	Amis	amis1246	Austronesian
-337	170	Kabardian	kaba1278	Northwest Caucasian
-338	193	Kryts	kryt1240	Northeast Caucasian
-339	205	Kâte	kate1253	Trans–New Guinea
-340	225	Oyrot	sout2694	Altaic
-341	259	Jibbali	sheh1240	Afro-Asiatic
-342	321	Tsez	dido1241	Northeast Caucasian
-343	403	Yidiñ	yidi1250	Pama–Nyungan
-344	436	Warlpiri	warl1254	Pama–Nyungan
-345	440	Ngarluma	ngar1287	Pama–Nyungan
-346	460	West Kewa	west2599	Trans–New Guinea
-347	477	Kyaka	kyak1244	Engan
-348	551	Grass Koiarj	gras1249	Trans–New Guinea
-349	571	Koreguaje	kore1283	Tucanoan
-350	591	Kuvi	kuvi1243	Dravidian
-351	597	Saramaccan	sara1340	English–Portuguese-based creole
-352	615	Andi	andi1255	Northeast Caucasian
-353	636	Oroqen	oroq1238	Altaic
-354	641	Nuguria	nuku1259	Austronesian
-355	642	Takuu	taku1257	Austronesian
-356	692	Budukh	budu1248	Northeast Caucasian
-357	703	Tai Lue	luuu1242	Kra–Dai
-358	757	Northern Sami	nort2671	Uralic
-359	822	Dolgan	dolg1241	Altaic
-360	851	Tuamotu	tuam1242	Austronesian
-361	857	Mangareva	mang1401	Austronesian
-362	877	Soninke	soni1259	Mande
-363	895	Manx	manx1243	Indo-European
-364	901	Parji	parj1243	Dravidian
-365	919	Bontok	bont1247	Austronesian
-366	924	Kayan (of Borneo)	kaya1323	Austronesian
-367	926	Sundanese	sund1251	Austronesian
-368	929	Pamona (Bare’e)	pamo1252	Austronesian
-369	937	Manggarai	mang1405	Austronesian
-370	951	Classical Nahuatl	class1250	Uto-Aztecan
-371	1030	Old Georgian	oldg1234	Kartvelian
-372	1145	Gamo	gamo1243	Omotic
-373	1190	Mingrelian	ming1252	Kartvelian
-374	1230	Low German	lowg1239	Indo-European
-375	1238	Iron Ossetian	iron1242	Indo-European
-376	1263	Cheyenne	chey1247	Algonquian
-377	1265	North Frisian	nort2626	Indo-European
-378	1292	Tommo So	tomm1242	Niger–Congo
-379	1309	Bariai	bari1286	Austronesian
-380	1316	Gamilaraay	gami1243	Pama–Nyungan
-381	1337	Dakota	dako1258	Siouan
-382	1389	Pali	pali1273	Indo-European
-383	1439	Western Abenaki	west2630	Algic
-384	1559	Arabela	arab1268	Zaparoan
-385	19	Maya	maya1287	Mayan
-386	121	Old Uighur	oldu1238	Altaic
-387	123	Chagatai	chag1247	Altaic
-388	217	Gugu-yimidjir	gugu1255	Pama–Nyungan
-389	221	Tsakhur	tsak1249	Northeast Caucasian
-390	250	Negidal	negi1245	Altaic
-391	374	Haddiya	hadi1240	Afro-Asiatic
-392	383	Orok	orok1265	Altaic
-393	419	Dan	dann1241	Mande
-394	496	Yao (Iu Mien)	iumi1238	Hmong–Mien
-395	621	Juhuri (Judeo-Tat)	jude1256	Indo-European
-396	623	Mapudungun	mapu1245	Araucanian
-397	643	Tikopia	tiko1237	Austronesian
-398	648	Sirionó	siri1279	Tupian
-399	661	Karok	karo1304	Hokan
-400	662	Waorani	waor1240	Waorani
-401	759	Inari Sami	inar1241	Uralic
-402	833	Luobohe Miao	luop1235	Hmong–Mien
-403	853	Cook Islands Maori (Rarotongan)	raro1241	Austronesian
-404	855	Nukuoro	nuku1260	Austronesian
-405	902	Kolami	kola1242	Dravidian
-406	918	Kankanaey	kank1245	Austronesian
-407	920	Itbayaten	itba1237	Austronesian
-408	928	Sangir	nort2871	Austronesian
-409	954	Arosi	aros1241	Austronesian
-410	956	Pazeh	kulo1237	Austronesian
-411	996	Northern Haida	haid1248	Haida
-412	1092	Ludic Karelian	ludi1246	Uralic
-413	1151	Gela (Nggela)	gela1263	Austronesian
-414	1186	Sinhalese	sinh1246	Indo-European
-415	1221	Hakka Chinese	hakk1236	Sino-Tibetan
-416	1239	Digor Ossetian	digo1242	Indo-European
-417	1277	Yedina (Buduma)	budu1265	Afro-Asiatic
-418	1305	Bamu	bamu1257	Kiwaian
-419	1334	Francisco León Zoque	fran1266	Mixe–Zoque
-420	1341	Shuar	shua1257	Chicham
-421	1355	North Alaskan Inuit (Iñupiaq)	inup1234	Eskimo–Aleut
-422	1442	Kinyarwanda	kiny1244	Niger–Congo
-423	1452	Võro	none	Uralic
-424	1530	Standard Zhuang	none	Kra-Dai
-425	1549	Asturian	astu1245	Indo-European
-426	11	Kott	kott1239	Yeniseian
-427	32	Djabugay	dyaa1242	Pama–Nyungan
-428	102	Buru	buru1303	Austronesian
-429	199	Kukatja (Western Australia)	kuka1246	Pama–Nyungan
-430	241	Polabian	pola1255	Indo-European
-431	271	Khaling	khal1275	Sino-Tibetan
-432	273	Palauan	pala1344	Austronesian
-433	306	Motu	motu1246	Austronesian
-434	313	Beja	beja1238	Afro-Asiatic
-435	398	Bamana	bamb1269	Mande
-436	519	Cocopa	coco1261	Yuman
-437	528	Winnebago	hoch1243	Siouan
-438	542	Cornish	corn1251	Indo-European
-439	573	Alutor	alut1245	Chukotko-Kamchatkan
-440	592	Hani	hani1248	Sino-Tibetan
-441	604	Tuyuca	tuyu1244	Tucanoan
-442	609	Mlabri	mlab1235	Austroasiatic
-443	610	Panare	enap1235	Cariban
-444	632	Bolyu (Paliu)	boly1239	Austroasiatic
-445	644	Tuvaluan	tuva1244	Austronesian
-446	647	Puinave	puin1248	Puinave
-447	649	Zhuang-Longzhou (Central Tai)	deba1238	Kra–Dai
-448	665	Cia-Cia (Butonese)	ciac1237	Austronesian
-449	686	Embera	embe1258	Chocoan
-450	688	Central Siberian Yupik	cent2128	Eskimo–Aleut
-451	699	Ese Ejja	esee1248	Tacanan
-452	742	Yaminahua	yami1255	Pano–Tacanan
-453	786	Sanapaná	sana1298	Mascoian
-454	900	Corsican	cors1241	Indo-European
-455	903	Gadaba (Kondekor- Mudhili)	mudh1235	Dravidian
-456	916	Casiguran Dumagat	casi1235	Austronesian
-457	921	Isneg (Isnag)	isna1241	Austronesian
-458	934	Karo Batak	bata1293	Austronesian
-459	941	Rembong	remb1250	Austronesian
-460	973	Mongondow	mong1342	Austronesian
-461	976	Yaqay	yaqa1246	Trans–New Guinea
-462	1063	Jèrriais (Jersey Norman French)	jerr1238	Indo-European
-463	1110	Tucano	tuca1252	Tucanoan
-464	1137	Abui	abui1241	Trans–New Guinea
-465	1197	Wanman (Warnman)	wanm1242	Pama–Nyungan
-466	1251	Western Armenian	homs1234	Indo-European
-467	1276	Sura (Mwaghavul)	mwag1236	Afro-Asiatic
-468	1278	Manipuri (Meitei)	mani1292	Sino-Tibetan
-469	1289	Doyayo	doya1240	Niger–Congo
-470	1293	Koromfe	koro1298	Niger–Congo
-471	1295	So (Uganda)	sooo1256	Saharan
-472	1319	Western Desert language (Wati)	wati1241	Pama–Nyungan
-473	1331	Coatlan Mixe	coat1239	Mixe–Zoque
-474	1348	Cabécar	cabe1245	Chibchan
-475	1437	Crow	crow1244	Siouan
-476	1449	Chinook Jargon	chin1272	Chinookan-based creol
-477	1451	Ingrian	ingr1248	Uralic
-478	1522	Sranan Tongo	sran1240	English-based creole
-479	1567	Ik (Icetot)	ikkk1242	Nilo-Saharan
-480	1640	Khoekhoe	khoe1242	Khoe-Kwadi
-481	17	Chirag Dargwa	chir1284	Northeast Caucasian
-482	22	Mandaic	nucl1706	Afro-Asiatic
-483	55	Sogdian	sogd1245	Indo-European
-484	79	Lushei (Mizo)	lush1249	Sino-Tibetan
-485	89	Maltese	malt1254	Afro-Asiatic
-486	132	Old Prussian	prus1238	Indo-European
-487	265	Yazghulami	yazg1240	Indo-European
-488	289	Ulchi	ulch1241	Altaic
-489	309	Balochi	east2304	Indo-European
-490	318	Wik-Mungkan	wikm1247	Pama–Nyungan
-491	394	Ingria Finnish	sout1743	Uralic
-492	410	Djinang	djin1253	Pama–Nyungan
-493	412	Northern Sotho	nort3233	Atlantic–Congo
-494	437	Wubuy (Nunggubuyu)	nung1290	Macro-Gunwinyguan
-495	508	Barbareño	barb1263	Chumashan
-496	526	Highland Oaxaca Chontal	high1242	Hokan
-497	570	Central Bolivian Quechua	sout2991	Quechuan
-498	613	Angami	anga1288	Sino-Tibetan
-499	619	Chácobo	chac1251	Panoan
-500	627	Nung (Tai)	nung1283	Kra–Dai
-501	652	Phong	phon1246	Austroasiatic
-502	655	Mbunga	mbun1248	Atlantic–Congo
-503	663	Ayoreo	ayor1240	Zamucoan
-504	678	Sui	suii1243	Kra–Dai
-505	689	Itonama	iton1250	Itonama
-506	695	Iraqw	iraq1241	Afro-Asiatic
-507	696	Paez	paez1247	Paez
-508	705	Hlai (Baoting)	nucl1241	Kra–Dai
-509	739	Yagua	yagu1244	Peba–Yaguan
-510	741	Catuquina (Kanamarí)	kana1291	Harákmbut–Katukinan
-511	750	Ninam	nina1238	Yanomaman
-512	795	Alorese	alor1247	Austronesian
-513	818	Votic	voti1245	Uralic
-514	837	Scots	scot1243	Indo-European
-515	868	Nyangumarta	nyan1303	Pama–Nyungan
-516	872	Mandinka	mand1436	Mande
-517	908	Kambera	kamb1299	Austronesian
-518	915	Ibaloy	ibal1244	Austronesian
-519	917	Ifugaw	ifug1247	Austronesian
-520	922	Yami	yami1254	Austronesian
-521	935	Puyuma	puyu1239	Austronesian
-522	939	Ngaju Dayak	ngaj1237	Austronesian
-523	945	Chibcha (Muisca)	chib1270	Chibchan
-524	946	Simeulue (Simalur)	sime1241	Austronesian
-525	960	Aklanon	akla1240	Austronesian
-526	963	Bughotu (Bugotu)	bugh1239	Austronesian
-527	965	Hawu (Sabu)	sabu1255	Austronesian
-528	966	Tetum (Tetun)	tetu1245	Austronesian
-529	994	Lengua (Enlhet)	nort2971	Mascoian
-530	1029	Gorontalo	goro1259	Austronesian
-531	1069	Yucatec Maya	yuca1254	Mayan
-532	1074	Ignaciano	moxo1234	Arawakan
-533	1094	Old Polish	oldp1256	Indo-European
-534	1116	Barasana	bara1380	Tucanoan
-535	1128	Wanano (Guanano, Piratapuyo)	wana1272	Tucanoan
-536	1193	Inkhokvari	inxo1238	Northeast Caucasian
-537	1212	Aymara	nucl1667	Aymaran
-538	1215	Tehuelche	tehu1242	Chonan
-539	1244	Chickasaw	chic1270	Muskogean
-540	1262	Afar	Afroasiatic	Cushitic
-541	1291	Gbaya	gbay1279	Niger–Congo
-542	1302	ǃKhong (ǃXóõ, Taa )	taa1242	Khoisan
-543	1306	Wantoat	want1252	Trans–New Guinea
-544	1317	Diyari	dier1241	Pama–Nyungan
-545	1330	Totontepec Mixe	toto1305	Mixe–Zoque
-546	1338	Coast Tsimshian (Shm’algyack)	coas1300	Tsimshianic
-547	1440	Ga	gaaa1244	Niger–Congo
-548	1489	Yugambeh (Tweed-Albert Bandjalang)	twee1234	Pama–Nyungan
-549	1575	Pacoh	paco1243	Austroasiatic
-550	1596	Sindhi	sind1272	Indo-European
-551	1687	Ubykh	ubyk1235	Northwest Caucasian
-552	25	Kayardild	kaya1319	Tangkic
-553	33	Zotung	zotu1235	Sino-Tibetan
-554	53	Sabaic	saba1279	Afro-Asiatic
-555	54	Komi-Permyak	komi1269	Uralic
-556	65	Argobba	argo1244	Afro-Asiatic
-557	74	Sardinian	sard1257	Indo-European
-558	104	Chang	chan1313	Sino-Tibetan
-559	227	Old Persian	oldp1254	Indo-European
-560	315	Oroch	oroc1248	Altaic
-561	327	Wakhi	wakh1245	Indo-European
-562	332	Tocharian A	tokh1241	Indo-European
-563	334	Acehnese	achi1257	Austronesian
-564	335	Zway	zayy1238	Afro-Asiatic
-565	388	Tangut	tang1334	Sino-Tibetan
-566	426	Yupik	yupi1267	Eskimo–Aleut
-567	431	Kunwinjku	guma1252	Arnhem
-568	432	Bandjalangic	band1339	Pama–Nyungan
-569	434	Aranda	aran1263	Pama–Nyungan
-570	442	Warumungu	waru1265	Pama–Nyungan
-571	447	Forest Nenets	fore1266	Uralic
-572	451	Cuicatec	cuic1234	Oto-Manguean
-573	465	Kobon	kobo1249	Trans–New Guinea
-574	507	Ineseño	ines1240	Chumashan
-575	513	Kawaiisu	kawa1283	Uto-Aztecan
-576	566	Wayuu (Guajiro)	wayu1243	Arawakan
-577	585	Kwakw’ala	kwak1269	Wakashan
-578	601	Meriam (Eastern Torres Strait)	meri1244	Trans-Fly
-579	616	Polci	nyam1284	Afro-Asiatic
-580	618	Waurá	waur1244	Arawakan
-581	620	Maonan	maon1241	Kra–Dai
-582	638	Yangliu	yang1304	Sino-Tibetan
-583	645	West Futuna (Futuna-Aniwa)	futu1245	Austronesian
-584	654	Mambwe	mamb1296	Atlantic–Congo
-585	656	Suba	suba1252	Atlantic–Congo
-586	664	Bulang (Blang)	blan1242	Austroasiatic
-587	698	Siona	sion1247	Tucanoan
-588	701	Uncunwee (Ghulfan)	ghul1238	Eastern Sudanic
-589	708	Kemie	kemi1240	Austroasiatic
-590	743	Mocoví	moco1246	Guaicuruan
-591	745	Buyang	buya1244	Kra–Dai
-592	746	Surin Khmer (Northern Khmer)	nort2684	Austroasiatic
-593	755	Chong	chon1284	Austroasiatic
-594	761	Nivaclé	niva1238	Matacoan
-595	794	Aché	ache1246	Tupian
-596	801	Kumbewaha	kumb1274	Austronesian
-597	836	Friulian	friu1240	Indo-European
-598	849	Penrhyn	penr1237	Austronesian
-599	850	Vaeakau-Taumako (Pileni)	pile1238	Austronesian
-600	852	Sikaiana	sika1261	Austronesian
-601	856	Rakahanga-Manihiki	raka1237	Austronesian
-602	858	Kapingamarangi 	kapi1249	Austronesian
-603	859	Tokelau	toke1240	Austronesian
-604	864	Khalaj	turk1303	Altaic
-605	866	Salar	sala1264	Altaic
-606	875	Vai	vaii1241	Mande
-607	887	Southern Bobo Mandaré	bobo1253	Mande
-608	905	Bunun	bunu1267	Austronesian
-609	910	Tboli	tbol1240	Austronesian
-610	911	Mapun (Bajaw)	born1254	Austronesian
-611	913	Hanunoo	hano1241	Austronesian
-612	927	Sasak	sasa1249	Austronesian
-613	932	Luang (Wetan)	luan1263	Austronesian
-614	933	Kei	keii1239	Austronesian
-615	940	Nias	nias1242	Austronesian
-616	942	Dairi-Pakpak Batak	bata1294	Austronesian
-617	955	Saisiyat	sais1237	Austronesian
-618	967	Kadazan Dusun	cent2100	Austronesian
-619	989	Yaruro (Pumé)	pume1238	Yaruro
-620	990	Chiriguano (Eastern Bolivian Guaraní)	chir1295	Tupian
-621	1012	Ngoreme (Ngurimi)	ngur1263	Atlantic–Congo
-622	1014	Tarifit Berber	tari1263	Afro-Asiatic
-623	1019	Madurese	madu1247	Austronesian
-624	1037	Alekano	alek1238	Trans–New Guinea
-625	1039	Baruya (Yipma)	baru1267	Trans–New Guinea
-626	1072	Lacandon	laca1243	Mayan
-627	1099	Thalanyji	dhal1245	Pama–Nyungan
-628	1103	Sika	sika1262	Austronesian
-629	1109	Witoto Mi̵ni̵ca	mini1256	Bora–Witoto
-630	1118	Reta (Retta)	rett1240	Trans–New Guinea 
-631	1130	Sierra Puebla Nahuatl (Sierra de Zacapoaxtla)	high1278	Uto-Aztecan
-632	1209	Epena (Eperara)	epen1239	Chocoan
-633	1225	Lule Sami	 lule1254	Uralic
-634	1252	Levantine Arabic	leva1239	Afro-Asiatic
-635	1253	Kawésqar (Qawasqar, Alacaluf)	qawa1238	Alacalufan
-636	1287	Luganda	gand1255	Niger–Congo
-637	1290	Tem (Kotokoli)	temm1241	Niger–Congo
-638	1296	Bagirmi	bagi1246	Saharan
-639	1318	Paakantyi (Darling language)	darl1243	Pama–Nyungan
-640	1329	Guahibo (Sikuaani)	guah1254	Guahiban
-641	1335	Cubeo	cube1242	Tucanoan
-642	1336	Matsés (Mayoruna)	mats1244	Panoan
-643	1343	Xavante	xava1240	Macro-Jê
-644	1354	Guayabero	guay1257	Guajiboan
-645	1433	Achuar	achu1248	Chicham (Jivaroan)
-646	1450	Highland Chinantec	chin1488	Oto-Mangue
-647	1456	Sicilian	sici1248	Indo-European
-648	1461	Limburgish	limb1263	Indo-European
-649	1509	Lakalai	laka1255	Austronesian
-650	1534	Wu Chinese	wuch1236	Sino-Tibetan
-651	1548	Muinane	muin1242	Bora–Witoto
-652	1551	Teochew (Chaozhou)	chao1238	Sino-Tibetan
-653	1556	Khowar	khow1242	Indo-European
-654	1557	Kashmiri	kash1277	Indo-European
-655	1560	Texistepec	texi1237	Mixe–Zoquean
-656	1562	Eyak	eyak1241	Na-Dene
-657	1564	Yele (Rossel)	yele1255	Yele – West New Britain
-658	1577	Akha	akha1245	Sino-Tibetan
-659	1611	Bora	bora1263	Boran
-660	1686	Ordos	ordo1245	Altaic
-661	4	Kodagu	koda1255	Dravidian
-662	13	Uma	umaa1242	Austronesian
-663	23	Tamang	tama1367	Sino-Tibetan
-664	42	Yugh	yugh1239	Yeniseian
-665	47	Selti	silt1240	Afro-Asiatic
-666	56	Gedeo	gede1246	Afro-Asiatic
-667	58	Lango	lang1322	Eastern Sudanic
-668	63	Siraya	sira1267	Austronesian
-669	75	Talysh	taly1247	Indo-European
-670	103	Kankanabu	kana1286	Austronesian
-671	150	Middle Mongolian	midd1351	Altaic
-672	216	Gugu-Yalanji	kuku1273	Pama–Nyungan
-673	264	Khwaresmian	khwa1238	Indo-European
-674	275	Assyrian Neo-Aramaic	assy1241	Afro-Asiatic
-675	291	Kuuk-Thaayorre (Thayore)	thay1249	Pama–Nyungan
-676	302	Khumi	khum1248	Sino-Tibetan
-677	319	Endegany	inor1238	Afro-Asiatic
-678	338	Muher	seba1251	Afro-Asiatic
-679	347	Harari	hara1271	Afro-Asiatic
-680	367	Ponapean (Pohnpeian)	pohn1238	Austronesian
-681	368	Hupa	hupa1239	Na-Dené
-682	369	Kwamera	kwam1252	Austronesian
-683	370	Old Czech	czec1258	Indo-European
-684	377	Kiribati	gilb1244	Austronesian
-685	385	Laz	lazz1240	Kartvelian
-686	386	Manang	mana1290	Sino-Tibetan
-687	387	Marshallese	mars1254	Austronesian
-688	402	Walmajarri	walm1241	Pama–Nyungan
-689	407	Ngalakgan	ngal1293	Arnhem
-690	423	Eastern Canadian Inuktitut	east2534	Eskimo–Aleut
-691	425	Pintupi-Luritja	pint1250	Pama–Nyungan
-692	427	Wagaya	waga1260	Pama–Nyungan
-693	466	Sau (Samberigi)	samb1321	Engan
-694	475	Waskia	wask1241	Trans–New Guinea
-695	502	Wikchamni	wikc1234	Yok-Utian
-696	504	Lake Miwok	lake1258	Yok-Utian
-697	505	Maidu	nort2952	Maiduan
-698	506	Central Hill Nisenan	nise1244	Maiduan
-699	511	Wappo	wapp1239	Yuki–Wappo
-700	514	Kitanemuk	serr1255	Uto-Aztecan
-701	517	Quechan	quec1382	Yuman
-702	522	Ipai	ipai1240	Yuman
-703	530	Yankton-Yanktonai	nako1239	Siouan
-704	531	Santee-Sisseton	dako1259	Siouan
-705	534	Konkow (Northwest Maidu)	nort2951	Maiduan
-706	535	Serrano	serr1255	Uto-Aztecan
-707	541	Tojolabal	tojo1241	Mayan
-708	546	Orokaiva	orok1269	Trans–New Guinea
-709	549	Barai	nucl1630	Trans–New Guinea
-710	560	Seward Alaska Inupiatun	nort2945	Eskimo–Aleut
-711	562	Rek (Southwestern Dinka)	rekk1238	Eastern Sudanic
-712	565	Chippewa (Minnesota Ojibwe)	chip1241	Algic
-713	568	Ixil	ixil1251	Mayan
-714	575	Alutiiq Alaskan Yupik	paci1278	Eskimo–Aleut
-715	577	Chavacano	chav1241	Spanish-based creole
-716	581	Maguindanao	magu1243	Austronesian
-717	584	Nootka (Nuu-chah-nulth)	nuuc1236	Wakashan
-718	595	Lingala	ling1263	Atlantic–Congo
-719	607	Cashibo	cash1251	Panoan
-720	608	Maca	maca1260	Matacoan
-721	631	Wa	waaa1245	Austroasiatic
-722	633	Lotha	loth1237	Sino-Tibetan
-723	637	Mangdi	sout3210	Sino-Tibetan
-724	646	Pukapukan	puka1242	Austronesian
-725	650	Manang (Manange, Nyishang)	mana1288	Sino-Tibetan
-726	659	Favorlang	favo1235	Austronesian
-727	675	Wetarese (Ili&#39;uun)	weta1245	Austronesian
-728	676	Teiwa	teiw1236	Trans–New Guinea
-729	707	Khasi	khas1269	Austroasiatic
-730	713	Chuka (Meru)	mwim1241	Atlantic–Congo
-731	715	Gusii	gusi1247	Atlantic–Congo
-732	716	Kwere	kwer1261	Atlantic–Congo
-733	719	Mwera	mwer1248	Atlantic–Congo
-734	723	Rundi	rund1242	Atlantic–Congo
-735	740	Cavineña	cavi1250	Pano–Tacanan
-736	744	Chorote (Iyo&#39;wujwa Chorote)	iyow1239	Matacoan
-737	752	Prai (Phai)	phai1238	Austroasiatic
-738	753	Cuoi (Thổ)	cuoi1242	Austroasiatic
-739	756	Tai Khün	khun1259	Kra–Dai
-740	763	Ngaanyatjarra	ngaa1240	Pama–Nyungan
-741	764	Wathawurrung	wath1238	Pama–Nyungan
-742	769	Awa (New Guinea)	awap1236	Trans–New Guinea
-743	774	Fore	fore1270	Trans–New Guinea
-744	777	Inoke-Yate	inok1238	Trans–New Guinea
-745	785	Yaweyuha	yawe1241	Trans–New Guinea
-746	787	Lakkia	lakk1238	Kra–Dai
-747	806	Macushi	macu1259	Cariban
-748	814	North Alaskan Inupiatun	nort2943	Eskimo–Aleut
-749	815	Western Canadian Inuit	west2618	Eskimo–Aleut
-750	846	Kalam	kala1397	Trans–New Guinea
-751	847	Emae	emae1237	Austronesian
-752	854	Rapa	rapa1245	Austronesian
-753	876	Kakabe	kaka1265	Mande
-754	890	Juǀʼhoan (South-Eastern Ju, Zhuǀ&#39;hoan)	juho1239	Khoisan
-755	899	Old Tamil	oldt1248	Dravidian
-756	923	Atayal	atay1247	Austronesian
-757	930	Mandar	mand1442	Austronesian
-758	947	Bintulu	bint1246	Austronesian
-759	962	Kavalan	kava1241	Austronesian
-760	971	Kenyah	main1275	Austronesian
-761	974	Binukid (Bukid)	binu1244	Austronesian
-762	985	Dedua	dedu1240	Trans–New Guinea
-763	1015	Lamboya	lamb1273	Austronesian
-764	1020	Seediq	taro1264	Austronesian
-765	1025	Lau (Malaita island)	lauu1247	Austronesian
-766	1031	Kalamian Tagbanwa	cala1258	Austronesian
-767	1046	Mum	mumm1238	Trans–New Guinea
-768	1071	Mopan Maya	mopa1243	Mayan
-769	1079	Kedang	keda1252	Austronesian
-770	1082	Kelabit	kela1258	Austronesian
-771	1084	Kwaio	kwai1243	Austronesian
-772	1087	Berawan	bera1264	Austronesian
-773	1095	Komodo	komo1261	Austronesian
-774	1096	Gurdjar (Kurtjar)	ribg1235	Pama–Nyungan
-775	1100	Mantharta (Warriyangga)	mant1266	Pama–Nyungan
-776	1101	Trinitario	moxo1234	Arawakan
-777	1108	Witoto Murui	muru1274	Bora–Witoto
-778	1113	Resígaro	resi1247	Arawakan
-779	1114	Nukak	kaku1242	Puinave-Maku
-780	1138	Adang	adan1252	Trans–New Guinea
-781	1139	Bima (Austronesian)	bima1247	Austronesian
-782	1140	Bunak	buna1278	Trans–New Guinea
-783	1149	Ocaina	ocai1244	Bora–Huitoto
-784	1150	Yahgan (Yagán, Yámana)	yama1264	Yahgan
-785	1155	Meixian Hakka Chinese	yuet1238	Sino-Tibetan
-786	1168	Tae&#39;	taee1237	Austronesian
-787	1184	Western Yugur	west2402	Altaic
-788	1194	Tocharian B	tokh1243	Indo-European
-789	1202	Western Pantar (Tubbe, Lamma)	lamm1241	Trans–New Guinea
-790	1211	Yavitero (Paraene)	yavi1244	Arawakan
-791	1228	Sizaki (Shashi)	siza1240	Atlantic–Congo
-792	1275	Uldeme (Ouldémé, Wuzlam)	wuz1236	Afro-Asiatic
-793	1282	Nancowry	nanc1247	Austroasiatic
-794	1284	Gedaged	geda1237	Austronesian
-795	1286	Kusaal (Kusasi)	kusa1250	Niger–Congo
-796	1288	Shingazidja (Comorian)	como1260	Niger–Congo
-797	1332	Soteapanec (Sierra Popoluca)	high1276	Mixe–Zoque
-798	1333	Chiapas Zoque (Copainalá Zoque)	copa1236	Mixe–Zoque
-799	1342	Puelche (Gününa Küne)	puel1244	Chonan
-800	1353	Mapuche (Mapudungun)	mapu1245	Araucanian
-801	1362	Tapirapé (Apyãwa)	tapi1254	Tupian
-802	1390	Anuta	anut1237	Austronesian
-803	1393	Opuo (Opo)	opuu1239	Nilo-Saharan
-804	1394	Komo (Nilo-Saharan)	komo1238	Nilo-Saharan
-805	1406	Ekoka !Xung (North-Central Ju)	kung1261	Khoisan
-806	1410	Mattole–Bear River	matt1238	Na-Dené
-807	1412	Central Ahtena	ahte1237	Na-Dené
-808	1413	Dogrib	dogr1252	Na-Dené
-809	1414	North Slavey	nort2942	Na-Dené
-810	1419	Koyukon	koyu1237	Na-Dené
-811	1443	Bravanese (Chimwiini)	chim1312	Niger–Congo
-812	1460	Witoto Ni̵pode (Nüpode Huitoto)	nupo1240	Witotoan
-813	1508	Bilba (Rotinese)	bilb1242	Austronesian
-814	1523	Gulf Arabic	gulf1241	Afro-Asiatic
-815	1544	Yorta Yorta	yort1237	Pama–Nyungan
-816	1563	Ekari (Kapauku)	ekar1243	Trans–New Guinea
-817	1565	Gizzra	gizr1240	Trans-Fly
-818	1569	Ewe	ewee1241	Niger–Congo
-819	1576	Naxi	naxi1245	Sino-Tibetan
-820	1633	Kikuyu	kiku1240	Niger–Congo
-821	1653	Kurmanji Kurdish	nort2641	Indo-European
-822	1660	Lepcha	lepc1244	Sino-Tibetan
-823	1681	Coeur d&#39;Alene	coeu1236	Salishan
-824	1717	Cheke Holo (Maringe)	chek1238	Austronesian
-825	1	Svan	svan1243	Kartvelian
-826	5	Old Chinese	oldc1244	Sino-Tibetan
-827	8	Tha&#39;oa	None	Sino-Tibetan
-828	15	Paamese	paam1238	Austronesian
-829	26	Gogot	sodd1242	Afro-Asiatic
-830	50	Tsangla	tsha1245	Sino-Tibetan
-831	61	Timogon-Murut	timu1262	Austronesian
-832	66	Bilin	bili1260	Afro-Asiatic
-833	68	Sulung	sulu1241	Sino-Tibetan
-834	73	Arin	arin1243	Yeniseian
-835	82	Mao	naga1397	Sino-Tibetan
-836	90	Kambata	kamb1316	Afro-Asiatic
-837	96	Luwian	luvi1235	Indo-European
-838	97	Kipchak	kipc1239	Altaic
-839	101	Montenegrin	mont1282	Indo-European
-840	106	Dangaleat	dang1274	Afro-Asiatic
-841	191	Inxokvari	inxo1238	Northeast Caucasian
-842	254	Baonan	bona1250	Altaic
-843	268	Munji	munj1244	Indo-European
-844	274	Old Tupian	None	Tupian
-845	283	Atakapa	atak1252	Atakapa
-846	292	Ennemor	inor1238	Afro-Asiatic
-847	298	Sariqoli	sari1246	Indo-European
-848	300	Nocte	noct1238	Sino-Tibetan
-849	301	Sawai	sawa1247	Austronesian
-850	311	Megrelian	ming1252	Kartvelian
-851	336	Chepang	chep1245	Sino-Tibetan
-852	344	Kemant	qima1242	Afro-Asiatic
-853	346	Kuria	kuri1259	Atlantic–Congo
-854	354	Yidgha	yidg1240	Indo-European
-855	358	Solon	solo1263	Altaic
-856	359	Ormuri	ormu1247	Indo-European
-857	361	Tangsa	tase1235	Sino-Tibetan
-858	373	Khotanese	khot1251	Indo-European
-859	384	Idu	idum1241	Sino-Tibetan
-860	406	Alyawarr	alya1239	Pama–Nyungan
-861	408	Wolof	nucl1347	Atlantic–Congo
-862	415	Kumak	kuma1276	Austronesian
-863	416	Araki	arak1252	Austronesian
-864	418	Sar (of Chad)	sarr1246	Central Sudanic
-865	424	Lardil	lard1243	Tangkic
-866	428	Yawuru	yawu1244	Nyulnyulan
-867	430	Ganggalida	gang1267	Tangkic
-868	438	Warluwara	warl1256	Pama–Nyungan
-869	448	Old Welsh	oldw1239	Indo-European
-870	458	Duna	duna1248	Trans–New Guinea
-871	462	Daga	daga1275	Trans–New Guinea
-872	467	Fasu	fasu1242	Trans–New Guinea
-873	473	Yenimu (South Awyu)	sout2941	Trans–New Guinea
-874	498	Tho (Tày)	tayy1238	Kra–Dai
-875	500	Molala	mola1238	Plateau Penutian
-876	510	Yuki	yuki1243	Yuki–Wappo
-877	516	Maricopa	mari1440	Yuman
-878	520	Ko’alh	kwat1246	Yuman
-879	523	Kiliwa	kili1268	Yuman–Cochimí
-880	524	Cochimi	coch1272	Yuman–Cochimí
-881	527	Lowland Oaxaca Chontal	lowl1260	Hokan
-882	532	Skiri Pawnee	skir1238	Caddoan
-883	533	Menominee	meno1252	Algic
-884	548	Gaina	gain1243	Trans–New Guinea
-885	552	Suena	suen1241	Trans–New Guinea
-886	555	Aeka	aeka1244	Trans–New Guinea
-887	561	Bube	bube1242	Atlantic–Congo
-888	563	Bor (Southeastern Dinka)	borr1242	Eastern Sudanic
-889	574	Kerek	kere1280	Chukotko-Kamchatkan
-890	587	Oowekyala	oowe1239	Wakashan
-891	588	Heiltsuk	bell1263	Wakashan
-892	589	Haisla	hais1244	Wakashan
-893	625	Lish	lish1235	Kho-Bwa
-894	628	Mulam	mula1253	Kra–Dai
-895	634	Tangkhul	tang1336	Sino-Tibetan
-896	660	Jingpho (Kachin)	jing1260	Sino-Tibetan
-897	666	Warembori	ware1253	Lower Mamberamo
-898	677	Tii	tiii1241	Austronesian
-899	687	Iduh (O’du)	oduu1239	Austroasiatic
-900	691	Tsudakhar Dargwa	cuda1238	Northeast Caucasian
-901	697	Cayapa (Cha&#39;palaa)	chac1249	Barbacoan
-902	704	Kam	kami1255	Kra–Dai
-903	709	Palaung	pala1336	Austroasiatic
-904	711	Mang (Austroasiatic)	mang1378	Austroasiatic
-905	712	Bungu	bung1265	Atlantic–Congo
-906	714	Fipa	fipa1238	Atlantic–Congo
-907	721	Nyamwezi	nyam1276	Atlantic–Congo
-908	722	Pangwa	pang1287	Atlantic–Congo
-909	728	Bauzi	bauz1241	East Geelvink Bay
-910	729	Berik	beri1254	Foja Range
-911	730	Biritai	biri1259	Lakes Plain
-912	734	Orya	orya1242	Foja Range
-913	737	Zuni	zuni1245	Zuni
-914	748	Mamaindé (Northern Nambikwara)	nort3153	Nambikwaran
-915	749	Kashinawa	cash1252	Pano–Tacanan
-916	751	Gelao (Kelao)	gela1265	Kra–Dai
-917	758	Southern Sami	sout2674	Uralic
-918	765	Orejón	orej1242	Tucanoan
-919	770	Awiyaana	awiy1238	Trans–New Guinea
-920	771	Benabena	bena1264	Trans–New Guinea
-921	772	Dano	dano1240	Trans–New Guinea
-922	773	Folopa	folo1238	Trans–New Guinea
-923	775	Gadsup	gads1258	Trans–New Guinea
-924	776	Gimi	gimi1243	Trans–New Guinea
-925	778	Kamano	kama1370	Trans–New Guinea
-926	782	North Tairoa	nort2920	Trans–New Guinea
-927	783	Tokano	toka1244	Trans–New Guinea
-928	784	Yagaria	yaga1260	Trans–New Guinea
-929	796	Dhao	dhao1237	Austronesian
-930	797	Riffian (Tarifiyt)	tari1263	Afro-Asiatic
-931	798	Rongga	rong1269	Austronesian
-932	799	Ndali	ndal1241	Atlantic–Congo
-933	802	Pancana	panc1247	Austronesian
-934	803	Mongsen Ao	mong1332	Sino-Tibetan
-935	807	Bit (Pusing)	bitt1240	Austroasiatic
-936	808	Fali Mucella	fali1285	Afro-Asiatic
-937	810	Apulia-Calabrian Greek	apul1236	Indo-European
-938	813	Susu	susu1250	Mande
-939	816	Ogea	ogea1238	Trans–New Guinea
-940	819	Muskogee (Creek)	cree1270	Muskogean
-941	823	Chulym	chul1246	Altaic
-942	824	Zazaki	zaza1246	Indo-European
-943	828	Nimo	nimo1247	Arai–Samaia
-944	831	Khams Tibetan	kham1299	Sino-Tibetan
-945	834	Qiandong Miao (Hmu)	east2369	Hmong–Mien
-946	838	Wapishana	wapi1253	Arawakan
-947	860	Raivavae	raiv1237	Austronesian
-948	862	Anglo-Norman	angl1258	Indo-European
-949	865	Urum	urum1249	Altaic
-950	867	Nukumanu	nuku1258	Austronesian
-951	878	Kassonke (Khassonké)	xaas1235	Mande
-952	879	Maninka	mani1303	Mande
-953	886	Guro	guro1248	Mande
-954	893	Ma&#39;di	madi1260	Central Sudanic
-955	907	Rejang	reja1240	Austronesian
-956	912	Tiruray	tiru1241	Austronesian
-957	938	Tausug	taus1251	Austronesian
-958	943	Wariʼ (Orowari)	wari1268	Chapacuran
-959	948	Ida&#39;an Begak	idaa1241	Austronesian
-960	949	Mamanwa	mama1275	Austronesian
-961	950	Chamorro	cham1312	Austronesian
-962	953	Futunan	east2447	Austronesian
-963	957	Remontado	remo1247	Austronesian
-964	958	Romblomanon	romb1245	Austronesian
-965	970	Buli (Indonesia)	buli1255	Austronesian
-966	972	Wallisian (East Uvea)	wall1257	Austronesian
-967	975	Blaan (Koronadal)	blaan1241	Austronesian
-968	979	Som	somm1240	Trans–New Guinea
-969	991	Maca (Maká)	maca1260	Matacoan
-970	1004	Karekare (Karai-Karai)	kare1348	Afro-Asiatic
-971	1006	Ngamo	ngam1282	Afro-Asiatic
-972	1021	Saaroa	saar1237	Austronesian
-973	1022	Trukese (Chuukese)	chuu1238	Austronesian
-974	1023	Tsou	tsou1248	Austronesian
-975	1024	Tukang Besi	tuka1247	Austronesian
-976	1035	Yulparija	yulp1239	Pama–Nyungan
-977	1053	Uyajitaya (Duduela)	dudu1240	Trans–New Guinea
-978	1061	Araona	arao1248	Pano–Tacanan
-979	1064	West Uvea	west1216	Austronesian
-980	1065	Cayuvava	cayu1262	Cayuvava
-981	1068	Wetarese (Erai)	weta1245	Austronesian
-982	1070	Itza	itza1241	Mayan
-983	1075	Toba Qom	toba1269	Guaicuruan
-984	1077	Kamayurá	kama1373	Tupian
-985	1081	Klata (Giangan)	gian1241	Austronesian
-986	1085	Mota	mota1237	Austronesian
-987	1086	Batak Simalungun	bata1288	Austronesian
-988	1089	Kosraean	kosr1238	Austronesian
-989	1090	Gilbertese	gilb1244	Austronesian
-990	1098	Burduna (Bayungu, Payungu)	bayu1249	Pama–Nyungan
-991	1117	Langja Buyang (E&#39;ma Buyang)	emab1235	Tai-Kadai
-992	1119	Kambowa	kamb1300	Austronesian
-993	1120	Lasalimu	lasa1237	Austronesian
-994	1124	Awa (Awa Pit, Cuaiquer)	awac1239	Barbacoan
-995	1125	Carapana	cara1272	Tucanoan
-996	1131	Zacatepec Chatino	zaca1242	Oto-Manguean
-997	1134	Mashco Piro	mash1270	Arawakan
-998	1136	Kirya-Konzəl (Fali Kiria)	kiry1234	Afro-Asiatic
-999	1144	Idate (Idalaka )	east2733	Austronesian
-1000	1148	Chami Emberá	uppe1440	Chocoan
-1001	1157	Ceq Wong (Cheq Wong)	chew1245	Austroasiatic
-1002	1164	Western Bukidnon Manobo	west2555	Austronesian
-1003	1166	Sa&#39;ban	saba1265	Austronesian
-1004	1170	Yamdena	yamd1240	Austronesian
-1005	1175	Asilulu	asil1242	Austronesian
-1006	1182	Sartang	sart1249	Sino-Tibetan
-1007	1183	Sherdukpen	sher1257	Sino-Tibetan
-1008	1188	Northern Bashkardi	bash1263	Indo-European
-1009	1196	Wardandi	nyun1247	Pama–Nyungan
-1010	1199	Apali (Emerum)	apal1256	Trans–New Guinea
-1011	1213	Chipaya	chip1262	Uru–Chipaya
-1012	1214	Tsimané (Mosetén, Chimane)	mose1249	Moseten–Chonan
-1013	1216	Selknam (Ona)	onaa1245	Chonan
-1014	1219	Gujarati	guja1252	Indo-European
-1015	1233	Tswana	tswa1253	Atlantic–Congo
-1016	1234	Hiri Motu	hiri1237	Motu-based pidgin
-1017	1237	She	shee1238	Hmong–Mien
-1018	1240	Okinawan	cent2126	Altaic
-1019	1241	Middle Low German	midd1318	Indo-European
-1020	1250	Kolyma (Southern) Yukaghir	sout2750	Yukaghir
-1021	1255	Dagur	daur1238	Altaic
-1022	1259	Ugaritic	ugar1238	Semitic
-1023	1260	Pilagá	pila1245	Guaicuruan
-1024	1280	Tshangla (Monpa Dirang)	tsha1247	Sino-Tibetan
-1025	1307	Komnzo	komn1238	Yam
-1026	1310	Maybrat	mayb1239	Maybrat
-1027	1322	Djambarrpuyngu	djam1256	Pama–Nyungan
-1028	1324	Turrbal (Turubul, Durubul)	yaga1256	Pama–Nyungan
-1029	1344	Maxakalí	west2636	Macro-Jê
-1030	1346	Barí (Colombia)	bari1297	Chibchan
-1031	1359	Seneca	sene1264	Iroquoian
-1032	1367	Daw	daww1239	Nadahup
-1033	1373	Southeastern Pomo	sout2982	Pomoan
-1034	1379	Mabaan (Southern Burun)	maba1272	Nilo-Saharan
-1035	1380	Shilluk	shil1265	Nilo-Saharan
-1036	1381	Anywa (Anuak)	anua1242	Nilo-Saharan
-1037	1401	Chimariko	chim1301	Hokan
-1038	1407	ǀXam	xamm1241	Khoisan
-1039	1408	ǀǀNg!ke	ngke1238	Khoisan
-1040	1415	Tanacross	tana1290	Na-Dené
-1041	1422	Mesa Grande &#39;Iipay	ipai1239	Hokan
-1042	1425	Cahuilla	cahu1264	Uto-Aztecan
-1043	1427	Western Shoshoni	west2622	Uto-Aztecan
-1044	1434	Old Spanish	olds1249	Indo-European
-1045	1446	Ngan&#39;gi	nang1259	Southern Daly
-1046	1447	Naukan Siberian Yupik	nauk1242	Eskimo–Aleut
-1047	1455	Cape Verdean Creole	kabu1256	Portuguese-based creole
-1048	1470	Moroccan Arabic	moro1292	Afro-Asiatic
-1049	1482	Santali	sant1410	Austroasiatic
-1050	1490	Murrinh-patha 	murr1258	Southern Daly
-1051	1500	Melanau (Mukah) 	muka1237	Austronesian
-1052	1506	Banggai	bang1368	Austronesian
-1053	1510	Toʼabaita (Toqabaqita)	toab1237	Austronesian
-1054	1511	Wayan (Western Fijian)	west2519	Austronesian
-1055	1540	Gunya	guny1241	Pama–Nyungan
-1056	1545	Chimila	chim1309	Chibchan
-1057	1547	Lamaholot	lama1277	Austronesian
-1058	1550	Mòcheno	moch1255	Indo-European
-1059	1566	Sandawe	sand1273	Khoisan
-1060	1568	Nandi	nand1266	Nilo-Saharan
-1061	1574	Katu (Low Katu)	west2398	Austroasiatic
-1062	1578	Tal	tall1250	Afro-Asiatic
-1063	1579	Kabyle	kaby1243	Afro-Asiatic
-1064	1584	Lisu	lisu1250	Sino-Tibetan
-1065	1588	Swazi	swat1243	Niger–Congo
-1066	1593	Nehan (Nissan)	neha1247	Austronesian
-1067	1595	Palana	pala1340	Chukotko-Kamchatkan
-1068	1597	Old Saxon	olds1250	Indo-European
-1069	1598	Coptic	copt1239	Afro-Asiatic
-1070	1601	Magahi	maga1260	Indo-European
-1071	1602	Ushojo	usho1238	Indo-European
-1072	1607	Tutelo	tute1247	Siouan
-1073	1609	Kashubian	kash1274	Indo-European
-1074	1610	Middle Dutch	middl1321	Indo-European
-1075	1616	Meruimenti	imen1238	Niger–Congo
-1076	1622	Taos	nort1550	Tanoan
-1077	1626	Nend	nend1239	Trans–New Guinea
-1078	1627	Panyjima	pany1241	Pama–Nyungan
-1079	1630	Amarasi	amar1273	Austronesian
-1080	1635	Inanwatan (Suabo)	suab1238	Trans–New Guinea
-1081	1637	Mirandese	mira1251	Indo-European
-1082	1642	Doe	doee1238	Niger–Congo
-1083	1652	Sorani Kurdish	cent1972	Indo-European
-1084	1662	Slovincian	slov1270	Indo-European
-1085	2	Gude	gude1246	Afro-Asiatic
-1086	12	Burji	burj1242	Afro-Asiatic
-1087	16	Assan	assa1266	Yeniseian
-1088	18	Phrygian	phry1239	Indo-European
-1089	20	Mikasuki	mika1239	Muskogean
-1090	21	Woleaian	wole1240	Austronesian
-1091	39	Postbiblical Hebrew	None	Afro-Asiatic
-1092	40	Shawnee	shaw1249	Algic
-1093	45	Ishkashmi	ishk1246	Indo-European
-1094	48	Dami (Marik)	mari1428	Austronesian
-1095	49	Old Japanese	oldj1239	Altaic
-1096	57	Newar	newa1246	Sino-Tibetan
-1097	77	Mekeo	meke1243	Austronesian
-1098	84	Old Udi	aghw1237	Northeast Caucasian
-1099	91	Natchez	natc1249	Natchez
-1100	99	North Junín Quechua	nort2980	Quechua
-1101	100	Tangale	nucl1696	Afro-Asiatic
-1102	105	Harsusi	hars1241	Afro-Asiatic
-1103	144	Moldavian	roma1327	Indo-European
-1104	195	Old Lithuanian	oldl1240	Indo-European
-1105	196	Vampaya	wamb1258	Mirndi
-1106	197	Ngarinman	ngar1235	Pama–Nyungan
-1107	198	Anmatjirra (Anmatyerre)	anma1239	Pama–Nyungan
-1108	200	Koyo (Republic of Congo)	koyo1242	Atlantic–Congo
-1109	207	Yankunytjatjara	yank1247	Pama–Nyungan
-1110	263	Parthian	part1239	Indo-European
-1111	269	Bunan	gahr1239	Sino-Tibetan
-1112	270	Yuchi	yuch1247	Yuchi
-1113	277	Icari Dargwa	None	Northeast Caucasian
-1114	278	Bahing	bahi1252	Sino-Tibetan
-1115	279	Melpa	melp1238	Trans–New Guinea
-1116	280	Huave	huav1256	Huave
-1117	286	Kaulong	kaul1240	Austronesian
-1118	296	Garo	garo1247	Sino-Tibetan
-1119	299	Konda (Papuan)	kond1303	Trans–New Guinea
-1120	303	Ofo	ofoo1242	Siouan
-1121	310	Tequistlatec	tequ1245	Hokan
-1122	329	Endo	mark1255	Eastern Sudanic
-1123	331	Mesqan	mesq1240	Afro-Asiatic
-1124	333	Munduruku	mund1330	Tupian
-1125	342	Yucatec	yuca1254	Mayan
-1126	351	Nyawaygi	nyaw1247	Pama–Nyungan
-1127	353	Tunika	tuni1252	Tunika
-1128	356	Bokar	damu1236	Sino-Tibetan
-1129	362	Scythian	oldo1234	Indo-European
-1130	376	Yabem	yabe1254	Austronesian
-1131	378	Kanauri	kanu1281	Sino-Tibetan
-1132	381	Dogon	dogo1299	Dogon
-1133	389	Maung	maun1240	Iwaidjan
-1134	391	test		None
-1135	399	Semnani	semn1249	Indo-European
-1136	400	Kaurna	kaur1267	Pama–Nyungan
-1137	401	Burarra	bura1267	Arnhem
-1138	404	Gaagudju	gaga1251	Macro-Gunwinyguan
-1139	405	Ngarinyin	ngar1284	Worrorran
-1140	413	Sotho	soth1252	Atlantic–Congo
-1141	414	Makonde	mako1251	Atlantic–Congo
-1142	422	Bodoe	bodo1270	Atlantic–Congo
-1143	429	Bislama	bisl1239	English-based creole
-1144	433	Palenquero	pale1260	Spanish-based creole
-1145	435	Ngalkbun	ngal1292	Macro-Gunwinyguan
-1146	439	Suyá	suya1243	Macro-Jê
-1147	441	Jaru	jaru1254	Pama–Nyungan
-1148	444	Wemba Wemba	wemb1241	Pama–Nyungan
-1149	445	Gurdjar	gurd1238	Pama–Nyungan
-1150	446	Kung	kung1260	Atlantic–Congo
-1151	449	Kyakhta Russian–Chinese Pidgin	kjac1234	Russian-based pidgin
-1152	452	Bushong	bush1247	Atlantic–Congo
-1153	453	Edo	bini1246	Atlantic–Congo
-1154	454	Epie	epie1238	Atlantic–Congo
-1155	455	Engenni	enge1239	Atlantic–Congo
-1156	456	Dibabawon	east2478	Austronesian
-1157	457	Bunama	buna1276	Austronesian
-1158	459	Mendi (Angal)	anga1314	Trans–New Guinea
-1159	461	Southern Kewa (Erave)	erav1244	Trans–New Guinea
-1160	463	Sirva (Sileibi)	sile1255	Trans–New Guinea
-1161	464	Bimin	bimi1240	Trans–New Guinea
-1162	468	Foe	foii1241	Trans–New Guinea
-1163	470	Rumu (Kairi)	rumu1243	Trans–New Guinea
-1164	471	Namia	nami1256	Sepik
-1165	472	Shiaxa (Awyu)	awyu1264	Trans–New Guinea
-1166	474	Mandobo	mand1473	Trans–New Guinea
-1167	476	Barupu (Bauni, Warapu)	wara1302	Skou
-1168	478	Lembena	lemb1266	Trans–New Guinea
-1169	479	Wambon (Digul, Ketum)	ketu1238	Trans–New Guinea
-1170	480	Wambon (Yonggom)	wamb1259	Trans–New Guinea
-1171	481	Guhu-Samane	guhu1244	Trans–New Guinea
-1172	482	Mian	mian1255	Trans–New Guinea
-1173	483	Tifal	tifa1245	Trans–New Guinea
-1174	484	Oksapmin	oksa1245	Trans–New Guinea
-1175	486	Huli	huli1244	Trans–New Guinea
-1176	487	Girramay (Dyirbal)	dyir1250	Pama–Nyungan
-1177	488	Warrgamay	warr1255	Pama–Nyungan
-1178	489	Matngele	madn1237	Eastern Daly
-1179	490	Wadjiginy	wadj1254	Wagaydyic
-1180	491	Kuwema (Pungupungu, Kandjerramalh)	pung1239	Wagaydyic
-1181	492	Kungarakany	kung1259	Macro-Gunwinyguan
-1182	493	Marrgu	marg1251	Marrku–Wurrugu
-1183	503	Palewyami	pale1254	Yok-Utian
-1184	512	Tübatulabal	tuba1278	Uto-Aztecan
-1185	515	Southeastern Tepehuan	sout 2976	Uto-Aztecan
-1186	518	Paipai	paip1241	Yuman
-1187	521	Ja’a	kumi1248	Yuman
-1188	537	Dane-zaa (Beaver)	beav1236	Na-Dené
-1189	538	Slavey	slav1253	Na-Dené
-1190	539	Quiché	kich1262	Mayan
-1191	540	Awakatek (Aguateco)	aqua1252	Mayan
-1192	550	Mountain Koiarj	moun1252	Trans–New Guinea
-1193	553	Kuot	kuot1243	Kuot
-1194	554	Hunjara-Kaina Ke	hunj1241	Trans–New Guinea
-1195	556	Luri	luri1252	Indo-European
-1196	557	Kaqchikel	kaqc1270	Mayan
-1197	564	Soo 	soo1256	Kuliak
-1198	567	Paumarí	paum1247	Arauan
-1199	580	S&#39;gaw Karen	sout1554	Sino-Tibetan
-1200	586	Makah	maka1318	Wakashan
-1201	590	Koitabu	koit1244	Trans–New Guinea
-1202	593	Angor	ango1254	Senagi
-1203	594	Enindhilyagwa	anin1240	Gunwinyguan
-1204	596	Efik	efik1245	Atlantic–Congo
-1205	598	Sora	sora1254	Austroasiatic
-1206	599	Yanomamö	yano1261	Yanomam
-1207	626	Kajtak	kajt1238	Northeast Caucasian
-1208	639	Kerebe (Kerewe)	kere1283	Atlantic–Congo
-1209	651	Sherpa	sher1255	Sino-Tibetan
-1210	657	Hruso	hrus1242	Hrusish
-1211	658	Kalamian	kala1389	Austronesian
-1212	667	Ainu	ainu1252	Ainu
-1213	668	Kaman (Miju)	miju1243	Kaman
-1214	669	Keoru-Ahia	keor1235	Trans–New Guinea
-1215	670	Bogaya (Pogaya)	boga1247	Trans–New Guinea
-1216	671	Opao	opao1240	Trans–New Guinea
-1217	672	Orokolo	orok1267	Trans–New Guinea
-1218	673	Tairuma	tair1256	Trans–New Guinea
-1219	674	Tangko	tang1353	Trans–New Guinea
-1220	679	Arguni	argu1237	Austronesian
-1221	680	Dawera-Daweloor	dawe1237	Austronesian
-1222	681	Emplawas	empl1237	Austronesian
-1223	682	Geser-Gorom	gese1240	Austronesian
-1224	683	Karas (Kalamang)	kara1499	Trans–New Guinea
-1225	684	North Babar	nort2860	Austronesian
-1226	685	Kamang (Woisika)	kama1365	Trans–New Guinea
-1227	710	Hu	huuu1240	Austroasiatic
-1228	717	Langi	lang1320	Atlantic–Congo
-1229	718	Luhya	kabr1240	Atlantic–Congo
-1230	720	Nyakyusa	nyak1260	Atlantic–Congo
-1231	724	Sambaa (Shambaa)	sham1280	Atlantic–Congo
-1232	725	Shubi	shub1238	Atlantic–Congo
-1233	726	Wanji	vwan1235	Atlantic–Congo
-1234	727	Zigua	zigu1244	Atlantic–Congo
-1235	731	Eritai	erit1239	Lakes Plain
-1236	732	Kaiy	kaiy1239	Lakes Plain
-1237	733	Obokuitai	obok1239	Lakes Plain
-1238	735	Sikaritai	sika1263	Lakes Plain
-1239	736	Waritai	wari1264	Lakes Plain
-1240	754	Nyakur	nyah1250	Austroasiatic
-1241	760	Jaminjung	djam1255	Mirndi
-1242	762	Kariyarra	ngar1293	Pama–Nyungan
-1243	766	Kui (Indonesia)	kuii1253	Trans–New Guinea
-1244	767	Sawila	sawi1256	Trans–New Guinea
-1245	779	Keuw	kehu1238	Lakes Plain
-1246	780	Korowai	koro1312	Trans-New Guinea
-1247	781	Kuman (New Guinea)	kuma1280	Trans–New Guinea
-1248	788	Marghi South (Hildi)	marg1266	Afro-Asiatic
-1249	789	Marghi Central	marg1265	Afro-Asiatic
-1250	790	Yimchungrü	yimc1240	Sino-Tibetan
-1251	791	Yekora	yeko1240	Trans–New Guinea
-1252	793	Jinuo (Jino)	youl1235	Sino-Tibetan
-1253	800	Samei	same1240	Sino-Tibetan
-1254	804	Muya	muya1239	Sino-Tibetan
-1255	809	Bine	bine1240	Trans-Fly
-1256	811	Classical Mongolian	cccc	Altaic
-1257	827	Khamyang	kham1291	Kra–Dai
-1258	829	Pyu (Papuan)	pyuu1245	Arai–Samaia
-1259	830	Tauade	taua1242	Goilalan
-1260	832	Atsi (Zaiwa)	zaiw1241	Sino-Tibetan
-1261	841	Kim Mun	kimm1245	Hmong–Mien
-1262	843	Pumi	pumi1242	Sino-Tibetan
-1263	844	Xuzhang	xuzh1234	Sino-Tibetan
-1264	848	Luangiua (Ontong Java)	onto1237	Austronesian
-1265	869	Ifira-Mele	mele1250	Austronesian
-1266	870	Jola-Fonyi (Diola-Fogny)	jola1263	Atlantic–Congo
-1267	871	Laal	laal1242	Laal
-1268	873	Western Maninka	west2500	Mande
-1269	874	Bassari	bass1258	Atlantic–Congo
-1270	880	Bissa	biss1248	Mande
-1271	881	Busa (Bokobaru)	boko1267	Mande
-1272	882	Toro So (Escarpment Dogon)	esca1235	Dogon
-1273	883	Ben Tey Dogon	bent1238	Dogon
-1274	884	Bondum Dogon	bond1248	Dogon
-1275	885	Kolum So (Mombo Dogon)	momb1254	Dogon
-1276	888	Kono	kono1268	Mande
-1277	889	Mano	mann1248	Mande
-1278	891	Mixifore	mixi1241	Mande
-1279	892	Ganza	ganz1246	Afro-Asiatic
-1280	894	Kayan (of Burma)	kaya1315	Sino-Tibetan
-1281	898	Esperanto	espe1235	Constructed language
-1282	925	Mentawai	ment1249	Austronesian
-1283	936	Embaloh (Maloh)	emba1238	Austronesian
-1284	944	Xokleng	xokl1240	Macro-Jê
-1285	952	Antsi (Ayta Maganchi)	maga1263	Austronesian
-1286	959	Masbateño	masb1238	Austronesian
-1287	961	Labuk-Kinabatangan Kadazan	labu1249	Austronesian
-1288	964	Miri (dialect of Narom)	miri1269	Austronesian
-1289	968	Balantak	bala1315	Austronesian
-1290	969	Helong	helo1243	Austronesian
-1291	977	Waboda	wabo1241	Kiwaian
-1292	978	Southern Kiwai	sout2949	Kiwaian
-1293	980	Selepet	sele1250	Trans–New Guinea
-1294	981	Pare (Pa)	pare1271	Trans–New Guinea
-1295	982	Ono	onoo1246	Trans–New Guinea
-1296	983	Kube (Tobo-Kube)	kube1244	Trans–New Guinea
-1297	984	Gobasi	goba1246	Trans–New Guinea
-1298	986	Borong	boro1279	Trans–New Guinea
-1299	987	Beami	beam1240	Trans–New Guinea
-1300	988	Central Asmat	cent2247	Trans–New Guinea
-1301	993	Zinza (Dzinza)	zinz1238	Atlantic–Congo
-1302	995	Dulong (Trung, Derung)	drun1238	Sino-Tibetan
-1303	997	Ngas (Angas)	ngas1240	Afro-Asiatic
-1304	998	Bacama	baca1246	Afro-Asiatic
-1305	999	Bura-Pabir (Bura)	bura1292	Afro-Asiatic
-1306	1000	Miship (Chip, cip)	mish1244	Afro-Asiatic
-1307	1001	Dera (Kanakuru)	dera1248	Afro-Asiatic
-1308	1002	Ga&#39;anda	gaan1243	Afro-Asiatic
-1309	1003	Izere (Jari)	izer1242	Atlantic–Congo
-1310	1005	Miya	miya1266	Afro-Asiatic
-1311	1007	Tera (Pidlimdi)	tera1251	Afro-Asiatic
-1312	1008	Gwere	gwer1238	Atlantic–Congo
-1313	1009	Masaba (Lumasaaba)	masa1299	Atlantic–Congo
-1314	1010	Rombo (Mkuu)	romb1244	Atlantic–Congo
-1315	1013	Rungwa	rung1255	Atlantic–Congo
-1316	1016	Lakon (Lakona)	lako1245	Austronesian
-1317	1017	Irarutu	irar1238	Austronesian
-1318	1018	Palawano	nucl1738	Austronesian
-1319	1026	Cemuhî	cemu1238	Austronesian
-1320	1027	Ajië	ajie1238	Austronesian
-1321	1028	Rukai	ruka1240	Austronesian
-1322	1032	Adzera	adze1240	Austronesian
-1323	1033	Bilinarra	bili1250	Pama–Nyungan
-1324	1034	Warlmanpa	warl1255	Pama–Nyungan
-1325	1036	Akoye	akoy1238	Trans–New Guinea
-1326	1038	Ankave	anka1246	Trans–New Guinea
-1327	1040	Binahari	bina1273	Trans–New Guinea
-1328	1041	Buna	buna1277	Torricelli
-1329	1042	Domung	domu1246	Trans–New Guinea
-1330	1043	Hamtai	hamt1247	Trans–New Guinea
-1331	1044	Kamasa	kama1360	Trans–New Guinea
-1332	1045	Kawacha	kawa1276	Trans–New Guinea
-1333	1047	Mungkip	mung1272	Trans–New Guinea
-1334	1048	Nek	nekk1240	Trans–New Guinea
-1335	1049	Nuk	nukk1240	Trans–New Guinea
-1336	1050	Numanggang	numa1254	Trans–New Guinea
-1337	1051	Safeyoka	safe1240	Trans–New Guinea
-1338	1052	Uri	urii1240	Trans–New Guinea
-1339	1054	Yagwoia	yagw1240	Trans–New Guinea
-1340	1055	Isabi	isab1240	Trans–New Guinea
-1341	1056	Dadibi	dadi1250	Trans–New Guinea
-1342	1057	Maiwa (Papuan)	maiw1251	Trans–New Guinea
-1343	1058	Tabo	tabo1241	Trans-Fly
-1344	1059	Wiru	wiru1244	Trans–New Guinea
-1345	1060	Peve (Lame)	peve1243	Afro-Asiatic
-1346	1066	Irula	irul1243	Dravidian
-1347	1073	Ibatan	ibat1238	Austronesian
-1348	1076	Oro Win	orow1243	Chapacuran
-1349	1078	Gaddang	gadd1244	Austronesian
-1350	1083	Masbatenyo (Masbateño)	masb1238	Austronesian
-1351	1088	Minangkabau	mina1268	Austronesian
-1352	1091	Ruc	rucc1239	Austroasiatic
-1353	1097	Ngarla	ngar1296	Pama–Nyungan
-1354	1102	Batuley	batu1258	Austronesian
-1355	1104	Wancho	wanc1238	Sino-Tibetan
-1356	1105	Kalaallisut (West Greenlandic)	kala1399	Eskimo–Aleut
-1357	1106	Wayampi	waya1270	Tupian
-1358	1107	Raivavae	raiv1237	Austronesian
-1359	1111	Siriano	siri1274	Tucanoan
-1360	1112	Secoya	seco1241	Tucanoan
-1361	1115	Desano	desa1247	Tucanoan
-1362	1121	Magar	maga1261	Sino-Tibetan
-1363	1122	Bukusu	buku1249	Atlantic–Congo
-1364	1123	Luobenzhuo Bai	luob1236	Sino-Tibetan
-1365	1126	Coconuco (Guambiano)	coco1262	Barbacoan
-1366	1127	Kamsá (Camsá)	cams1241	Kamsá (Camsá)
-1367	1132	Bella Coola (Nuxalk)	bell1243	Salishan
-1368	1133	Yanomámi (Waiká)	yano1262	Yanomam
-1369	1135	Kunza	kunz1244	Kunza
-1370	1141	Wetarese (Dadu&#39;a)	weta1245	Austronesian
-1371	1142	Deing	dein1238	Trans–New Guinea
-1372	1143	Ende (Flores island)	ende1246	Austronesian
-1373	1146	Wamas	wama1247	Trans–New Guinea
-1374	1152	Classical Chinese	litel1248	Sino-Tibetan
-1375	1153	Jin Chinese	jiny1235	Sino-Tibetan
-1376	1158	Konso	kons1243	Afro-Asiatic
-1377	1159	Miriwoong (Miriwung)	miri1266	Jarrakan
-1378	1160	Bargam	barg1252	Trans–New Guinea
-1379	1161	Hoanya	papo1239	Austronesian
-1380	1162	Kanakanabu (Kanakanavu)	kana1286	Austronesian
-1381	1163	Itawis	itaw1240	Austronesian
-1382	1165	Mansaka	mans1262	Austronesian
-1383	1167	Moken	moke1242	Austronesian
-1384	1169	Leti (Indonesia)	leti1246	Austronesian
-1385	1171	Fordata	ford1242	Austronesian
-1386	1172	Kamarian	kama1362	Austronesian
-1387	1173	Paulohi	paul1238	Austronesian
-1388	1174	Alune	alun1238	Austronesian
-1389	1176	Titan	tita1241	Austronesian
-1390	1177	Wuvulu-Aua	wuvu1239	Austronesian
-1391	1178	Mussau-Emira	muss1246	Austronesian
-1392	1179	&#39;Āre&#39;āre	area1240	Austronesian
-1393	1180	Bugun (Khowa)	bugu1246	Sino-Tibetan
-1394	1181	Miji (Dmay, Dhammai, Dhammai, Sajolang)	saja1240	Sino-Tibetan
-1395	1187	Garmsiri	nort2644	Indo-European
-1396	1189	Southern Bashkardi	sout2644	Indo-European
-1397	1191	Old Frisian	oldf1241	Indo-European
-1398	1195	Kartutjarra	None	Pama–Nyungan
-1399	1198	Wirangu	wira1265	Pama–Nyungan
-1400	1200	Numbami (Siboma)	numb1247	Austronesian
-1401	1203	Chungli Ao	chon1248	Sino-Tibetan
-1402	1204	Dimasa	dima1251	Sino-Tibetan
-1403	1205	Konyak	kony1248	Sino-Tibetan
-1404	1206	Rongmei (Nruanghmei)	rong1266	Sino-Tibetan
-1405	1207	Phom	phom1236	Sino-Tibetan
-1406	1208	Gogodala	gogo1265	Gogodala–Suki
-1407	1210	Aguaruna	agua1253	Chicham
-1408	1217	Wolio	woli1241	Austronesian
-1409	1218	Gitua	gitu1237	Austronesian
-1410	1220	Middle Vietnamese	viet1252	Austroasiatic
-1411	1222	Min Dong (Eastern Min)	mind1253	Sino-Tibetan
-1412	1223	Gan Chinese	ganc1239	Sino-Tibetan
-1413	1224	Xamtanga (Khamir)	xamt1239	Afro-Asiatic
-1414	1226	Kiga (Rukiga)	chig1238	Atlantic–Congo
-1415	1227	Nkore (Runyankore)	nyan1307	Atlantic–Congo
-1416	1229	Amba, Nembao (Solomon Islands)	amba1266	Austronesian
-1417	1232	Akan	akan1250	Atlantic–Congo
-1418	1235	Saamic	n	n
-1419	1236	Yurok	yuro1248	Algic
-1420	1242	Middle French	midd1316	Indo-European
-1421	1243	Mobilian Jargon	mobi1236	Muskogean-based pidgin
-1422	1246	Enets	enet1250	Uralic
-1423	1247	Dalmatian	dalm1243	Indo-European
-1424	1248	Istriot	istr1244	Indo-European
-1425	1249	Gaulish	tran1282	Indo-European
-1426	1256	Mangghuer	minh1238	Altaic
-1427	1257	Mongghul	huzh1238	Altaic
-1428	1258	Kangjia	kang1281	Altaic
-1429	1261	Chadong	Kra–Dai	Kam–Sui
-1430	1266	Pennsylvania German	penn1240	Indo-European
-1431	1267	Anatolian Arabic	anat1256	Afro-Asiatic
-1432	1268	Lahnda (Western Punjabi)	lahn1241	Indo-European
-1433	1269	Western Pahari	hima1250	Indo-European
-1434	1270	Tundra Nenets	tund1255	Uralic
-1435	1271	Mator	nucl1288	Uralic
-1436	1272	Taigi	taig1245	Uralic
-1437	1273	Naiki (Southeastern Kolami)	sout1249	Dravidian
-1438	1274	Burushaski	buru1296	Burushaski
-1439	1279	Takpa (Tawang Monpa)	dakp1242	Sino-Tibetan
-1440	1281	Southern Thai	sout2746	Kra–Dai
-1441	1285	Mbaenggu (Baeggu)	baeg1237	Austronesian
-1442	1294	Lega	lega1253	Niger–Congo
-1443	1299	Tennet	tenn1246	Saharan
-1444	1300	Kwegu	kweg1241	Saharan
-1445	1301	Murle	murl1244	Saharan
-1446	1312	Bilua (Mbilua, Vella Lavella)	bilu1245	Bilua
-1447	1313	Blagar	blag1240	Trans–New Guinea
-1448	1314	Klon (Kelon)	kelo1247	Trans–New Guinea
-1449	1315	Nedebang	nede1245	Trans–New Guinea
-1450	1321	Dhuwal	dhuw1248	Pama–Nyungan
-1451	1323	Djapu	djap1238	Pama–Nyungan
-1452	1325	Gumatj	guma1253	Pama–Nyungan
-1453	1326	Gupapuyngu	gupa1247	Pama–Nyungan
-1454	1327	Karajarri (Garadjari)	kara1476	Pama–Nyungan
-1455	1328	Yandruwandha	yand1252	Pama–Nyungan
-1456	1345	Karajá	kara1500	Macro-Jê
-1457	1347	Kogui (Kogi)	cogu1240	Chibchan
-1458	1349	Chakobo (Pacahuara)	chac1251	Panoan
-1459	1350	Piapoco	piap1246	Arawakan
-1460	1351	Baure	baur1253	Arawakan
-1461	1352	Enxet (Southern Lengua)	sout2989	Mascoian
-1462	1356	Aasax (Aasá)	Afroasiatic	Cushitic
-1463	1357	Lokono (Arawak)	araw1276	Arawakan
-1464	1358	Washo	wash1253	Washo
-1465	1360	Kipeá (Kariri)	kipe1235	Macro-Gê
-1466	1361	Jebero (Shiwilu)	jebe1250	Cahuapanan
-1467	1363	Wayoró	wayo1238	Tupian
-1468	1364	Xerénte	xere1240	Macro-Gê
-1469	1365	Arikapú	arik1265	Macro-Jê
-1470	1366	Nocten Wichi	wich1262	Matacoan
-1471	1368	Bodega (Coast) Miwok	coas1301	Yok-Utian
-1472	1369	Southern Sierra Miwok	sout2985	Yok-Utian
-1473	1370	Central Sierra Miwok	cent2140	Yok-Utian
-1474	1371	Northern Sierra Miwok	nort2968	Yok-Utian
-1475	1372	Plains Miwok	plai1259	Yok-Utian
-1476	1374	Tima (Domorik, Lomorik)	tima1241	Niger–Congo
-1477	1375	Nara	nara1262	Nilo-Saharan
-1478	1376	Gaam (Ingessana)	gaam1241	Nilo-Saharan
-1479	1377	Konda (Dravidian)	kond1295	Dravidian
-1480	1378	Kuwi	kuvi1243	Dravidian
-1481	1382	Phoenician	phoe1239	Afro-Asiatic
-1482	1383	Didinga	didi1258	Nilo-Saharan
-1483	1384	Baale	baal1234	Nilo-Saharan
-1484	1385	Mursi	murs1242	Nilo-Saharan
-1485	1386	Northern Yana	nort2963	Yana
-1486	1387	Yahi	yahi1243	Yana
-1487	1388	Sese Gumuz	sese1245	Nilo-Saharan
-1488	1391	Dupaningan Agta	dupa1235	Austronesian
-1489	1392	Kwama	kwam1249	Nilo-Saharan
-1490	1395	Uduk (Tw&#39;ampa)	uduk1239	Nilo-Saharan
-1491	1396	Hadza	hadz1240	Hadza
-1492	1397	Atong (Sino-Tibetan)	aton1241	Sino-Tibetan
-1493	1398	Ineseño	ines1240	Chumashan
-1494	1399	Barbareño	barb1263	Chumashan
-1495	1400	Shasta	shas1239	Hokan
-1496	1402	Zhuǀ&#39;hoan (South-Eastern Ju)	juho1239	Khoisan
-1497	1403	ǀǀKxauǀǀen	kxau1241	Khoisan
-1498	1404	!Kung (Central Ju)	cent2300	Khoisan
-1499	1405	!O!Kung	oung1238	Khoisan
-1500	1409	ǀ&#39;Auni	auni1244	Khoisan
-1501	1411	Kato	kato1244	Na-Dené
-1502	1416	Mentasta Ahtena	ment1252	Na-Dené
-1503	1417	Lower Tanana	lowe1425	Na-Dené
-1504	1418	Central Carrier	carr1249	Na-Dené
-1505	1420	Degexit&#39;an	dege1248	Na-Dené
-1506	1421	Jamul Tiipay	tipa1240	Hokan
-1507	1423	Hmong Njua	hmon1264	Hmong–Mien
-1508	1424	Northern Pa-Hng	pahn1237	Hmong–Mien
-1509	1426	Western Mono	mono1275	Uto-Aztecan
-1510	1428	Dakota 	dako1258	Siouan-Catawban
-1511	1429	Tangga	tang1348	Austronesian
-1512	1430	Mbula	mbul1263	Austronesian
-1513	1431	Quileute	quil1240	Chimakuan
-1514	1432	Sougb (Manikion)	mani1235	West Papuan
-1515	1435	Southern Haida	sout2956	Haida
-1516	1453	Rengma	sout2732	Sino-Tibetan
-1517	1454	Papiamento	papi1253	Portuguese-based creole
-1518	1457	Bongu	bong1291	Trans–New Guinea
-1519	1458	Achagua (Achawa)	acha1250	Arawakan
-1520	1459	Waimaja (Bara, Barasano)	waim1255	Tucanoan
-1521	1462	Jamaican Creole (Patwah)	jama1262	English-based creole
-1522	1463	Catio	embe1260	Chocoan
-1523	1464	Northern Embera	nort2972	Chocoan
-1524	1465	Tadó Emberá	embe1261	Chocoan
-1525	1466	South Levantine Arabic	sout3123	Afro-Asiatic
-1526	1467	Imbabura Highland Quichua	imba1240	Quechuan
-1527	1468	Manga Kanuri	mang1399	Saharan
-1528	1469	Reunionese creole	reun1238	French-based creole
-1529	1471	Savosavo	savo1255	Central Solomon
-1530	1472	Mungiki (Bellona)	mung1270	Austronesian
-1531	1473	Burum (Yaknge, Somba-Siawari)	buru1306	Trans–New Guinea
-1532	1474	Uruangnirin	urua1244	Austronesian
-1533	1475	Kalao	kala1394	Austronesian
-1534	1476	Bonerate	bone1254	Austronesian
-1535	1477	Shinasha (Boro,Borna)	boro1277	Afro-Asiatic
-1536	1478	Jandai	jand1248	Pama–Nyungan
-1537	1479	Golpa	golp1234	Pama–Nyungan
-1538	1480	Purépecha (Tarascan)	tara1323	Purépecha
-1539	1481	Munsee	muns1251	Algic
-1540	1483	Arapaho	arap1274	Algic
-1541	1484	San Dionisio del Mar Huave	sand1278	Huave
-1542	1485	San Mateo del Mar Huave	sanm1287	Huave
-1543	1486	San Francisco del Mar Huave	sanf1258	Huave
-1544	1487	Santa María del Mar Huave	sant1422	Huave
-1545	1488	Skiri Pawnee	skir1238	Caddoan
-1546	1491	Candoshi-Shapra	cand1248	Candoshi-Shapra
-1547	1492	Onondaga	onon1246	Iroquoian
-1548	1493	Molima	moli1248	Austronesian
-1549	1494	Yakan	yaka1277	Austronesian
-1550	1495	Tombonuwo	tomb1244	Austronesian
-1551	1496	Bisaya	brun1245	Austronesian
-1552	1497	Sebop	sebo1238	Austronesian
-1553	1498	Murik (Borneo)	muri1259	Austronesian
-1554	1499	Kiput	kipu1237	Austronesian
-1555	1501	Tunjung	tunj1244	Austronesian
-1556	1502	Taboyan	tawo1243	Austronesian
-1557	1503	Gayo	gayo1244	Austronesian
-1558	1504	Basai	basa1287	Austronesian
-1559	1505	Lampung	lamp1241	Austronesian
-1560	1507	Muna	muna1247	Austronesian
-1561	1512	Jarai	jara1266	Austronesian
-1562	1513	Rade (Rhade)	rade1240	Austronesian
-1563	1514	Sedang	seda1262	Austroasiatic
-1564	1515	Mnong	mnon1259	Austroasiatic
-1565	1516	Nyaheun	nyah1249	Austroasiatic
-1566	1517	Sapuan	sapu1248	Austroasiatic
-1567	1518	Sre	sree1244	Austroasiatic
-1568	1519	Middle Mon	none	Austroasiatic
-1569	1520	Northern Ndebele	nort2795	Niger–Congo
-1570	1521	Romagnol	roma1328	Indo-European
-1571	1524	Hadhrami Arabic	hadr1236	Afro-Asiatic
-1572	1525	Northern Yemeni Arabic	sana1295	Afro-Asiatic
-1573	1526	Silopi	silo1240	Trans–New Guinea
-1574	1527	Utu	utuu1240	Trans–New Guinea
-1575	1528	Klamath-Modoc	klam1254	Plateau Penutian
-1576	1529	Middle Irish	midd1360	Indo-European
-1577	1533	Saraiki	sera1259	Indo-European
-1578	1535	Palestinian Arabic	sout3123	Afroasiatic
-1579	1536	Antekerrepenhe	ande1247	Pama–Nyungan
-1580	1537	Batyala	baty1234	Pama–Nyungan
-1581	1538	Biri	east2716	Pama–Nyungan
-1582	1539	Dhangu	dhan1270	Pama–Nyungan
-1583	1541	Kalkatungu	kalk1246	Pama–Nyungan
-1584	1542	Muruwari	muru1266	Pama–Nyungan
-1585	1543	Wilson River (Wangkumara)	ngur1261	Pama–Nyungan
-1586	1546	Tontemboan	tont1239	Austronesian
-1587	1552	Huasteca Nahuatl	huas1257	Uto-Aztecan
-1588	1553	Pipil (Nawat)	pipi1250	Uto-Aztecan
-1589	1554	Hidatsa	hida1246	Siouan
-1590	1555	Kansa	kans1243	Siouan
-1591	1558	Iskonawa (Isconahua)	isco1239	Panoan
-1592	1561	Chiapas Zoque	chia1261	Mixe–Zoquean
-1593	1570	Pa&#39;O Karen	paok1235	Sino-Tibetan
-1594	1571	Karenni (Kayah, Red Karen)	kaya1317	Sino-Tibetan
-1595	1572	Western Pwo (Delta Pao)	pwow1235	Sino-Tibetan
-1596	1573	Eastern Pwo (Phlou)	pwoe1235	Sino-Tibetan
-1597	1580	Jeju	jeju1234	Altaic
-1598	1581	Piyo (Biyue)	biyo1243	Sino-Tibetan
-1599	1582	Lahu Na	naaa1244	Sino-Tibetan
-1600	1583	Nasu (Black Yi, Eastern Yi)	nesu1235	Sino-Tibetan
-1601	1585	Bru (Brou)	brou1236	Austroasiatic
-1602	1586	Hainanese	hain1238	Sino-Tibetan
-1603	1587	Dzongkha	nucl1307	Sino-Tibetan
-1604	1589	Venetian	vene1258	Indo-European
-1605	1590	Tigak	tiga1245	Austronesian
-1606	1591	Vitu (Witu, Muduapa)	mudu1242	Austronesian
-1607	1592	Manam	mana1295	Austronesian
-1608	1594	Puluwat	pulu1242	Austronesian
-1609	1599	Moriori	mori1267	Austronesian
-1610	1600	Bhojpuri	bhoj1244	Indo-European
-1611	1603	Central Atlas Tamazight	cent2194	Afro-Asiatic
-1612	1604	Xhosa	xhos1239	Niger–Congo
-1613	1605	Brunei Malay	brun1242	Austronesian
-1614	1606	Osage	osag1243	Siouan
-1615	1608	Biloxi	bilo1248	Siouan
-1616	1612	Warluwarra	warl1256	Pama–Nyungan
-1617	1613	Musey (Mouseye, Banana)	muse1242	Afro-Asiatic
-1618	1614	Ndyuka (Aukan, Eastern Maroon Creole)	ndyu1242	English-based creole
-1619	1615	Sema (Sümi)	sumi1235	Sino-Tibetan
-1620	1617	Nobonob	nobo1238	Trans–New Guinea
-1621	1618	Aghwan	aghw1237	Northeast Caucasian
-1622	1619	Tauro-Romaic (Mariupol Greek)	mari1411	Indo-European
-1623	1620	Rajasthani	raja1256	Indo-European
-1624	1621	Nupe	nupe1254	Niger–Congo
-1625	1623	Wutun	wutu1241	Chinese-Tibetan-Mongolian based creole
-1626	1624	Baruga (Bareji)	baru1268	Trans–New Guinea
-1627	1625	Mawak	mawa1266	Trans–New Guinea
-1628	1628	Nage	nage1237	Austronesian
-1629	1629	Levuka (Painara)	levu1239	Austronesian
-1630	1631	Ye&#39;kuana (Maquiritari, Dekwana)	maqu1238	Cariban
-1631	1632	Negerhollands	nege1244	Dutch-based creole
-1632	1634	Tiwi	tiwi1244	Tiwi
-1633	1636	Liha (Lyha)	lyha1238	Austroasiatic
-1634	1638	Pendau	pend1242	Austronesian
-1635	1639	Haitian Creole	hait1244	French-based creole
-1636	1641	Bai	baic1239	Sino-Tibetan
-1637	1643	Tat (Caucasus)	musl1236	Indo-European
-1638	1644	Bakhtiari	bakh1245	Indo-European
-1639	1645	Southern Kurdish	sout2640	Indo-European
-1640	1646	Bartangi	bart1238	Indo-European
-1641	1647	Oroshori (Roshorvi)	oros1238	Indo-European
-1642	1648	Rushani	rush1239	Indo-European
-1643	1649	Khufi	khuf1238	Indo-European
-1644	1650	Larestani	lari1253	Indo-European
-1645	1651	Xonj Larestani	khon1246	Indo-European
-1646	1654	Gilaki	gila1241	Indo-European
-1647	1655	Hehe	hehe1240	Niger–Congo
-1648	1656	Kinga	nucl1379	Niger–Congo
-1649	1657	Sangu (Tanzania)	sang1330	Niger–Congo
-1650	1658	Teleut	tele1257	Altaic
-1651	1659	Dampelas	damp1237	Austronesian
-1652	1661	Kulung (Nepal)	kulu1253	Sino-Tibetan
-1653	1663	Duungidjawu	duun1241	Pama–Nyungan
-1654	1664	Iora (Iyora)	sydn1236	Pama–Nyungan
-1655	1665	Kartujarra	kart1247	Pama–Nyungan
-1656	1666	Ngadjumaya	ngad1258	Pama–Nyungan
-1657	1667	Toro-tegu Dogon	toro1253	Dogon
-1658	1668	Guduf-Gava	gudu1252	Afro-Asiatic
-1659	1669	Glavda (Gələvda, Galavda)	glav1244	Afro-Asiatic
-1660	1670	Kamwe (Higi Futu)	kamw1239	Afro-Asiatic
-1661	1671	Wandala (Mandara, Chadic)	wand1278	Afro-Asiatic
-1662	1672	Misme (Mesme, Zime)	mesm1239	Afro-Asiatic
-1663	1673	Meru	meru1245	Niger–Congo
-1664	1674	Siha	siha1242	Niger–Congo
-1665	1675	Tharaka	thar1283	Niger–Congo
-1666	1676	Silesian	sile1253	Indo-European
-1667	1677	Chichewa (Nyanja)	nyan1308	Niger–Congo
-1668	1678	Tai Dam (Black Tai)	taid1247	Kra-Dai
-1669	1679	Tai Phake	phak1238	Kra-Dai
-1670	1680	Ligurian	ligu1248	Indo-European
-1671	1682	Abellen (Ayta Abellan)	aben1249	Austronesian
-1672	1683	Dzao Min	dzao1238	Hmong–Mien
-1673	1684	Tacana	taca1256	Tacanan
-1674	1685	Movima	movi1243	Movima
-1675	1688	Divehi (Maldivian)	dhiv1236	Indo-European
-1676	1689	Aragones	arag1245	Indo-European
-1677	1690	Leonese	leon1250	Indo-European
-1678	1691	Zabana	zaba1237	Austronesian
-1679	1692	Angoram	ango1255	Ramu–Lower Sepik
-1680	1693	Bilakura (Karian)	bila1257	Trans–New Guinea
-1681	1694	Biwat (Mundugumor)	biwa1243	Yuat
-1682	1695	Chambri	cham1313	Ramu–Lower Sepik
-1683	1696	Ese (Managalasi)	esee1247	Koiarian
-1684	1697	Faiwol	faiw1243	Central &amp; South New Guinea
-1685	1698	Kobol (Koguman)	kobo1248	Trans–New Guinea
-1686	1699	Kopar	kopa1248	Ramu–Lower Sepik
-1687	1700	Siane	sian1257	Trans–New Guinea
-1688	1701	Tabriak (Karawari, Yokoim)	tabr1243	Ramu–Lower Sepik
-1689	1702	Kirikiri	kirikiri1256	Lakes Plain
-1690	1703	Murik (New Guinea)	muri1260	Ramu–Lower Sepik
-1691	1704	Usan	usan1239	Trans–New Guinea
-1692	1705	Yaben	yade1255	Trans–New Guinea
-1693	1706	Yimas	yima1243	Ramu–Lower Sepik
-1694	1707	Ömie	omie1241	Koiarian
-1695	1708	Basaa (Mbene)	basa1284	Niger–Congo
-1696	1709	Bende	bend1258	Niger–Congo
-1697	1710	Yuwaalayaay	yuwa1243	Pama–Nyungan
-1698	1711	Yuwaalaraay	yuwa1242	Pama–Nyungan
-1699	1712	Dawawa	dawa1242	Austronesian
-1700	1713	Lungga	lung1249	Austronesian
-1701	1714	Lungga	lung1249	Austronesian
-1702	1715	Kokota	koko1269	Austronesian
-1703	1716	Labo (Ninde)	labo1244	Austronesian
-1704	1718	Mi&#39;kmaq	mikm1235	Algic
-1705	1719	Kutchi (Kachhi)	kach1277	Indo-European
-1706	Sanskrit			0
-1707	Lezgian			0
-1708	Russian			0
-1709	French			0
-1710	English			0
-1711	Turkish			0
-1712	Norwegian			0
-1713	Danish			0
-1714	Hungarian			0
-1715	Serbian			0
-1716	Batsbi			0
-1717	Irish Gaelic			0
-1718	Abkhaz			0
-1719	Abaza			0
-1720	Khmer			0
-1721	Geez			0
-1722	Old East Slavic			0
-1723	Ingush			0
-1724	Telugu			0
-1725	Maya			0
-1726	Nahuatl			0
-1727	Old Irish			0
-1728	Ancient Greek			0
-1729	Bagvalal			0
-1730	German			0
-1731	Swedish			0
-1732	Tatar			0
-1733	Bulgarian			0
-1734	Swahili			0
-1735	Ponapean (Pohnpeian)			0
-1736	Finnish			0
-1737	Macedonian			0
-1738	Amharic			0
-1739	Kilivila			0
-1740	Quechua			0
-1741	Japanese			0
-1742	Malagasy			0
-1743	Timogon-Murut			0
-1744	Ngarinyin			0
-1745	Alyawarr			0
-1746	Kukatja			0
-1747	Yidiñ			0
-1748	Gugu-yimidjir			0
-1749	Ngalakgan			0
-1750	Spanish			0
-1751	Croatian			0
-1752	Lithuanian			0
-1753	Latin			0
-1754	Ancient Hebrew			0
-1755	Classical Arabic			0
-1756	Akkadian			0
-1757	Mandarin Chinese			0
-1758	Burarra			0
-1759	Nganasan			0
-1760	Even			0
-1761	Maori			0
-1762	Tundra Yukaghir			0
-1763	Icelandic			0
-1764	Old English			0
-1765	Azerbaijani			0
-1766	Portuguese			0
-1767	Kildin Saami			0
-1768	Modern Greek			0
-1769	Uzbek			0
-1770	Armenian			0
-1771	Karaim			0
-1772	Tabassaran			0
-1773	Kazakh			0
-1774	Mehri			0
-1775	Czech			0
-1776	Tuvan			0
-1777	Aghul			0
-1778	Selkup			0
-1779	Zulu			0
-1780	Itelmen			0
-1781	Hupa			0
-1782	Indonesian			0
-1783	Sumerian			0
-1784	Tamil			0
-1785	Italian			0
-1786	Vietnamese			0
-1787	Hausa			0
-1788	Haddiya			0
-1789	Korean			0
-1790	Estonian			0
-1791	Udmurt			0
-1792	Mongolian (Khalkha)			0
-1793	Avar			0
-1794	Akhvakh			0
-1795	Godoberi			0
-1796	Modern Hebrew			0
-1797	Old Uighur			0
-1798	Old Norse			0
-1799	Malayalam			0
-1800	Kiribati			0
-1801	Kwamera			0
-1802	Samoan			0
-1803	Koryak			0
-1804	Yoruba			0
-1805	Mekeo			0
-1806	Lak			0
-1807	Udihe			0
-1808	Dami (Marik)			0
-1809	Takia			0
-1810	Motu			0
-1811	Mari			0
-1812	Lango			0
-1813	Tolai (Kuanua)			0
-1814	Navajo			0
-1815	Thao			0
-1816	Paiwan			0
-1817	Rutul			0
-1818	Yakut			0
-1819	Somali			0
-1820	Erzya			0
-1821	Karelian			0
-1822	Komi			0
-1823	Fula			0
-1824	Kannada			0
-1825	Nanaj			0
-1826	Turkmen			0
-1827	Manchu			0
-1828	Rapanui			0
-1829	Balinese			0
-1830	Egyptian			0
-1831	Bezhta			0
-1832	Bashkir			0
-1833	Karakalpak			0
-1834	Kyrghyz			0
-1835	Kabardian			0
-1836	Kurdish			0
-1837	Gagauz			0
-1838	Romanian			0
-1839	Tibetan			0
-1840	Avestan			0
-1841	Yupik			0
-1842	Pintupi-Luritja			0
-1843	Wagaya			0
-1844	Yawuru			0
-1845	Palenquero			0
-1846	Aranda			0
-1847	Pitjantjatjara			0
-1848	Bandjalangic			0
-1849	Wik-Mungkan			0
-1850	Ngalkbun			0
-1851	Kayardild			0
-1852	Kunwinjku			0
-1853	Warlpiri			0
-1854	Wubuy (Nunggubuyu)			0
-1855	Warluwara			0
-1856	Yaqui (Hiaki)			0
-1857	Hawu (Sabu)			0
-1858	Chukchee			0
-1859	Albanian			0
-1860	Luiseño			0
-1861	Nez Perce (Nimipuutímt)			0
-1862	Matsés (Mayoruna)			0
-1863	Koreguaje			0
-1864	Arabela			0
-1865	Guahibo (Sikuaani)			0
-1866	Koasati			0
-1867	Doromu-Koki			0
-1868	Yegha			0
-1869	Telefol			0
-1870	So (Uganda)			0
-1871	Dinka			0
-1872	Tem (Kotokoli)			0
-1873	Gbaya			0
-1874	Sursurunga			0
-1875	Alutor			0
-1876	Palana			0
-1877	Chamalal			0
-1878	Polish			0
-1879	Negidal			0
-1880	Tigrinya			0
-1881	Adyghe			0
-1882	Thai			0
-1883	Dutch			0
-1884	Tzotzil			0
-1885	Farsi			0
-1886	Djabugay			0
-1887	Archi			0
-1888	Sogdian			0
-1889	Paamese			0
-1890	Kaulong			0
-1891	Buru			0
-1892	Mansi			0
-1893	Meadow Mari			0
-1894	Beja			0
-1895	Greenlandic Inuit			0
-1896	Tamang			0
-1897	Bodoe			0
-1898	Eastern Canadian Inuktitut			0
-1899	Lardil			0
-1900	Colorado (Tsafiki)			0
-1901	Zuni			0
-1902	Embera			0
-1903	Yuwana (Hodï)			0
-1904	Cofán			0
-1905	Yagua			0
-1906	Waurá			0
-1907	Cavineña			0
-1908	Catuquina (Kanamarí)			0
-1909	Chácobo			0
-1910	Yaminahua			0
-1911	Mocoví			0
-1912	Chorote (Iyo'wujwa Chorote)			0
-1913	Buyang			0
-1914	Botlikh			0
-1915	Tsudakhar Dargwa			0
-1916	Kumyk			0
-1917	Surin Khmer (Northern Khmer)			0
-1918	Kanuri			0
-1919	Lower Sorbian			0
-1920	Q'eqchi'			0
-1921	Mamaindé (Northern Nambikwara)			0
-1922	Kashinawa			0
-1923	Kichwa			0
-1924	Otomi			0
-1925	Burmese			0
-1926	Ilocano			0
-1927	Lao			0
-1928	Shan			0
-1929	Kurux			0
-1930	Nivkh			0
-1931	Catalan			0
-1932	Belarusan			0
-1933	Cape Verdean Creole			0
-1934	Kabyle			0
-1935	Limburgish			0
-1936	Swazi			0
-1937	Marathi			0
-1938	Tongan			0
-1939	Venetian			0
-1940	Chuvash			0
-1941	Modern Mon			0
-1942	Wolio			0
-1943	Palauan			0
-1944	Yamdena			0
-1945	Tigak			0
-1946	Vitu (Witu, Muduapa)			0
-1947	Manam			0
-1948	Nehan (Nissan)			0
-1949	Gela (Nggela)			0
-1950	Arosi			0
-1951	Gilbertese			0
-1952	Trukese (Chuukese)			0
-1953	Puluwat			0
-1954	Tuvaluan			0
-1955	Rennellese			0
-1956	Bughotu (Bugotu)			0
-1957	Wayan (Western Fijian)			0
-1958	Fijian			0
-1959	Cook Islands Maori (Rarotongan)			0
-1960	Hawaiian			0
-1961	Tunebo (Uwa)			0
-1962	Cabécar			0
-1963	Xavante			0
-1964	Ventureño			0
-1965	Shuar			0
-1966	Hopi			0
-1967	Coast Tsimshian (Shm’algyack)			0
-1968	Lakota			0
-1969	Winnebago			0
-1970	Dakota			0
-1971	Shipibo-Conibo			0
-1972	Cubeo			0
-1973	Guarani			0
-1974	Soteapanec (Sierra Popoluca)			0
-1975	Francisco León Zoque			0
-1976	Chiapas Zoque (Copainalá Zoque)			0
-1977	Coatlan Mixe			0
-1978	Totontepec Mixe			0
-1979	Ojibwe			0
-1980	Western Abenaki			0
-1981	Alabama			0
-1982	Tlingit			0
-1983	Aleut			0
-1984	Ekari (Kapauku)			0
-1985	Kombio			0
-1986	Bariai			0
-1987	Yele (Rossel)			0
-1988	Ambulas (Abelam)			0
-1989	Fataluku			0
-1990	Gizzra			0
-1991	Masai			0
-1992	Nandi			0
-1993	Luganda			0
-1994	Tahitian			0
-1995	Pacoh			0
-1996	Yao (Iu Mien)			0
-1997	Luobohe Miao			0
-1998	Tai Nuea (Dehong)			0
-1999	Akha			0
-2000	Naxi			0
-2001	Yedina (Buduma)			0
-2002	Tal			0
-2003	Uldeme (Ouldémé, Wuzlam)			0
-2004	Nepali			0
-2005	Pashto			0
-2006	Moksha			0
-2007	Chechen			0
-2008	Sindhi			0
-2009	Veps			0
-2010	Ludic Karelian			0
-2011	Bengali			0
-2012	Georgian			0
-2013	Yir Yoront			0
-2014	Brahui			0
-2015	Gedeo			0
-2016	Nyawaygi			0
-2017	Soqotri			0
-2018	Evenki			0
-2019	Galician			0
-2020	Jarawara			0
-2021	Cham			0
-2022	Romansh			0
-2023	Toc Pisin			0
-2024	Melpa			0
-2025	Chaha			0
-2026	Kuuk-Thaayorre (Thayore)			0
-2027	Kâte			0
-2028	Modern Written Arabic			0
-2029	Buriat			0
-2030	Javanese			0
-2031	Rotuman			0
-2032	Uncunwee (Ghulfan)			0
-2033	Andi			0
-2034	Khwarshi			0
-2035	Karata			0
-2036	Kryts			0
-2037	Hunzib			0
-2038	Tsakhur			0
-2039	Inkhokvari			0
-2040	Budukh			0
-2041	Skolt Sami			0
-2042	Khinalug			0
-2043	Juhuri (Judeo-Tat)			0
-2044	Udi			0
-2045	Chong			0
-2046	Tai Khün			0
-2047	Crimean Tatar			0
-2048	Old Slavonic			0
-2049	Tagalog			0
-2050	Medieval Latin			0
-2051	Papiamento			0
-2052	Sicilian			0
-2053	Waray			0
-2054	Hiligaynon			0
-2055	Jewish Aramaic			0
-2056	Khamnigan Mongol			0
-2057	Ukrainian			0
-2058	Munji			0
-2059	Yidgha			0
-2060	Gulf Arabic			0
-2061	Assamese			0
-2062	Old Church Slavonic			0
-2063	Malak-Malak			0
-2064	Old French			0
-2065	Kubachi			0
-2066	Romani			0
-2067	Osetin			0
-2068	Menominee			0
-2069	Breton			0
-2070	Classical Persian			0
-2071	Yaghnobi			0
-2072	Chagatai			0
-2073	Shughni			0
-2074	Iron Ossetian			0
-2075	Digor Ossetian			0
-2076	Kamayurá			0
-2077	Ninam			0
-2078	Ignaciano			0
-2079	Ese Ejja			0
-2080	Nivaclé			0
-2081	Selknam (Ona)			0
-2082	Nogai			0
-2083	Abui			0
-2084	Bunak			0
-2085	Lule Sami			0
-2086	Kolyma (Southern) Yukaghir			0
-2087	Gurindji			0
-2088	Pangasinan			0
-2089	Kankanaey			0
-2090	Aklanon			0
-2091	Malay			0
-2092	Zabana			0
-2093	Niuean			0
-2094	Emae			0
-2095	Tokelau			0
-2096	Pukapukan			0
-2097	Nukuoro			0
-2098	Kapingamarangi			0
-2099	Nuguria			0
-2100	Aromanian			0
-2101	Diyari			0
-2102	Ngardi			0
-2103	Ngarluma			0
-2104	Western Desert language (Wati)			0
-2105	Wakhi			0
-2106	Tajiki			0
-2107	Oriya			0
-2108	Slovenian			0
-2109	Slovak			0
-2110	Middle English			0
-2111	ǃKhong (ǃXóõ, Taa )			0
-2112	Latvian			0
-2113	Nanai			0
-2114	Oroch			0
-2115	Ulchi			0
-2116	Khowar			0
-2117	Old Polish			0
-2118	Old Turkic			0
-2119	North Alaskan Inuit (Iñupiaq)			0
-2120	North Alaskan Inupiatun			0
-2121	Western Canadian Inuit			0
-2122	Central Siberian Yupik			0
-2123	Alutiiq Alaskan Yupik			0
-2124	Ute			0
-2125	Dawawa			0
-2126	Lungga			0
-2127	Kokota			0
-2128	Labo (Ninde)			0
-2129	Kosraean			0
-2130	Guayabero			0
-2131	Cherokee			0
-2132	Maxakalí			0
-2133	Crow			0
-2134	Late Latin			0
-2135	Hill Mari			0
-2136	Kalmyk			0
-2137	Khakas			0
-2138	Komi-Permyak			0
-2139	Karakhanid Uighur			0
-2140	Church Slavonic			0
-2141	Tigre			0
-2142	Dangaleat			0
-2143	Hittite			0
-2144	Cuoi (Thổ)			0
-2145	Kali'na (Carib)			0
-2146	Ket			0
-2147	Piyo (Biyue)			0
-2148	Lahu Na			0
-2149	Nasu (Black Yi, Eastern Yi)			0
-2150	Hani			0
-2151	Lisu			0
-2152	Mangdi			0
-2153	Old High German			0
-2154	Old Sweden			0
-2155	Mingrelian			0
-2156	Old Georgian			0
-2157	Corsican			0
-2158	Welsh			0
-2159	Megrelian			0
-2160	Muher			0
-2161	Kanauri			0
-2162	Tangut			0
-2163	Lushai			0
-2164	Zotung			0
-2165	Bahing			0
-2166	Maranao			0
-2167	Jewish Palestinian Aramaic			0
-2168	Tofa			0
-2169	Bunun			0
-2170	Kambera			0
-2171	Syriac			0
-2172	Wolof			0
-2173	Mwotlap			0
-2174	Djinang			0
-2175	Old Japanese			0
-2176	Acehnese			0
-2177	Walmajarri			0
-2178	Western Armenian			0
-2179	Assyrian Neo-Aramaic			0
-2180	Sanapaná			0
-2181	Ingrian			0
-2182	Luxembourgish			0
-2183	Yiddish			0
-2184	Khanty			0
-2185	Nenets			0
-2186	Manx			0
-2187	Lengua (Enlhet)			0
-2188	Ginukh			0
-2189	Dargwa (literary)			0
-2190	Amarasi			0
-2191	Reta (Retta)			0
-2192	Sika			0
-2193	Teiwa			0
-2194	Bai			0
-2195	Chuka (Meru)			0
-2196	Doe			0
-2197	Gusii			0
-2198	Hindi			0
-2199	Punjabi			0
-2200	Dari			0
-2201	Southern Kurdish			0
-2202	Zazaki			0
-2203	Talysh			0
-2204	Balochi			0
-2205	Yazghulami			0
-2206	Bartangi			0
-2207	Oroshori (Roshorvi)			0
-2208	Sariqoli			0
-2209	Rushani			0
-2210	Khufi			0
-2211	Ottoman Turkish			0
-2212	Mang (Austroasiatic)			0
-2213	Khams Tibetan			0
-2214	Tsez			0
-2215	Ennemor			0
-2216	Marshallese			0
-2217	Gude			0
-2218	Gaagudju			0
-2219	Zway			0
-2220	Wolane			0
-2221	Mandaic			0
-2222	Selti			0
-2223	Kaingang			0
-2224	Eastern Wichí			0
-2225	Puelche (Gününa Küne)			0
-2226	Kawésqar (Qawasqar, Alacaluf)			0
-2227	Phong			0
-2228	Hup			0
-2229	Polabian			0
-2230	Slovincian			0
-2231	Upper Sorbian			0
-2232	Yorta Yorta			0
-2233	Warumungu			0
-2234	Ngadjumaya			0
-2235	Ngaanyatjarra			0
-2236	Gurdjar (Kurtjar)			0
-2237	Kartujarra			0
-2238	Iora (Iyora)			0
-2239	Duungidjawu			0
-2240	Toro-tegu Dogon			0
-2241	Chimila			0
-2242	Ocaina			0
-2243	Gujarati			0
-2244	West Futuna (Futuna-Aniwa)			0
-2245	Orejón			0
-2246	Kirya-Konzəl (Fali Kiria)			0
-2247	Fali Mucella			0
-2248	Guduf-Gava			0
-2249	Glavda (Gələvda, Galavda)			0
-2250	Kamwe (Higi Futu)			0
-2251	Wandala (Mandara, Chadic)			0
-2252	Misme (Mesme, Zime)			0
-2253	Ngamo			0
-2254	Mbunga			0
-2255	Meruimenti			0
-2256	Mwera			0
-2257	Suba			0
-2258	Meru			0
-2259	Siha			0
-2260	Tharaka			0
-2261	Northern Sotho			0
-2262	Panare			0
-2263	Paez			0
-2264	Cayapa (Cha'palaa)			0
-2265	Siona			0
-2266	Tai Lue			0
-2267	Kam			0
-2268	Hlai (Baoting)			0
-2269	Chirag Dargwa			0
-2270	Khasi			0
-2271	Kemie			0
-2272	Palaung			0
-2273	Hu			0
-2274	Bolyu (Paliu)			0
-2275	Bungu			0
-2276	Fipa			0
-2277	Kuria			0
-2278	Kwere			0
-2279	Langi			0
-2280	Luhya			0
-2281	Mambwe			0
-2282	Nyakyusa			0
-2283	Nyamwezi			0
-2284	Pangwa			0
-2285	Rundi			0
-2286	Sambaa (Shambaa)			0
-2287	Shubi			0
-2288	Wanji			0
-2289	Zigua			0
-2290	Bauzi			0
-2291	Berik			0
-2292	Biritai			0
-2293	Eritai			0
-2294	Kaiy			0
-2295	Obokuitai			0
-2296	Orya			0
-2297	Sikaritai			0
-2298	Waritai			0
-2299	Gawwada (Ale)			0
-2300	Iraqw			0
-2301	Manang			0
-2302	White Hmong (Hmong Daw)			0
-2303	Highland Oaxaca Chontal			0
-2304	Kui (India)			0
-2305	Opuo (Opo)			0
-2306	Komo (Nilo-Saharan)			0
-2307	Wantoat			0
-2308	Tocharian A			0
-2309	Arabic			0
-2310	Kemant			0
-2311	Bosnian			0
-2312	Bikol			0
-2313	Inxokvari			0
-2314	Nung (Tai)			0
-2315	Sui			0
-2316	Tulu			0
-2317	Sardinian			0
-2318	Gothic			0
-2319	Moldavian			0
-2320	Tindi			0
-2321	Oromo			0
-2322	Classical Armenian			0
-2323	Aché			0
-2324	Alorese			0
-2325	Dhao			0
-2326	Riffian (Tarifiyt)			0
-2327	Karachay-Balkar			0
-2328	Uighur			0
-2329	Vampaya			0
-2330	Ngariman			0
-2331	Koyo			0
-2332	Rongga			0
-2333	Ndali			0
-2334	Kapampangan			0
-2335	Yankunytjatjara			0
-2336	Chavacano			0
-2337	Scots			0
-2338	Anmatjirra (Anmatyerre)			0
-2339	Basque			0
-2340	Asturian			0
-2341	Achuar			0
-2342	Wintu			0
-2343	Choctaw			0
-2344	Bagirmi			0
-2345	Anuta			0
-2346	Futunan			0
-2347	Mangareva			0
-2348	Rakahanga-Manihiki			0
-2349	Marquesan			0
-2350	Penrhyn			0
-2351	Tikopia			0
-2352	West Uvea			0
-2353	Malto (Sauria Paharia, references do not distinguish from Kumarbhag Paharia)			0
-2354	Kui			0
-2355	Manda			0
-2356	Pengo			0
-2357	Afar			0
-2358	Livvi-Karelian			0
-2359	Standard Zhuang			0
-2360	Bamu			0
-2361	Grass Koiarj			0
-2362	Rajasthani			0
-2363	Batak Toba			0
-2364	Manggarai			0
-2365	Tausug			0
-2366	Karok			0
-2367	Inari Sami			0
-2368	Southern Sami			0
-2369	Northern Sami			0
-2370	Tuamotu			0
-2371	Mesqan			0
-2372	Rengma			0
-2373	Endegany			0
-2374	Dagur			0
-2375	Brazilian Portuguese			0
-2376	Scottish Gaelic			0
-2377	Jinuo (Jino)			0
-2378	Sabaic			0
-2379	Oroqen			0
-2380	Jaminjung			0
-2381	Argobba			0
-2382	Gurdjar			0
-2383	Middle Persian (Pahlavi)			0
-2384	Endo			0
-2385	Maung			0
-2386	Meriam (Eastern Torres Strait)			0
-2387	Koromfe			0
-2388	Jibbali			0
-2389	Igbo			0
-2390	Pela (Bolo)			0
-2391	Old Prussian			0
-2392	Arguni			0
-2393	Dawera-Daweloor			0
-2394	Emplawas			0
-2395	Geser-Gorom			0
-2396	Karas (Kalamang)			0
-2397	North Babar			0
-2398	Kamang (Woisika)			0
-2399	Ugaritic			0
-2400	Middle High German			0
-2401	Kashub			0
-2402	Seri			0
-2403	Takuu			0
-2404	Sikaiana			0
-2405	Rapa			0
-2406	Kavalan			0
-2407	Amis			0
-2408	Saisiyat			0
-2409	Pazeh			0
-2410	Favorlang			0
-2411	Ceq Wong (Cheq Wong)			0
-2412	Konso			0
-2413	Miriwoong (Miriwung)			0
-2414	Mapudungun			0
-2415	Saramaccan			0
-2416	Bargam			0
-2417	Wichí			0
-2418	Tsou			0
-2419	Kankanabu			0
-2420	Saaroa			0
-2421	Puyuma			0
-2422	Itbayaten			0
-2423	Gorontalo			0
-2424	Isneg (Isnag)			0
-2425	Bontok			0
-2426	Ifugaw			0
-2427	Casiguran Dumagat			0
-2428	Remontado			0
-2429	Hanunoo			0
-2430	Cebuano			0
-2431	Binukid (Bukid)			0
-2432	Tboli			0
-2433	Kadazan Dusun			0
-2434	Kelabit			0
-2435	Berawan			0
-2436	Kenyah			0
-2437	Kayan (of Borneo)			0
-2438	Bintulu			0
-2439	Ngaju Dayak			0
-2440	Iban			0
-2441	Karo Batak			0
-2442	Dairi-Pakpak Batak			0
-2443	Rejang			0
-2444	Sundanese			0
-2445	Sasak			0
-2446	Sangir			0
-2447	Mongondow			0
-2448	Uma			0
-2449	Pamona (Bare’e)			0
-2450	Mandar			0
-2451	Makassarese			0
-2452	Komodo			0
-2453	Rembong			0
-2454	Ngadha			0
-2455	Tetum (Tetun)			0
-2456	Wetarese (Erai)			0
-2457	Luang (Wetan)			0
-2458	Mota			0
-2459	Bima (Austronesian)			0
-2460	Itawis			0
-2461	Western Bukidnon Manobo			0
-2462	Mansaka			0
-2463	Sa'ban			0
-2464	Moken			0
-2465	Tae'			0
-2466	Leti (Indonesia)			0
-2467	Fordata			0
-2468	Kamarian			0
-2469	Paulohi			0
-2470	Alune			0
-2471	Asilulu			0
-2472	Titan			0
-2473	Wuvulu-Aua			0
-2474	'Āre'āre			0
-2475	Bugun (Khowa)			0
-2476	Miji (Dmay, Dhammai, Dhammai, Sajolang)			0
-2477	Lish			0
-2478	Sartang			0
-2479	Sherdukpen			0
-2480	Laz			0
-2481	Afrikaans			0
-2482	Old Frisian			0
-2483	West Frisian			0
-2484	Ossetian			0
-2485	Tocharian B			0
-2486	Dolgan			0
-2487	Tver Karelian			0
-2488	Daw			0
-2489	Mattole–Bear River			0
-2490	Central Ahtena			0
-2491	Dogrib			0
-2492	North Slavey			0
-2493	Tehuelche			0
-2494	Huasteca Nahuatl			0
-2495	Pipil (Nawat)			0
-2496	Classical Nahuatl			0
-2497	Northern Haida			0
-2498	Hidatsa			0
-2499	Kansa			0
-2500	Kashmiri			0
-2501	Iskonawa (Isconahua)			0
-2502	Tucano			0
-2503	Aymara			0
-2504	Texistepec			0
-2505	Chiapas Zoque			0
-2506	Mopan Maya			0
-2507	Manipuri (Meitei)			0
-2508	Chʼol			0
-2509	Cuicatec			0
-2510	Highland Chinantec			0
-2511	Eyak			0
-2512	Paakantyi (Darling language)			0
-2513	Ngan'gi			0
-2514	Maybrat			0
-2515	Komnzo			0
-2516	Kyaka			0
-2517	West Kewa			0
-2518	Narak			0
-2519	Mairasi			0
-2520	Sandawe			0
-2521	Ik (Icetot)			0
-2522	Shingazidja (Comorian)			0
-2523	Ga			0
-2524	Doyayo			0
-2525	Kinyarwanda			0
-2526	Bravanese (Chimwiini)			0
-2527	Tommo So			0
-2528	Ewe			0
-2529	Kusaal (Kusasi)			0
-2530	Tok Pisin			0
-2531	S'gaw Karen			0
-2532	Pa'O Karen			0
-2533	Western Pwo (Delta Pao)			0
-2534	Eastern Pwo (Phlou)			0
-2535	Karenni (Kayah, Red Karen)			0
-2536	Katu (Low Katu)			0
-2537	Nancowry			0
-2538	Sura (Mwaghavul)			0
-2539	Kerek			0
-2540	Jeju			0
-2541	Yugh			0
-2542	Kott			0
-2543	Orok			0
-2544	Forest Nenets			0
-2545	Dupaningan Agta			0
-2546	Vaeakau-Taumako (Pileni)			0
-2547	Middle Mongolian			0
-2548	Khwaresmian			0
-2549	Khoekhoe			0
-2550	Baonan			0
-2551	Old Welsh			0
-2552	Cornish			0
-2553	Tangale			0
-2554	Bit (Pusing)			0
-2555	Gondi			0
-2556	Parthian			0
-2557	Kolami			0
-2558	Coptic			0
-2559	Moriori			0
-2560	Lushei (Mizo)			0
-2561	Gugu-yalanji			0
-2562	Jaru			0
-2563	Arin			0
-2564	Parji			0
-2565	Gadaba (Kondekor- Mudhili)			0
-2566	Ndyuka (Aukan, Eastern Maroon Creole)			0
-2567	Kwakw’ala			0
-2568	Oowekyala			0
-2569	Haisla			0
-2570	Heiltsuk			0
-2571	Serbo-Croatian			0
-2572	Yurok			0
-2573	Puinave			0
-2574	Ubykh			0
-2575	Gamilaraay			0
-2576	Russian–Chinese Pidgin			0
-2577	Orokaiva			0
-2578	Gaina			0
-2579	Barai			0
-2580	Mountain Koiarj			0
-2581	Suena			0
-2582	Luri			0
-2583	Kaqchikel			0
-2584	Simeulue (Simalur)			0
-2585	Atayal			0
-2586	Siraya			0
-2587	Lacandon			0
-2588	Itza			0
-2589	Anatolian Arabic			0
-2590	Sinhalese			0
-2591	Lahnda (Western Punjabi)			0
-2592	Western Pahari			0
-2593	Tundra Nenets			0
-2594	Mator			0
-2595	Taigi			0
-2596	Western Yugur			0
-2597	Shor			0
-2598	Southern Altai			0
-2599	Khalaj			0
-2600	Salar			0
-2601	Naiki (Southeastern Kolami)			0
-2602	Burushaski			0
-2603	Takpa (Tawang Monpa)			0
-2604	Tshangla (Monpa Dirang)			0
-2605	Khumi			0
-2606	Mikir			0
-2607	Zhuang-Longzhou (Central Tai)			0
-2608	Southern Thai			0
-2609	Prai (Phai)			0
-2610	Buginese			0
-2611	Gedaged			0
-2612	Mbaenggu (Baeggu)			0
-2613	Madurese			0
-2614	Lega			0
-2615	Tswana			0
-2616	Tennet			0
-2617	Murle			0
-2618	Kwegu			0
-2619	Bilua (Mbilua, Vella Lavella)			0
-2620	Blagar			0
-2621	Klon (Kelon)			0
-2622	Nedebang			0
-2623	Western Pantar (Tubbe, Lamma)			0
-2624	Wanman (Warnman)			0
-2625	Dhuwal			0
-2626	Djambarrpuyngu			0
-2627	Djapu			0
-2628	Turrbal (Turubul, Durubul)			0
-2629	Gumatj			0
-2630	Gupapuyngu			0
-2631	Karajarri (Garadjari)			0
-2632	Sirionó			0
-2633	Sierra Puebla Nahuatl (Sierra de Zacapoaxtla)			0
-2634	Karajá			0
-2635	Barí (Colombia)			0
-2636	Kogui (Kogi)			0
-2637	Chibcha (Muisca)			0
-2638	Chakobo (Pacahuara)			0
-2639	Piapoco			0
-2640	Baure			0
-2641	Wayuu (Guajiro)			0
-2642	Trinitario			0
-2643	Enxet (Southern Lengua)			0
-2644	Mapuche (Mapudungun)			0
-2645	Chipaya			0
-2646	Aasax (Aasá)			0
-2647	Kipeá (Kariri)			0
-2648	Maidu			0
-2649	Konkow (Northwest Maidu)			0
-2650	Xerénte			0
-2651	Nocten Wichi			0
-2652	Bodega (Coast) Miwok			0
-2653	Lake Miwok			0
-2654	Plains Miwok			0
-2655	Northern Sierra Miwok			0
-2656	Central Sierra Miwok			0
-2657	Southeastern Pomo			0
-2658	Southern Bobo Mandaré			0
-2659	Manda (of India)			0
-2660	Mabaan (Southern Burun)			0
-2661	Shilluk			0
-2662	Anywa (Anuak)			0
-2663	Nara			0
-2664	Didinga			0
-2665	Northern Yana			0
-2666	Yahi			0
-2667	Kwama			0
-2668	Hadza			0
-2669	Atong (Sino-Tibetan)			0
-2670	Ineseño			0
-2671	Barbareño			0
-2672	Juǀʼhoan (South-Eastern Ju, Zhuǀ'hoan)			0
-2673	!Kung (Central Ju)			0
-2674	Ekoka !Xung (North-Central Ju)			0
-2675	ǀ'Auni			0
-2676	ǀǀNg!ke			0
-2677	ǀXam			0
-2678	Tanacross			0
-2679	Koyukon			0
-2680	Mojave			0
-2681	Cocopa			0
-2682	Jamul Tiipay			0
-2683	Mesa Grande 'Iipay			0
-2684	Qiandong Miao (Hmu)			0
-2685	Hmong Njua			0
-2686	Northern Pa-Hng			0
-2687	Cahuilla			0
-2688	Western Shoshoni			0
-2689	Kawaiisu			0
-2690	Chinook Jargon			0
-2691	Shinasha (Boro,Borna)			0
-2692	Nyangumarta			0
-2693	Jandai			0
-2694	Golpa			0
-2695	Purépecha (Tarascan)			0
-2696	Seneca			0
-2697	Munsee			0
-2698	Santali			0
-2699	Arapaho			0
-2700	San Dionisio del Mar Huave			0
-2701	San Mateo del Mar Huave			0
-2702	San Francisco del Mar Huave			0
-2703	Santa María del Mar Huave			0
-2704	Skiri Pawnee			0
-2705	Yugambeh (Tweed-Albert Bandjalang)			0
-2706	Candoshi-Shapra			0
-2707	Onondaga			0
-2708	Molima			0
-2709	Jarai			0
-2710	Rade (Rhade)			0
-2711	Mapun (Bajaw)			0
-2712	Yakan			0
-2713	Tombonuwo			0
-2714	Ida'an Begak			0
-2715	Bisaya			0
-2716	Sebop			0
-2717	Murik (Borneo)			0
-2718	Kiput			0
-2719	Melanau (Mukah)			0
-2720	Tunjung			0
-2721	Taboyan			0
-2722	Gayo			0
-2723	Basai			0
-2724	Lampung			0
-2725	Banggai			0
-2726	Muna			0
-2727	Bilba (Rotinese)			0
-2728	Lakalai			0
-2729	Toʼabaita (Toqabaqita)			0
-2730	Sedang			0
-2731	Mnong			0
-2732	Nyaheun			0
-2733	Sapuan			0
-2734	Sre			0
-2735	Mlabri			0
-2736	Middle Mon			0
-2737	Northern Ndebele			0
-2738	Middle Dutch			0
-2739	Solon			0
-2740	Oyrot			0
-2741	Yangliu			0
-2742	Xuzhang			0
-2743	Jingpho (Kachin)			0
-2744	Old Lithuanian			0
-2745	Lakkia			0
-2746	Kawi (Old Javanese)			0
-2747	Kei			0
-2748	Pali			0
-2749	Divehi (Maldivian)			0
-2750	Araki			0
-2751	Bislama			0
-2752	Ganggalida			0
-2753	Kaurna			0
-2754	Old Persian			0
-2755	Nootka (Nuu-chah-nulth)			0
-2756	Seward Alaska Inupiatun			0
-2757	Ogea			0
-2758	Woleaian			0
-2759	Tutelo			0
-2760	Kashubian			0
-2761	Silesian			0
-2762	Wanano (Guanano, Piratapuyo)			0
-2763	Chichewa (Nyanja)			0
-2764	Tai Dam (Black Tai)			0
-2765	Tai Phake			0
-2766	Ligurian			0
-2767	Lingala			0
-2768	Coeur d'Alene			0
-2769	Ibaloy			0
-2770	Urdu			0
-2771	Kurmanji Kurdish			0
-2772	Sorani Kurdish			0
-2773	Macushi			0
-2774	Klata (Giangan)			0
-2775	Icari Dargwa			0
-2776	Classical Mongolian			0
-2777	Ishkashmi			0
-2778	Makah			0
-2779	Faroese			0
-2780	Yankton-Yanktonai			0
-2781	Santee-Sisseton			0
-2782	Lowland Oaxaca Chontal			0
-2783	Cochimi			0
-2784	Kiliwa			0
-2785	Iipay			0
-2786	Ko’alh			0
-2787	Quechan			0
-2788	Maricopa			0
-2789	Kitanemuk			0
-2790	Serrano			0
-2791	Central Hill Nisenan			0
-2792	Wikchamni			0
-2793	Molala			0
-2794	Cantonese Chinese			0
-2795	Kuvi			0
-2796	Idu			0
-2797	Old Chinese			0
-2798	Maltese			0
-2799	Gitua			0
-2800	Koitabu			0
-2801	Iduh (O’du)			0
-2802	Busa (Bokobaru)			0
-2803	Toro So (Escarpment Dogon)			0
-2804	Ben Tey Dogon			0
-2805	Bondum Dogon			0
-2806	Kolum So (Mombo Dogon)			0
-2807	Tsangla			0
-2808	Bunan			0
-2809	Gogot			0
-2810	Antekerrepenhe			0
-2811	Batyala			0
-2812	Biri			0
-2813	Dhangu			0
-2814	Gunya			0
-2815	Kalkatungu			0
-2816	Muruwari			0
-2817	Wilson River (Wangkumara)			0
-2818	Sotho			0
-2819	Langja Buyang (E'ma Buyang)			0
-2820	Makonde			0
-2821	Kumak			0
-2822	Tuyuca			0
-2823	Waorani			0
-2824	Antsi (Ayta Maganchi)			0
-2825	Konda			0
-2826	Kuot			0
-2827	Hunjara-Kaina Ke			0
-2828	Aeka			0
-2829	Adang			0
-2830	Wamas			0
-2831	Occitan			0
-2832	Assan			0
-2833	Anglo-Norman			0
-2834	Tiruray			0
-2835	Isneg			0
-2836	Seychellois Creole			0
-2837	Old Spanish			0
-2838	Southern Haida			0
-2839	Chippewa (Minnesota Ojibwe)			0
-2840	Bru (Brou)			0
-2841	Teochew (Chaozhou)			0
-2842	Hainanese			0
-2843	Hakka Chinese			0
-2844	Angami			0
-2845	Dzongkha			0
-2846	Gamo			0
-2847	Soninke			0
-2848	Postbiblical Hebrew			0
-2849	Phoenician			0
-2850	Polci			0
-2851	New Latin			0
-2852	Ormuri			0
-2853	Scythian			0
-2854	Burji			0
-2855	Bilin			0
-2856	Dan			0
-2857	Byzantine Greek			0
-2858	Khotanese			0
-2859	Mangghuer			0
-2860	Kangjia			0
-2861	Mongghul			0
-2862	Bongu			0
-2863	Garo			0
-2864	Nias			0
-2865	Phrygian			0
-2866	Svan			0
-2867	Livonian			0
-2868	Montenegrin			0
-2869	Kipchak			0
-2870	Old Czech			0
-2871	Luwian			0
-2872	Harari			0
-2873	Hruso			0
-2874	Kalamian			0
-2875	Ayoreo			0
-2876	Bulang (Blang)			0
-2877	Cia-Cia (Butonese)			0
-2878	Warembori			0
-2879	Ainu			0
-2880	Kaman (Miju)			0
-2881	Sulung			0
-2882	Keoru-Ahia			0
-2883	Bogaya (Pogaya)			0
-2884	Opao			0
-2885	Orokolo			0
-2886	Tairuma			0
-2887	Tangko			0
-2888	Munduruku			0
-2889	Old Tupian			0
-2890	Lamboya			0
-2891	Lakon (Lakona)			0
-2892	Low German			0
-2893	Xamtanga (Khamir)			0
-2894	Maonan			0
-2895	Mulam			0
-2896	Wa			0
-2897	Lotha			0
-2898	Tangkhul			0
-2899	Kerebe (Kerewe)			0
-2900	Dogon			0
-2901	Bhojpuri			0
-2902	Magahi			0
-2903	Ushojo			0
-2904	Central Atlas Tamazight			0
-2905	Brunei Malay			0
-2906	Baruya (Yipma)			0
-2907	Levantine Arabic			0
-2908	Friulian			0
-2909	Achagua (Achawa)			0
-2910	Carapana			0
-2911	Waimaja (Bara, Barasano)			0
-2912	Witoto Mi̵ni̵ca			0
-2913	Witoto Ni̵pode (Nüpode Huitoto)			0
-2914	Tsimané (Mosetén, Chimane)			0
-2915	Yami			0
-2916	Sranan Tongo			0
-2917	Ilokano			0
-2918	Bamana			0
-2919	Kakabe			0
-2920	Vai			0
-2921	Alekano			0
-2922	Sau (Samberigi)			0
-2923	Yaweyuha			0
-2924	Nimo			0
-2925	Pyu (Papuan)			0
-2926	Tauade			0
-2927	Ngoreme (Ngurimi)			0
-2928	Kiga (Rukiga)			0
-2929	Nkore (Runyankore)			0
-2930	Sizaki (Shashi)			0
-2931	Amba, Nembao (Solomon Islands)			0
-2932	Manang (Manange, Nyishang)			0
-2933	Harsusi			0
-2934	Bokar			0
-2935	Newar			0
-2936	Chepang			0
-2937	Tha'oa			0
-2938	Khaling			0
-2939	Nocte			0
-2940	Tangsa			0
-2941	Chang			0
-2942	Panyjima			0
-2943	Thalanyji			0
-2944	Wathawurrung			0
-2945	Yulparija			0
-2946	Pilagá			0
-2947	Wappo			0
-2948	Yuki			0
-2949	Old Udi			0
-2950	Wetarese (Ili'uun)			0
-2951	Dedua			0
-2952	Waskia			0
-2953	Yaqay			0
-2954	Sar			0
-2955	Ofo			0
-2956	Natchez			0
-2957	Atakapa			0
-2958	Tunika			0
-2959	Mikasuki			0
-2960	Shawnee			0
-2961	Yuchi			0
-2962	Mobilian Jargon			0
-2963	Chickasaw			0
-2964	Muskogee (Creek)			0
-2965	Okinawan			0
-2966	Tat (Caucasus)			0
-2967	Bakhtiari			0
-2968	Larestani			0
-2969	Xonj Larestani			0
-2970	Gilaki			0
-2971	Itonama			0
-2972	Hehe			0
-2973	Kinga			0
-2974	Sangu (Tanzania)			0
-2975	Wapishana			0
-2976	Akan			0
-2977	Hiri Motu			0
-2978	Wallisian (East Uvea)			0
-2979	Nukumanu			0
-2980	Huave			0
-2981	Yucatec			0
-2982	Tequistlatec			0
-2983	Suyá			0
-2984	Kariyarra			0
-2985	Kui (Indonesia)			0
-2986	Sawila			0
-2987	Awa (New Guinea)			0
-2988	Awiyaana			0
-2989	Benabena			0
-2990	Daga			0
-2991	Dano			0
-2992	Fasu			0
-2993	Folopa			0
-2994	Fore			0
-2995	Gadsup			0
-2996	Gimi			0
-2997	Inoke-Yate			0
-2998	Kamano			0
-2999	Keuw			0
-3000	Korowai			0
-3001	Kuman (New Guinea)			0
-3002	North Tairoa			0
-3003	Tokano			0
-3004	Yagaria			0
-3005	Kambata			0
-3006	Tii			0
-3007	Southern Sierra Miwok			0
-3008	Uduk (Tw'ampa)			0
-3009	Western Mono			0
-3010	She			0
-3011	Inanwatan (Suabo)			0
-3012	Tho (Tày)			0
-3013	Silopi			0
-3014	Utu			0
-3015	Ingria Finnish			0
-3016	Mamanwa			0
-3017	Rek (Southwestern Dinka)			0
-3018	Soo			0
-3019	Paumarí			0
-3020	Semnani			0
-3021	Kartutjarra			0
-3022	Awa (Awa Pit, Cuaiquer)			0
-3023	Wardandi			0
-3024	Wirangu			0
-3025	Apali (Emerum)			0
-3026	Mum			0
-3027	Wemba Wemba			0
-3028	Kung			0
-3029	Bushong			0
-3030	Edo			0
-3031	Epie			0
-3032	Engenni			0
-3033	Dibabawon			0
-3034	Bunama			0
-3035	Duna			0
-3036	Mendi (Angal)			0
-3037	Sirva (Sileibi)			0
-3038	Bimin			0
-3039	Kalam			0
-3040	Kalam Pandanus			0
-3041	Foe			0
-3042	Southern Kewa (Erave)			0
-3043	Rumu (Kairi)			0
-3044	Namia			0
-3045	Shiaxa (Awyu)			0
-3046	Yenimu (South Awyu)			0
-3047	Mandobo			0
-3048	Barupu (Bauni, Warapu)			0
-3049	Lembena			0
-3050	Wambon (Yonggom)			0
-3051	Guhu-Samane			0
-3052	Mian			0
-3053	Tifal			0
-3054	Oksapmin			0
-3055	Wambon (Digul, Ketum)			0
-3056	Huli			0
-3057	Girramay (Dyirbal)			0
-3058	Warrgamay			0
-3059	Matngele			0
-3060	Wadjiginy			0
-3061	Kuwema (Pungupungu, Kandjerramalh)			0
-3062	Kungarakany			0
-3063	Marrgu			0
-3064	Bube			0
-3065	Central Bolivian Quechua			0
-3066	Ixil			0
-3067	Old Tamil			0
-3068	Palewyami			0
-3069	Tübatulabal			0
-3070	Paipai			0
-3071	Ja’a			0
-3072	Southeastern Tepehuan			0
-3073	Gelao (Kelao)			0
-3074	Nyakur			0
-3075	Cheke Holo (Maringe)			0
-3076	Kikuyu			0
-3077	Dane-zaa (Beaver)			0
-3078	Slavey			0
-3079	Quiché			0
-3080	Awakatek (Aguateco)			0
-3081	Tojolabal			0
-3082	Yahgan (Yagán, Yámana)			0
-3083	Maca (Maká)			0
-3084	Chiriguano (Eastern Bolivian Guaraní)			0
-3085	Araona			0
-3086	Mashco Piro			0
-3087	Yaruro (Pumé)			0
-3088	Kambowa			0
-3089	Kumbewaha			0
-3090	Lasalimu			0
-3091	Sawai			0
-3092	Chungli Ao			0
-3093	Dimasa			0
-3094	Konyak			0
-3095	Mongsen Ao			0
-3096	Rongmei (Nruanghmei)			0
-3097	Phom			0
-3098	Gogodala			0
-3099	Epena (Eperara)			0
-3100	Aguaruna			0
-3101	Yavitero (Paraene)			0
-3102	Seediq			0
-3103	Yucatec Maya			0
-3104	Tima (Domorik, Lomorik)			0
-3105	Konda (Dravidian)			0
-3106	Bor (Southeastern Dinka)			0
-3107	Bine			0
-3108	Mao			0
-3109	Nootka (Kyuquot)			0
-3110	Ibatan			0
-3111	Angor			0
-3112	Enindhilyagwa			0
-3113	Efik			0
-3114	Sora			0
-3115	Yanomamö			0
-3116	Cashibo			0
-3117	Maca			0
-3118	Kajtak			0
-3119	Sherpa			0
-3120	Kulung (Nepal)			0
-3121	Marghi South (Hildi)			0
-3122	Marghi Central			0
-3123	Yimchungrü			0
-3124	Yekora			0
-3125	Samei			0
-3126	Pancana			0
-3127	Muya			0
-3128	Maguindanao			0
-3129	Apulia-Calabrian Greek			0
-3130	Gaulish			0
-3131	Tauro-Romaic (Mariupol Greek)			0
-3132	Taos			0
-3133	Votic			0
-3134	Chulym			0
-3135	Malto (Sauria Paharia, references do not distinguish with Kumarbhag Paharia)			0
-3136	Atsi (Zaiwa)			0
-3137	Khamyang			0
-3138	Kim Mun			0
-3139	Pumi			0
-3140	Liha (Lyha)			0
-3141	Kobon			0
-3142	Luangiua (Ontong Java)			0
-3143	Raivavae			0
-3144	Numbami (Siboma)			0
-3145	Urum			0
-3146	Southern Min (Min Nan)			0
-3147	Jin Chinese			0
-3148	North Frisian			0
-3149	Wu Chinese			0
-3150	Ifira-Mele			0
-3151	Jola-Fonyi (Diola-Fogny)			0
-3152	Laal			0
-3153	Mandinka			0
-3154	Bassari			0
-3155	Kassonke (Khassonké)			0
-3156	Maninka			0
-3157	Bissa			0
-3158	Western Maninka			0
-3159	Kono			0
-3160	Guro			0
-3161	Mano			0
-3162	Mixifore			0
-3163	Ganza			0
-3164	Juǀʼhoan			0
-3165	Ma'di			0
-3166	Susu			0
-3167	Dalmatian			0
-3168	Istriot			0
-3169	Kayan			0
-3170	Kalamian Tagbanwa			0
-3171	Kodagu			0
-3172	Tarifit Berber			0
-3173	Cayuvava			0
-3174	Ye'kuana (Maquiritari, Dekwana)			0
-3175	Negerhollands			0
-3176	Toba Qom			0
-3177	Mentawai			0
-3178	Embaloh (Maloh)			0
-3179	Wariʼ (Orowari)			0
-3180	Xokleng			0
-3181	Naukan Siberian Yupik			0
-3182	Chamorro			0
-3183	Romblomanon			0
-3184	Masbateño			0
-3185	Labuk-Kinabatangan Kadazan			0
-3186	Miri (diaclet of Narom)			0
-3187	Balantak			0
-3188	Helong			0
-3189	Buli (Indonesia)			0
-3190	Blaan (Koronadal)			0
-3191	Central Asmat			0
-3192	Beami			0
-3193	Borong			0
-3194	Gobasi			0
-3195	Kube (Tobo-Kube)			0
-3196	Ono			0
-3197	Pare (Pa)			0
-3198	Selepet			0
-3199	Som			0
-3200	Southern Kiwai			0
-3201	Waboda			0
-3202	Irarutu			0
-3203	Palawano			0
-3204	Tukang Besi			0
-3205	Lau (Malaita island)			0
-3206	Cemuhî			0
-3207	Ajië			0
-3208	Rukai			0
-3209	Zinza (Dzinza)			0
-3210	Dulong (Trung, Derung)			0
-3211	Ngas (Angas)			0
-3212	Bacama			0
-3213	Bura-Pabir (Bura)			0
-3214	Miship (Chip, cip)			0
-3215	Dera (Kanakuru)			0
-3216	Ga'anda			0
-3217	Izere (Jari)			0
-3218	Karekare (Karai-Karai)			0
-3219	Miya			0
-3220	Tera (Pidlimdi)			0
-3221	Gwere			0
-3222	Masaba (Lumasaaba)			0
-3223	Rombo (Mkuu)			0
-3224	Dadibi			0
-3225	Maiwa (Papuan)			0
-3226	Tabo			0
-3227	Wiru			0
-3228	Adzera			0
-3229	Bilinarra			0
-3230	Warlmanpa			0
-3231	Akoye			0
-3232	Ankave			0
-3233	Binahari			0
-3234	Buna			0
-3235	Domung			0
-3236	Hamtai			0
-3237	Kamasa			0
-3238	Kawacha			0
-3239	Mungkip			0
-3240	Nek			0
-3241	Nuk			0
-3242	Numanggang			0
-3243	Safeyoka			0
-3244	Uri			0
-3245	Uyajitaya (Duduela)			0
-3246	Yagwoia			0
-3247	Isabi			0
-3248	Peve (Lame)			0
-3249	Jèrriais (Jersey Norman French)			0
-3250	Oro Win			0
-3251	Tapirapé (Apyãwa)			0
-3252	Gaddang			0
-3253	Kwaio			0
-3254	Kedang			0
-3255	Masbatenyo (Masbateño)			0
-3256	Batak Simalungun			0
-3257	Minangkabau			0
-3258	Ruc			0
-3259	Esperanto			0
-3260	Ngarla			0
-3261	Burduna (Bayungu, Payungu)			0
-3262	Mantharta (Warriyangga)			0
-3263	Batuley			0
-3264	Wancho			0
-3265	Kalaallisut (West Greenlandic)			0
-3266	Wayampi			0
-3267	Witoto Murui			0
-3268	Barasana			0
-3269	Desano			0
-3270	Nukak			0
-3271	Resígaro			0
-3272	Secoya			0
-3273	Siriano			0
-3274	Luobenzhuo Bai			0
-3275	Coconuco (Guambiano)			0
-3276	Kamsá (Camsá)			0
-3277	Zacatepec Chatino			0
-3278	Bella Coola (Nuxalk)			0
-3279	Yanomámi (Waiká)			0
-3280	Kunza			0
-3281	Wetarese (Dadu'a)			0
-3282	Deing			0
-3283	Ende (Flores island)			0
-3284	Idate (Idalaka )			0
-3285	Bukusu			0
-3286	Chami Emberá			0
-3287	Classical Chinese			0
-3288	Meixian Hakka Chinese			0
-3289	Garmsiri			0
-3290	Northern Bashkardi			0
-3291	Southern Bashkardi			0
-3292	Cheyenne			0
-3293	Mirandese			0
-3294	Lepcha			0
-3295	Middle Vietnamese			0
-3296	Min Dong (Eastern Min)			0
-3297	Gan Chinese			0
-3298	Tiwi			0
-3299	Kutchi (Kachhi)			0
-3300	Middle Low German			0
-3301	Middle French			0
-3302	Enets			0
-3303	Pendau			0
-3304	Sema (Sümi)			0
-3305	Nobonob			0
-3306	Aghwan			0
-3307	Chadong			0
-3308	Võro			0
-3309	Pennsylvania German			0
-3310	Aragones			0
-3311	Leonese			0
-3312	Lokono (Arawak)			0
-3313	Wayoró			0
-3314	Arikapú			0
-3315	Washo			0
-3316	Shasta			0
-3317	Chimariko			0
-3318	Kato			0
-3319	Lower Tanana			0
-3320	Central Carrier			0
-3321	Degexit'an			0
-3322	Quileute			0
-3323	Sougb (Manikion)			0
-3324	Jebero (Shiwilu)			0
-3325	Mursi			0
-3326	Gaam (Ingessana)			0
-3327	Sese Gumuz			0
-3328	Kuwi			0
-3329	Baale			0
-3330	ǀǀKxauǀǀen			0
-3331	!O!Kung			0
-3332	Mentasta Ahtena			0
-3333	Savosavo			0
-3334	Mungiki (Bellona)			0
-3335	Burum (Yaknge, Somba-Siawari)			0
-3336	Uruangnirin			0
-3337	Kalao			0
-3338	Bonerate			0
-3339	Tangga			0
-3340	Mbula			0
-3341	Jamaican Creole (Patwah)			0
-3342	Catio			0
-3343	Northern Embera			0
-3344	Tadó Emberá			0
-3345	South Levantine Arabic			0
-3346	Imbabura Highland Quichua			0
-3347	Manga Kanuri			0
-3348	Reunionese creole			0
-3349	Moroccan Arabic			0
-3350	Murrinh-patha			0
-3351	Mòcheno			0
-3352	Romagnol			0
-3353	Hadhrami Arabic			0
-3354	Northern Yemeni Arabic			0
-3355	Klamath-Modoc			0
-3356	Middle Irish			0
-3357	Saraiki			0
-3358	Muinane			0
-3359	Tontemboan			0
-3360	Lamaholot			0
-3361	Palestinian Arabic			0
-3362	Old Saxon			0
-3363	Xhosa			0
-3364	Osage			0
-3365	Biloxi			0
-3366	Dzao Min			0
-3367	Tacana			0
-3368	Movima			0
-3369	Bora			0
-3370	Musey (Mouseye, Banana)			0
-3371	Warluwarra			0
-3372	Nupe			0
-3373	Wutun			0
-3374	Baruga (Bareji)			0
-3375	Mawak			0
-3376	Nend			0
-3377	Nage			0
-3378	Levuka (Painara)			0
-3379	Haitian Creole			0
-3380	Teleut			0
-3381	Dampelas			0
-3382	Abellen (Ayta Abellan)			0
-3383	Ordos			0
-3384	Angoram			0
-3385	Bilakura (Karian)			0
-3386	Biwat (Mundugumor)			0
-3387	Chambri			0
-3388	Ese (Managalasi)			0
-3389	Faiwol			0
-3390	Kobol (Koguman)			0
-3391	Kopar			0
-3392	Murik (New Guinea)			0
-3393	Siane			0
-3394	Tabriak (Karawari, Yokoim)			0
-3395	Kirikiri			0
-3396	Usan			0
-3397	Yaben			0
-3398	Yimas			0
-3399	Ömie			0
-3400	Basaa (Mbene)			0
-3401	Bende			0
-3402	Rungwa			0
-3403	Yuwaalaraay			0
-3404	Yuwaalayaay			0
-3405	Mi'kmaq			0
+ID	Name	Glottocode	Family	SubGroup	Words
+157	Russian	russ1263	Indo-European	Slavic	2053
+122	Turkish	nucl1301	Altaic	Turkic	1009
+153	English	stan1293	Indo-European	Germanic	948
+159	French	stan1290	Indo-European	Romance	671
+116	Ancient Greek	anci1242	Indo-European	Greek	640
+158	Spanish	stan1288	Indo-European	Romance	579
+245	Latin	lati1261	Indo-European	Italic	577
+1093	Serbian	serb1264	Indo-European	Slavic	552
+169	German	stan1295	Indo-European	Germanic	547
+139	Romanian	roma1327	Indo-European	Romance	467
+71	Classical Arabic	stan1318	Afro-Asiatic	West Semitic	442
+175	Hungarian	hung1274	Uralic	Ugric	427
+812	Croatian	croa1245	Indo-European	Slavic	411
+181	Mandarin Chinese	mand1415	Sino-Tibetan	Sinitic	404
+161	Italian	ital1282	Indo-European	Romance	353
+149	Sanskrit	sans1269	Indo-European	Indo-Iranian	344
+304	Tamil	tami1289	Dravidian	South Dravidian	334
+119	Amharic	amha1245	Afro-Asiatic	Ethiosemitic	323
+706	Batsbi	bats1242	Northeast Caucasian	Nakh	313
+109	Mongolian (Khalkha)	halh1238	Altaic	Mongolic	309
+24	Norwegian	norw1258	Indo-European	Germanic	302
+135	Swedish	swed1254	Indo-European	Germanic	301
+173	Danish	dani1285	Indo-European	Germanic	293
+222	Yakut	yaku1245	Altaic	Turkic	287
+176	Armenian	nucl1235	Indo-European	Armenian	281
+171	Polish	poli1260	Indo-European	Slavic	280
+244	Komi	komi1268	Uralic	Finno-Ugric	271
+163	Lezgian	lezg1247	Northeast Caucasian	Lezgic	266
+174	Czech	czec1258	Indo-European	Slavic	262
+252	Icelandic	icel1247	Indo-European	Germanic	260
+232	Japanese	nucl1643	Altaic	Japonic	258
+141	Finnish	finn1318	Uralic	Finno-Ugric	253
+130	Geez	geez1241	Afro-Asiatic	Ethiosemitic	244
+380	Swahili	swah1253	Atlantic–Congo	Benue–Congo	243
+138	Ukrainian	ukra1253	Indo-European	Slavic	221
+260	Tigrinya	tigr1271	Afro-Asiatic	Ethiosemitic	214
+110	Bulgarian	bulg1262	Indo-European	Slavic	213
+211	Gagauz	gaga1249	Altaic	Turkic	212
+178	Farsi	fars1254	Indo-European	Indo-Iranian	208
+142	Udmurt	udmu1245	Uralic	Finno-Ugric	207
+224	Karaim	kara1464	Altaic	Turkic	204
+257	Tibetan	tibe1272	Sino-Tibetan	Bodic	195
+85	Kannada	nucl1305	Dravidian	South Dravidian	186
+117	Portuguese	port1283	Indo-European	Romance	186
+324	Indonesian	indo1316	Austronesian	Malayo-Polynesian	184
+126	Lithuanian	lith1251	Indo-European	Baltic	178
+255	Dutch	dutc1256	Indo-European	Germanic	178
+136	Tabassaran	taba1259	Northeast Caucasian	Lezgic	177
+355	Thai	thai1261	Kra–Dai	Tai	177
+371	Khmer	cent1989	Austroasiatic	Khmeric	175
+450	Hill Mari	west2392	Uralic	Finno-Ugric	172
+238	Meadow Mari	mari1278	Uralic	Finno-Ugric	170
+239	Modern Greek	mode1248	Indo-European	Greek	160
+201	Akkadian	akka1240	Afro-Asiatic	East Semitic	155
+7	Lao	laoo1244	Kra–Dai	Tai	149
+219	Erzya	erzy1239	Uralic	Finno-Ugric	147
+166	Vietnamese	viet1252	Austroasiatic	Vietic	145
+242	Belarusan	bela1254	Indo-European	Slavic	145
+60	Burmese	nucl1310	Sino-Tibetan	Lolo-Burmese	141
+184	Azerbaijani	mode1262	Altaic	Turkic	138
+261	Tigre	tigr1270	Afro-Asiatic	Ethiosemitic	135
+179	Kazakh	kaza1248	Altaic	Turkic	129
+111	Bashkir	bash1264	Altaic	Turkic	127
+137	Ancient Hebrew	anci1244	Afro-Asiatic	West Semitic	126
+330	Malay	stan1306	Austronesian	Malayo-Polynesian	125
+160	Old East Slavic	oldr1238	Indo-European	Slavic	124
+185	Selkup	selk1253	Uralic	Samoyedic	123
+247	Tundra Yukaghir	nort2745	Yukaghir		120
+375	Tagalog	taga1270	Austronesian	Malayo-Polynesian	120
+395	Karelian	kare1335	Uralic	Finno-Ugric	119
+237	Estonian	esto1258	Uralic	Finno-Ugric	117
+148	Tuvan	tuvi1240	Altaic	Turkic	116
+272	Zulu	zulu1248	Atlantic–Congo	Benue–Congo	116
+861	Khamnigan Mongol	kham1281	Altaic	Mongolic	113
+536	Abaza	abaz1241	Northwest Caucasian	Abazgi	110
+151	Evenki	even1260	Altaic	Manchu-Tungusic	109
+282	Adyghe	adyg1241	Northwest Caucasian	Circassian	109
+600	Veps	veps1250	Uralic	Finno-Ugric	109
+210	Irish Gaelic	iris1253	Indo-European	Celtic	108
+129	Aghul	aghu1253	Northeast Caucasian	Lezgic	107
+165	Tatar	tata1255	Altaic	Turkic	107
+218	Moksha	moks1248	Uralic	Finno-Permic	107
+243	Ingush	ingu1240	Northeast Caucasian	Nakh	107
+248	Buriat	buri1258	Altaic	Mongolic	107
+323	Nganasan	ngan1291	Uralic	Samoyedic	106
+183	Chukchee	chuk1273	Chukotko-Kamchatkan	Chukotkan	104
+485	Malak-Malak	mull1237	Malak-Malak		104
+339	Koryak	kory1246	Chukotko-Kamchatkan	Chukotkan	103
+495	Nivkh	gily1242	Nivkh		103
+194	Even	even1260	Altaic	Manchu-Tungusic	102
+246	Udihe	udih1248	Altaic	Manchu-Tungusic	102
+312	Catalan	stan1289	Indo-European	Romance	102
+393	Maori	maor1246	Austronesian	Malayo-Polynesian	102
+499	Yaqui (Hiaki)	yaqu1251	Uto-Aztecan	Cahitan	102
+30	Tofa	kara1462	Altaic	Turkic	101
+443	Kubachi	kuba1248	Northeast Caucasian	Dargin	101
+140	Latvian	latv1249	Indo-European	Baltic	93
+114	Old English	stan1293	Indo-European	Germanic	85
+118	Macedonian	mace1250	Indo-European	Slavic	83
+234	Slovak	slov1269	Indo-European	Slavic	82
+204	Telugu	telu1262	Dravidian	South Dravidian	77
+180	Ossetian	osse1243	Indo-European	Indo-Iranian	74
+220	Romani	roma1329	Indo-European	Indo-Iranian	73
+817	Galician	gali1258	Indo-European	Romance	73
+190	Slovenian	slov1268	Indo-European	Slavic	72
+155	Old Church Slavonic	chur1257	Indo-European	Slavic	69
+208	Welsh	wels1247	Indo-European	Celtic	69
+290	Javanese	java1254	Austronesian	Malayo-Polynesian	69
+340	Chaha	seba1251	Afro-Asiatic	Ethiosemitic	65
+629	Rutul	rutu1240	Northeast Caucasian	Lezgic	64
+134	Udi	udii1243	Northeast Caucasian	Lezgic	61
+236	Old Norse	oldn1244	Indo-European	Germanic	61
+293	Classical Armenian	clas1249	Indo-European	Armenian	61
+382	Soqotri	soqo1240	Afro-Asiatic	West Semitic	60
+357	Modern Written Arabic	stan1318	Afro-Asiatic	West Semitic	59
+326	Balinese	bali1278	Austronesian	Malayo-Polynesian	57
+78	Jarawara	jama1261	Arawan	Madi	55
+345	Albanian	alba1267	Indo-European	Albanian	54
+229	Old Irish	oldi1245	Indo-European	Celtic	53
+494	Somali	soma1255	Afro-Asiatic	Cushitic	53
+52	Kurux	kuru1301	Dravidian	Northern Dravidian	50
+420	Hindi	hind1269	Indo-European	Indo-Iranian	49
+124	Chuvash	chuv1255	Altaic	Turkic	48
+258	Syriac	clas1252	Afro-Asiatic	West Semitic	48
+1532	Oriya	oriy1255	Indo-European	Indo-Aryan	47
+209	Breton	bret1244	Indo-European	Celtic	44
+38	Georgian	nucl1302	Kartvelian	Karto-Zan	43
+578	Hiligaynon	hili1240	Austronesian	Malayo-Polynesian	43
+396	Livvi-Karelian	livv1243	Uralic	Finno-Ugric	42
+583	Botlikh	botl1242	Northeast Caucasian	Avar–Andic	42
+112	Korean	kore1280	Altaic	Koreanic	41
+164	Avar	avar1256	Northeast Caucasian	Avar–Andic	41
+51	Fula	fula1264	Atlantic–Congo	Atlantic	40
+1154	Cantonese Chinese	cant1236	Sino-Tibetan	Sinitic	40
+582	Modern Mon	monn1252	Austroasiatic	Monic	39
+146	Hausa	haus1257	Afro-Asiatic	Chadic	38
+559	Waray	wara1300	Austronesian	Malayo-Polynesian	37
+168	Kyrghyz	kirg1245	Altaic	Turkic	36
+226	Old French	oldf1239	Indo-European	Romance	36
+348	Navajo	nava1243	Na-Dené	Athabaskan	36
+308	Basque	basq1248	Basque		35
+544	Shan	shan1277	Kra–Dai	Tai	35
+125	Karakhanid Uighur	uigh1240	Altaic	Turkic	34
+288	Hawaiian	hawa1245	Austronesian	Malayo-Polynesian	34
+70	Itelmen	itel1242	Chukotko-Kamchatkan	Kamchatkan	33
+143	Uzbek	uzbe1247	Altaic	Turkic	33
+81	Kui (India)	kuii1252	Dravidian	South-Central Dravidian	32
+840	Luxembourgish	luxe1241	Indo-European	Germanic	32
+44	Medieval Latin	medi1250	Indo-European	Italic	31
+147	Old High German	stan1295	Indo-European	Germanic	31
+202	Malayalam	mala1464	Dravidian	Southern Dravidian	31
+228	Gothic	goth1244	Indo-European	Germanic	31
+328	Brahui	brah1256	Dravidian	Northern Dravidian	31
+113	Kurdish	kurd1259	Indo-European	Indo-Iranian	30
+133	Modern Hebrew	hebr1245	Afro-Asiatic	West Semitic	30
+152	Kildin Saami	kild1236	Uralic	Sami	30
+215	Yir Yoront	yiry1245	Pama–Nyungan	Paman	29
+249	Manchu	manc1252	Altaic	Manchu-Tungusic	29
+579	Ilocano	ilok1237	Austronesian	Malayo-Polynesian	29
+128	Lak	lakk1252	Northeast Caucasian	Lak	28
+131	Arabic	stan1318	Afro-Asiatic	West Semitic	28
+212	Kumyk	kumy1244	Altaic	Turkic	28
+365	Maranao	mara1404	Austronesian	Malayo-Polynesian	28
+6	Middle English	midd1317	Indo-European	Germanic	27
+9	Lower Sorbian	lowe1385	Indo-European	Slavic	27
+223	Nanai	nana1257	Altaic	Manchu-Tungusic	27
+231	Khakas	khak1248	Altaic	Turkic	26
+379	Jewish Aramaic	nort3242	Afro-Asiatic	West Semitic	26
+28	Nahuatl	azte1234	Uto-Aztecan	Southern Uto-Aztecan	25
+115	Turkmen	turk1304	Altaic	Turkic	25
+186	Uighur	uigh1240	Altaic	Turkic	25
+154	Bagvalal	bagv1239	Northeast Caucasian	Avar–Andic	24
+156	Serbo-Croatian	sout1528	Indo-European	Slavic	24
+162	Chamalal	cham1309	Northeast Caucasian	Avar–Andic	24
+189	Tajiki	taji1245	Indo-European	Indo-Iranian	24
+572	Guarani	para1311	Tupian	Tupi–Guarani	24
+108	Archi	arch1244	Northeast Caucasian	Lezgic	23
+372	Malagasy	plat1254	Austronesian	Malayo-Polynesian	23
+842	Bengali	beng1280	Indo-European	Indo-Iranian	23
+87	Tahitian	tahi1242	Austronesian	Malayo-Polynesian	22
+177	Pashto	pash1269	Indo-European	Indo-Iranian	22
+611	Otomi	otom1300	Oto-Manguean	Oto-Pamean	22
+863	Scottish Gaelic	scot1245	Indo-European	Celtic	22
+1185	Assamese	assa1263	Indo-European	Indo-Iranian	22
+1303	Doromu-Koki	doro1266	Trans–New Guinea	Manubaran	22
+172	Bezhta	bezh1248	Northeast Caucasian	Tsezic	21
+501	Wintu	nucl1651	Wintuan	Northern Wintuan	21
+1438	Ojibwe	ojib1241	Algic	Algonquian	21
+62	Quechua	cusc1236	Quechuan	Quechua II	20
+317	Chechen	chec1245	Northeast Caucasian	Nakh	20
+624	Marathi	mara1378	Indo-European	Indo-Iranian	20
+1067	New Latin	lati1261	Indo-European	Italic	20
+14	Batak Toba	bata1289	Austronesian	Malayo-Polynesian	19
+31	Abkhaz	abkh1244	Northwest Caucasian	Abazgi	19
+145	Karata	kara1474	Northeast Caucasian	Avar–Andic	19
+182	Mansi	mans1269	Uralic	Ugric	19
+325	Oromo	nucl1701	Afro-Asiatic	Cushitic	19
+343	Hup	hupd1244	Naduhup	Hup	19
+397	Tver Karelian	tver1240	Uralic	Finno-Ugric	19
+558	White Hmong (Hmong Daw)	hmon1333	Hmong–Mien	Hmongic	19
+693	Punjabi	panj1256	Indo-European	Indo-Iranian	19
+845	Cham	east2563	Austronesian	Malayo-Polynesian	19
+83	Tzotzil	tzot1259	Mayan	Cholan–Tzeltalan	18
+92	Faroese	faro1244	Indo-European	Germanic	18
+267	Avestan	aves1237	Indo-European	Indo-Iranian	18
+287	Alabama	alab1237	Muskogean	Eastern Muskogean	18
+314	Rapanui	rapa1244	Austronesian	Malayo-Polynesian	18
+337	Cebuano	cebu1242	Austronesian	Malayo-Polynesian	18
+835	Afrikaans	afri1274	Indo-European	Germanic	18
+80	Occitan	occi1239	Indo-European	Romance	17
+235	Church Slavonic	chur1257	Indo-European	Slavic	17
+253	Nogai	noga1249	Altaic	Turkic	17
+605	Kaingang	kain1271	Macro-Jê	Jê	17
+1436	Nez Perce (Nimipuutímt)	nezp1238	Plateau Penutian	Sahaptian	17
+43	Niuean	niue1239	Austronesian	Malayo-Polynesian	16
+93	Cherokee	cher1273	Iroquoian	Southern Iroquoian	16
+364	Upper Sorbian	uppe1395	Indo-European	Slavic	16
+700	Shipibo-Conibo	ship1253	Panoan	Mainline Panoan	16
+747	Q'eqchi'	kekc1242	Mayan	Quichean–Mamean	16
+1192	West Frisian	west2354	Indo-European	Germanic	16
+1231	Aromanian	arom1237	Indo-European	Romance	16
+1445	Mairasi	nucl1594	Mairasi		16
+187	Karachay-Balkar	kara1465	Altaic	Turkic	15
+297	Ket	kett1243	Yeniseian	Northern Yeniseian	15
+529	Lakota	lako1247	Siouan	Western Siouan	15
+622	Gurindji	guri1247	Pama–Nyungan	Ngumpin–Yapa	15
+896	Manda (of India)	mand1413	Dravidian	South-Central Dravidian	15
+904	Pengo	peng1244	Dravidian	South-Central Dravidian	15
+1320	Ngardi	ngar1288	Pama–Nyungan	Ngumbin	15
+67	Khinalug	khin1240	Northeast Caucasian	Khinalug	14
+262	Shughni	shug1248	Indo-European	Indo-Iranian	14
+281	Takia	taki1248	Austronesian	Malayo-Polynesian	14
+360	Yoruba	yoru1245	Atlantic–Congo	Volta–Niger	14
+805	Skolt Sami	skol1241	Uralic	Sami	14
+820	Crimean Tatar	crim1257	Altaic	Turkic	14
+1340	Luiseño	luis1253	Uto-Aztecan	Northern Uto-Aztecan	14
+127	Old Turkic	oldt1247	Altaic	Turkic	13
+214	Dargwa (literary)	darg1241	Northeast Caucasian	Dargin	13
+230	Hittite	hitt1242	Indo-European	Anatolian	13
+411	Hopi	hopi1249	Uto-Aztecan	Northern Uto-Aztecan	13
+547	Yegha	kora1294	Trans–New Guinea	Binanderean	13
+694	Gawwada (Ale)	gaww1239	Afro-Asiatic	Cushitic	13
+897	Bosnian	bosn1245	Indo-European	Slavic	13
+1156	Southern Min (Min Nan)	minn1241	Sino-Tibetan	Sinitic	13
+41	Tolai (Kuanua)	kuan1248	Austronesian	Malayo-Polynesian	12
+366	Jewish Palestinian Aramaic	pale1261	Afro-Asiatic	West Semitic	12
+469	Telefol	tele1256	Trans–New Guinea	Central &amp; South New Guinea	12
+603	Marquesan	nort2845	Austronesian	Malayo-Polynesian	12
+617	Tongan	tong1325	Austronesian	Malayo-Polynesian	12
+821	Southern Altai	sout2694	Altaic	Turkic	12
+1147	Late Latin	late1252	Indo-European	Italic	12
+1201	Tlingit		Tlingit	tlin1245	12
+35	Romansh	roma1326	Indo-European	Romance	11
+37	Mehri	mehr1241	Afro-Asiatic	West Semitic	11
+59	Shor	shor1247	Altaic	Turkic	11
+69	Sumerian	sume1241	Sumerian		11
+95	Egyptian	egyp1246	Afro-Asiatic	Egyptian	11
+213	Khanty	khan1273	Uralic	Ugric	11
+284	Brazilian Portuguese	braz1246	Indo-European	Romance	11
+305	Ginukh	hinu1240	Northeast Caucasian	Tsezic	11
+350	Godoberi	ghod1238	Northeast Caucasian	Avar–Andic	11
+352	Samoan	samo1305	Austronesian	Malayo-Polynesian	11
+417	Aleut	aleu1260	Eskimo–Aleut	Aleut	11
+606	Eastern Wichí	wich1263	Matacoan	Wichí	11
+612	Seychellois Creole	sese1246	French-based creole		11
+614	Cofán	cofa1242	Cofán		11
+630	Khwarshi	khwa1239	Northeast Caucasian	Tsezic	11
+635	Kanuri	kanu1279	Saharan	Western Saharan	11
+653	Colorado (Tsafiki)	colo1256	Barbacoan	Southern Barbacoan	11
+909	Kawi (Old Javanese)	kawi1241	Austronesian	Malayo-Polynesian	11
+931	Wolio	woli1241	Austronesian	Malayo-Polynesian	11
+992	Rotuman	rotu1241	Austronesian	Malayo-Polynesian	11
+1245	Koasati	koas1236	Muskogean	Eastern Muskogean	11
+1297	Masai	masa1300	Saharan	Eastern Sudanic	11
+1308	Kombio	komb1272	Torricelli	Urim	11
+167	Karakalpak	kara1467	Altaic	Turkic	10
+192	Tindi	tind1238	Northeast Caucasian	Avar–Andic	10
+203	Tulu	tulu1258	Dravidian	Southern Dravidian	10
+240	Middle Persian (Pahlavi)	pahl1241	Indo-European	Indo-Iranian	10
+251	Ottoman Turkish	otto1234	Altaic	Turkic	10
+285	Paiwan	paiw1248	Austronesian	Paiwan	10
+295	Kashub	kash1274	Indo-European	Slavic	10
+320	Yaghnobi	yagn1238	Indo-European	Indo-Iranian	10
+349	Hunzib	hunz1247	Northeast Caucasian	Tsezic	10
+363	Lushai	lush1249	Sino-Tibetan	Kuki-Chin-Mizo	10
+409	Mwotlap	motl1237	Austronesian	Malayo-Polynesian	10
+421	Greenlandic Inuit	gree1280	Eskimo–Aleut	Eskimo	10
+525	Seri	seri1257	Hokan	Seri	10
+569	Kichwa	colo1257	Quechuan	Quechua II	10
+576	Buginese	bugi1244	Austronesian	Malayo-Polynesian	10
+602	Nepali	nepa1254	Indo-European	Indo-Iranian	10
+690	Akhvakh	akhv1239	Northeast Caucasian	Avar–Andic	10
+702	Tai Nuea (Dehong)	tain1252	Kra–Dai	Tai	10
+738	Yuwana (Hodï)	yuwa1244	Yuwana (Hodï)		10
+792	Kali'na (Carib)	gali1262	Cariban	Guianan Carib	10
+826	Gondi	nort3258	Dravidian	South-Central Dravidian	10
+914	Bikol	biko1240	Austronesian	Malayo-Polynesian	10
+1080	Makassarese	maka1311	Austronesian	Malayo-Polynesian	10
+1254	Livonian	livv1244	Uralic	Finno-Ugric	10
+1264	Mojave	moha1256	Yuman		10
+1448	Pela (Bolo)	pela1242	Sino-Tibetan	Tibeto-Burman	10
+3	Mikir	karb1241	Sino-Tibetan	Kuki-Chin–Naga	9
+10	Middle High German	stan1295	Indo-European	Germanic	9
+46	Tok Pisin	tokp1240	English-based creole		9
+64	Kapampangan	pamp1243	Austronesian	Malayo-Polynesian	9
+94	Old Sweden		Indo-European	Germanic	9
+107	Byzantine Greek	medi1251	Indo-European	Greek	9
+120	Kalmyk	kalm1243	Altaic	Mongolic	9
+188	Nenets	nene1249	Uralic	Samoyedic	9
+206	Pitjantjatjara	pitj1243	Pama–Nyungan	Wati	9
+266	Dari	dari1249	Indo-European	Indo-Iranian	9
+316	Choctaw	choc1276	Muskogean	Western Muskogean	9
+322	Classical Persian	midd1352	Indo-European	Indo-Iranian	9
+341	Yiddish	yidd1255	Indo-European	Germanic	9
+497	Chʼol	chol1282	Mayan	Cholan–Tzeltalan	9
+509	Ventureño	vent1242	Chumashan	Southern Chumashan	9
+545	Fijian	fiji1243	Austronesian	Malayo-Polynesian	9
+640	Rennellese	renn1242	Austronesian	Malayo-Polynesian	9
+825	Malto (Sauria Paharia, references do not distinguish from Kumarbhag Paharia)	saur1249	Dravidian	Northern Dravidian	9
+839	Ngadha	ngad1261	Austronesian	Malayo-Polynesian	9
+906	Iban	iban1264	Austronesian	Malayo-Polynesian	9
+1129	Tunebo (Uwa)	tune1260	Chibchan	Chibcha–Tunebo	9
+1283	Sursurunga	surs1246	Austronesian	Malayo-Polynesian	9
+1298	Dinka	dink1262	Saharan	Eastern Sudanic	9
+1304	Fataluku	fata1247	Trans–New Guinea	Timor–Alor–Pantar	9
+1311	Ambulas (Abelam)	ambu1247	Sepik	Middle Sepik	9
+1339	Ute	utee1244	Uto-Aztecan	Numic	9
+1441	Igbo	nucl1417	Niger–Congo	Atlantic–Congo	9
+1444	Narak	nara1264	Trans–New Guinea	Chimbu–Wahgi	9
+1531	Urdu	urdu1245	Indo-European	Indo-Iranian	9
+27	Kilivila	kili1267	Austronesian	Malayo-Polynesian	8
+29	Wolane	wola1253	Afro-Asiatic	Ethiosemitic	8
+34	Thao	thao1240	Austronesian	Western Plains Formosan	8
+72	Ilokano	ilok1237	Austronesian	Malayo-Polynesian	8
+88	Pangasinan	pang1290	Austronesian	Malayo-Polynesian	8
+98	Amis	amis1246	Austronesian	East Formosan	8
+170	Kabardian	kaba1278	Northwest Caucasian	Circassian	8
+193	Kryts	kryt1240	Northeast Caucasian	Lezgic	8
+205	Kâte	kate1253	Trans–New Guinea	Finisterre–Huon	8
+225	Oyrot	sout2694	Altaic	Turkic	8
+259	Jibbali	sheh1240	Afro-Asiatic	West Semitic	8
+321	Tsez	dido1241	Northeast Caucasian	Tsezic	8
+403	Yidiñ	yidi1250	Pama–Nyungan	Yidiñ	8
+436	Warlpiri	warl1254	Pama–Nyungan	Ngumpin–Yapa	8
+440	Ngarluma	ngar1287	Pama–Nyungan	Ngayarda	8
+460	West Kewa	west2599	Trans–New Guinea	Engan	8
+477	Kyaka	kyak1244	Engan	North Engan	8
+551	Grass Koiarj	gras1249	Trans–New Guinea	Koiarian	8
+571	Koreguaje	kore1283	Tucanoan	Koreguaje	8
+591	Kuvi	kuvi1243	Dravidian	South-Central Dravidian	8
+597	Saramaccan	sara1340	English–Portuguese-based creole		8
+615	Andi	andi1255	Northeast Caucasian	Avar–Andic	8
+636	Oroqen	oroq1238	Altaic	Manchu-Tungusic	8
+641	Nuguria	nuku1259	Austronesian	Malayo-Polynesian	8
+642	Takuu	taku1257	Austronesian	Malayo-Polynesian	8
+692	Budukh	budu1248	Northeast Caucasian	Lezgic	8
+703	Tai Lue	luuu1242	Kra–Dai	Tai	8
+757	Northern Sami	nort2671	Uralic	Sami	8
+822	Dolgan	dolg1241	Altaic	Turkic	8
+851	Tuamotu	tuam1242	Austronesian	Malayo-Polynesian	8
+857	Mangareva	mang1401	Austronesian	Malayo-Polynesian	8
+877	Soninke	soni1259	Mande	Western Mande	8
+895	Manx	manx1243	Indo-European	Celtic	8
+901	Parji	parj1243	Dravidian	Central Dravidian	8
+919	Bontok	bont1247	Austronesian	Malayo-Polynesian	8
+924	Kayan (of Borneo)	kaya1323	Austronesian	Malayo-Polynesian	8
+926	Sundanese	sund1251	Austronesian	Malayo-Polynesian	8
+929	Pamona (Bare’e)	pamo1252	Austronesian	Malayo-Polynesian	8
+937	Manggarai	mang1405	Austronesian	Malayo-Polynesian	8
+951	Classical Nahuatl		Uto-Aztecan	Nahuan	8
+1030	Old Georgian	oldg1234	Kartvelian	Karto-Zan	8
+1145	Gamo	gamo1243	Omotic	Ometo	8
+1190	Mingrelian	ming1252	Kartvelian	Karto-Zan	8
+1230	Low German	lowg1239	Indo-European	Germanic	8
+1238	Iron Ossetian	iron1242	Indo-European	Indo-Iranian	8
+1263	Cheyenne	chey1247	Algonquian		8
+1265	North Frisian	nort2626	Indo-European	Germanic	8
+1292	Tommo So	tomm1242	Niger–Congo	Dogon	8
+1309	Bariai	bari1286	Austronesian	Malayo-Polynesian	8
+1316	Gamilaraay	gami1243	Pama–Nyungan	Wiradhuric	8
+1337	Dakota	dako1258	Siouan	Western Siouan	8
+1389	Pali	pali1273	Indo-European	Indo-Iranian	8
+1439	Western Abenaki	west2630	Algic	Algonquian	8
+1559	Arabela	arab1268	Zaparoan	Arabela–Andoa	8
+19	Maya	maya1287	Mayan	???	7
+121	Old Uighur	oldu1238	Altaic	Turkic	7
+123	Chagatai	chag1247	Altaic	Turkic	7
+217	Gugu-yimidjir	gugu1255	Pama–Nyungan	Paman	7
+221	Tsakhur	tsak1249	Northeast Caucasian	Lezgic	7
+250	Negidal	negi1245	Altaic	Manchu-Tungusic	7
+374	Haddiya	hadi1240	Afro-Asiatic	Cushitic	7
+383	Orok	orok1265	Altaic	Manchu-Tungusic	7
+419	Dan	dann1241	Mande	Eastern Mande	7
+496	Yao (Iu Mien)	iumi1238	Hmong–Mien	Mienic	7
+621	Juhuri (Judeo-Tat)	jude1256	Indo-European	Indo-Iranian	7
+623	Mapudungun	mapu1245	Araucanian	Mapudungun	7
+643	Tikopia	tiko1237	Austronesian	Malayo-Polynesian	7
+648	Sirionó	siri1279	Tupian	Tupi–Guarani	7
+661	Karok	karo1304	Hokan	Karok	7
+662	Waorani	waor1240	Waorani		7
+759	Inari Sami	inar1241	Uralic	Sami	7
+833	Luobohe Miao	luop1235	Hmong–Mien	Hmongic	7
+853	Cook Islands Maori (Rarotongan)	raro1241	Austronesian	Malayo-Polynesian	7
+855	Nukuoro	nuku1260	Austronesian	Malayo-Polynesian	7
+902	Kolami	kola1242	Dravidian	Central Dravidian	7
+918	Kankanaey	kank1245	Austronesian	Malayo-Polynesian	7
+920	Itbayaten	itba1237	Austronesian	Malayo-Polynesian	7
+928	Sangir	nort2871	Austronesian	Malayo-Polynesian	7
+954	Arosi	aros1241	Austronesian	Malayo-Polynesian	7
+956	Pazeh	kulo1237	Austronesian	Northwest Formosan	7
+996	Northern Haida	haid1248	Haida		7
+1092	Ludic Karelian	ludi1246	Uralic	Finno-Ugric	7
+1151	Gela (Nggela)	gela1263	Austronesian	Malayo-Polynesian	7
+1186	Sinhalese	sinh1246	Indo-European	Indo-Iranian	7
+1221	Hakka Chinese	hakk1236	Sino-Tibetan	Sinitic	7
+1239	Digor Ossetian	digo1242	Indo-European	Indo-Iranian	7
+1277	Yedina (Buduma)	budu1265	Afro-Asiatic	Chadic	7
+1305	Bamu	bamu1257	Kiwaian	Bamu	7
+1334	Francisco León Zoque	fran1266	Mixe–Zoque	Zoquean	7
+1341	Shuar	shua1257	Chicham	Shuar	7
+1355	North Alaskan Inuit (Iñupiaq)	inup1234	Eskimo–Aleut	Eskimo	7
+1442	Kinyarwanda	kiny1244	Niger–Congo	Benue–Congo	7
+1452	Võro		Uralic	Finno-Ugric	7
+1530	Standard Zhuang		Kra-Dai	Tai	7
+1549	Asturian	astu1245	Indo-European	Romance	7
+11	Kott	kott1239	Yeniseian	Southern Yeniseian	6
+32	Djabugay	dyaa1242	Pama–Nyungan	Paman	6
+102	Buru	buru1303	Austronesian	Malayo-Polynesian	6
+199	Kukatja (Western Australia)	kuka1246	Pama–Nyungan	Wati	6
+241	Polabian	pola1255	Indo-European	Slavic	6
+271	Khaling	khal1275	Sino-Tibetan	Kiranti	6
+273	Palauan	pala1344	Austronesian	Malayo-Polynesian	6
+306	Motu	motu1246	Austronesian	Malayo-Polynesian	6
+313	Beja	beja1238	Afro-Asiatic	Cushitic	6
+398	Bamana	bamb1269	Mande	Western Mande	6
+519	Cocopa	coco1261	Yuman	Delta–Californian	6
+528	Winnebago	hoch1243	Siouan	Western Siouan	6
+542	Cornish	corn1251	Indo-European	Celtic	6
+573	Alutor	alut1245	Chukotko-Kamchatkan	Chukotkan	6
+592	Hani	hani1248	Sino-Tibetan	Lolo–Burmese	6
+604	Tuyuca	tuyu1244	Tucanoan	Eastern Tucanoan	6
+609	Mlabri	mlab1235	Austroasiatic	Khmuic	6
+610	Panare	enap1235	Cariban	Venezuelan Carib	6
+632	Bolyu (Paliu)	boly1239	Austroasiatic	Pakanic	6
+644	Tuvaluan	tuva1244	Austronesian	Malayo-Polynesian	6
+647	Puinave	puin1248	Puinave		6
+649	Zhuang-Longzhou (Central Tai)	deba1238	Kra–Dai	Tai	6
+665	Cia-Cia (Butonese)	ciac1237	Austronesian	Malayo-Polynesian	6
+686	Embera	embe1258	Chocoan	Embera	6
+688	Central Siberian Yupik	cent2128	Eskimo–Aleut	Eskimo	6
+699	Ese Ejja	esee1248	Tacanan	Ese Ejja	6
+742	Yaminahua	yami1255	Pano–Tacanan	Panoan	6
+786	Sanapaná	sana1298	Mascoian	Sanapaná	6
+900	Corsican	cors1241	Indo-European	Romance	6
+903	Gadaba (Kondekor- Mudhili)	mudh1235	Dravidian	Central Dravidian	6
+916	Casiguran Dumagat	casi1235	Austronesian	Malayo-Polynesian	6
+921	Isneg (Isnag)	isna1241	Austronesian	Malayo-Polynesian	6
+934	Karo Batak	bata1293	Austronesian	Malayo-Polynesian	6
+941	Rembong	remb1250	Austronesian	Malayo-Polynesian	6
+973	Mongondow	mong1342	Austronesian	Malayo-Polynesian	6
+976	Yaqay	yaqa1246	Trans–New Guinea	Fly River (Anim)	6
+1063	Jèrriais (Jersey Norman French)	jerr1238	Indo-European	Romance	6
+1110	Tucano	tuca1252	Tucanoan	Eastern Tucanoan	6
+1137	Abui	abui1241	Trans–New Guinea	Timor–Alor–Pantar	6
+1197	Wanman (Warnman)	wanm1242	Pama–Nyungan	Wati	6
+1251	Western Armenian	homs1234	Indo-European	Armenian	6
+1276	Sura (Mwaghavul)	mwag1236	Afro-Asiatic	Chadic	6
+1278	Manipuri (Meitei)	mani1292	Sino-Tibetan	Tibeto-Burman	6
+1289	Doyayo	doya1240	Niger–Congo	Atlantic–Congo	6
+1293	Koromfe	koro1298	Niger–Congo	Gur	6
+1295	So (Uganda)	sooo1256	Saharan	Kuliak	6
+1319	Western Desert language (Wati)	wati1241	Pama–Nyungan	Wati	6
+1331	Coatlan Mixe	coat1239	Mixe–Zoque	Mixean	6
+1348	Cabécar	cabe1245	Chibchan	Core-Chibchan	6
+1437	Crow	crow1244	Siouan	Western Siouan	6
+1449	Chinook Jargon	chin1272	Chinookan-based creol		6
+1451	Ingrian	ingr1248	Uralic	Finno-Ugric	6
+1522	Sranan Tongo	sran1240	English-based creole		6
+1567	Ik (Icetot)	ikkk1242	Nilo-Saharan	Kuliak	6
+1640	Khoekhoe	khoe1242	Khoe-Kwadi	Khoisan	6
+17	Chirag Dargwa	chir1284	Northeast Caucasian	Dargin	5
+22	Mandaic	nucl1706	Afro-Asiatic	Central Semitic	5
+55	Sogdian	sogd1245	Indo-European	Indo-Iranian	5
+79	Lushei (Mizo)	lush1249	Sino-Tibetan	Kuki-Chin-Mizo	5
+89	Maltese	malt1254	Afro-Asiatic	West Semitic	5
+132	Old Prussian	prus1238	Indo-European	Baltic	5
+265	Yazghulami	yazg1240	Indo-European	Indo-Iranian	5
+289	Ulchi	ulch1241	Altaic	Manchu-Tungusic	5
+309	Balochi	east2304	Indo-European	Indo-Iranian	5
+318	Wik-Mungkan	wikm1247	Pama–Nyungan	Paman	5
+394	Ingria Finnish	sout1743	Uralic	Finno-Ugric	5
+410	Djinang	djin1253	Pama–Nyungan	Yolngu Matha	5
+412	Northern Sotho	nort3233	Atlantic–Congo	Benue–Congo	5
+437	Wubuy (Nunggubuyu)	nung1290	Macro-Gunwinyguan	East Arnhem	5
+508	Barbareño	barb1263	Chumashan	Southern Chumashan	5
+526	Highland Oaxaca Chontal	high1242	Hokan	Tequistlatecan	5
+570	Central Bolivian Quechua	sout2991	Quechuan	Quechua II	5
+613	Angami	anga1288	Sino-Tibetan	Angami–Pochuri	5
+619	Chácobo	chac1251	Panoan	Mainline Panoan	5
+627	Nung (Tai)	nung1283	Kra–Dai	Tai	5
+652	Phong	phon1246	Austroasiatic	Vietic	5
+655	Mbunga	mbun1248	Atlantic–Congo	Benue–Congo	5
+663	Ayoreo	ayor1240	Zamucoan	Ayoreo	5
+678	Sui	suii1243	Kra–Dai	Kam–Sui	5
+689	Itonama	iton1250	Itonama		5
+695	Iraqw	iraq1241	Afro-Asiatic	Cushitic	5
+696	Paez	paez1247	Paez		5
+705	Hlai (Baoting)	nucl1241	Kra–Dai	Hlai	5
+739	Yagua	yagu1244	Peba–Yaguan	Yagua	5
+741	Catuquina (Kanamarí)	kana1291	Harákmbut–Katukinan	Katukinian	5
+750	Ninam	nina1238	Yanomaman	Ninam	5
+795	Alorese	alor1247	Austronesian	Malayo-Polynesian	5
+818	Votic	voti1245	Uralic	Finno-Ugric	5
+837	Scots	scot1243	Indo-European	Germanic	5
+868	Nyangumarta	nyan1303	Pama–Nyungan	Marrngu	5
+872	Mandinka	mand1436	Mande	Western Mande	5
+908	Kambera	kamb1299	Austronesian	Malayo-Polynesian	5
+915	Ibaloy	ibal1244	Austronesian	Malayo-Polynesian	5
+917	Ifugaw	ifug1247	Austronesian	Malayo-Polynesian	5
+922	Yami	yami1254	Austronesian	Malayo-Polynesian	5
+935	Puyuma	puyu1239	Austronesian	Puyuma	5
+939	Ngaju Dayak	ngaj1237	Austronesian	Malayo-Polynesian	5
+945	Chibcha (Muisca)	chib1270	Chibchan	Kuna-Colombian	5
+946	Simeulue (Simalur)	sime1241	Austronesian	Malayo-Polynesian	5
+960	Aklanon	akla1240	Austronesian	Malayo-Polynesian	5
+963	Bughotu (Bugotu)	bugh1239	Austronesian	Malayo-Polynesian	5
+965	Hawu (Sabu)	sabu1255	Austronesian	Malayo-Polynesian	5
+966	Tetum (Tetun)	tetu1245	Austronesian	Malayo-Polynesian	5
+994	Lengua (Enlhet)	nort2971	Mascoian	Lengua	5
+1029	Gorontalo	goro1259	Austronesian	Malayo-Polynesian	5
+1069	Yucatec Maya	yuca1254	Mayan	Yucatecan	5
+1074	Ignaciano	moxo1234	Arawakan	Southern Arawakan	5
+1094	Old Polish	oldp1256	Indo-European	Slavic	5
+1116	Barasana	bara1380	Tucanoan	Eastern Tucanoan	5
+1128	Wanano (Guanano, Piratapuyo)	wana1272	Tucanoan	Eastern Tucanoan	5
+1193	Inkhokvari	inxo1238	Northeast Caucasian	Tsezic	5
+1212	Aymara	nucl1667	Aymaran	Aymara	5
+1215	Tehuelche	tehu1242	Chonan	Chon proper	5
+1244	Chickasaw	chic1270	Muskogean	Western Muskogean	5
+1262	Afar		Cushitic	afar1241	5
+1291	Gbaya	gbay1279	Niger–Congo	Volta-Congo	5
+1302	ǃKhong (ǃXóõ, Taa )		Khoisan	Tuu	5
+1306	Wantoat	want1252	Trans–New Guinea	Finisterre–Huon	5
+1317	Diyari	dier1241	Pama–Nyungan	Karnic	5
+1330	Totontepec Mixe	toto1305	Mixe–Zoque	Mixean	5
+1338	Coast Tsimshian (Shm’algyack)	coas1300	Tsimshianic	Maritime Tsimshian	5
+1440	Ga	gaaa1244	Niger–Congo	Atlantic–Congo	5
+1489	Yugambeh (Tweed-Albert Bandjalang)	twee1234	Pama–Nyungan	Bandjalangic	5
+1575	Pacoh	paco1243	Austroasiatic	Katuic	5
+1596	Sindhi	sind1272	Indo-European	Indo-Iranian	5
+1687	Ubykh	ubyk1235	Northwest Caucasian	Ubykh	5
+25	Kayardild	kaya1319	Tangkic	Kayardild	4
+33	Zotung	zotu1235	Sino-Tibetan	Kuki-Chin	4
+53	Sabaic	saba1279	Afro-Asiatic	West Semitic	4
+54	Komi-Permyak	komi1269	Uralic	Permic	4
+65	Argobba	argo1244	Afro-Asiatic	Ethiosemitic	4
+74	Sardinian	sard1257	Indo-European	Romance	4
+104	Chang	chan1313	Sino-Tibetan	Brahmaputran	4
+227	Old Persian	oldp1254	Indo-European	Indo-Iranian	4
+315	Oroch	oroc1248	Altaic	Manchu-Tungusic	4
+327	Wakhi	wakh1245	Indo-European	Indo-Iranian	4
+332	Tocharian A	tokh1241	Indo-European	Tocharian	4
+334	Acehnese	achi1257	Austronesian	Malayo-Polynesian	4
+335	Zway	zayy1238	Afro-Asiatic	Ethiosemitic	4
+388	Tangut	tang1334	Sino-Tibetan	Qiangic	4
+426	Yupik	yupi1267	Eskimo–Aleut	Eskimo	4
+431	Kunwinjku	guma1252	Arnhem	Gunwinyguan	4
+432	Bandjalangic	band1339	Pama–Nyungan	Southeastern Pama–Nyungan	4
+434	Aranda	aran1263	Pama–Nyungan	Arandic	4
+442	Warumungu	waru1265	Pama–Nyungan	Desert Nyungic	4
+447	Forest Nenets	fore1266	Uralic	Samoyedic	4
+451	Cuicatec	cuic1234	Oto-Manguean	Mixtecan	4
+465	Kobon	kobo1249	Trans–New Guinea	Madang	4
+507	Ineseño	ines1240	Chumashan	Southern Chumashan	4
+513	Kawaiisu	kawa1283	Uto-Aztecan	Numic	4
+566	Wayuu (Guajiro)	wayu1243	Arawakan	Northern Arawakan	4
+585	Kwakw’ala	kwak1269	Wakashan	Northern Wakashan	4
+601	Meriam (Eastern Torres Strait)	meri1244	Trans-Fly	Eastern Trans-Fly	4
+616	Polci	nyam1284	Afro-Asiatic	Chadic	4
+618	Waurá	waur1244	Arawakan	Southern Arawakan	4
+620	Maonan	maon1241	Kra–Dai	Kam–Sui	4
+638	Yangliu	yang1304	Sino-Tibetan	Lolo–Burmese	4
+645	West Futuna (Futuna-Aniwa)	futu1245	Austronesian	Malayo-Polynesian	4
+654	Mambwe	mamb1296	Atlantic–Congo	Benue–Congo	4
+656	Suba	suba1252	Atlantic–Congo	Benue–Congo	4
+664	Bulang (Blang)	blan1242	Austroasiatic	Khasi–Palaungic	4
+698	Siona	sion1247	Tucanoan	Western Tucanoan	4
+701	Uncunwee (Ghulfan)	ghul1238	Eastern Sudanic	Astaboran	4
+708	Kemie	kemi1240	Austroasiatic	Khasi–Palaungic	4
+743	Mocoví	moco1246	Guaicuruan	Southern Guaicuruan	4
+745	Buyang	buya1244	Kra–Dai	Kra	4
+746	Surin Khmer (Northern Khmer)	nort2684	Austroasiatic	Khmeric	4
+755	Chong	chon1284	Austroasiatic	Pearic	4
+761	Nivaclé	niva1238	Matacoan	Nivaclé	4
+794	Aché	ache1246	Tupian	Tupi–Guarani	4
+801	Kumbewaha	kumb1274	Austronesian	Malayo-Polynesian	4
+836	Friulian	friu1240	Indo-European	Romance	4
+849	Penrhyn	penr1237	Austronesian	Malayo-Polynesian	4
+850	Vaeakau-Taumako (Pileni)	pile1238	Austronesian	Malayo-Polynesian	4
+852	Sikaiana	sika1261	Austronesian	Malayo-Polynesian	4
+856	Rakahanga-Manihiki	raka1237	Austronesian	Malayo-Polynesian	4
+858	Kapingamarangi	kapi1249	Austronesian	Malayo-Polynesian	4
+859	Tokelau	toke1240	Austronesian	Malayo-Polynesian	4
+864	Khalaj	turk1303	Altaic	Turkic	4
+866	Salar	sala1264	Altaic	Turkic	4
+875	Vai	vaii1241	Mande	Western Mande	4
+887	Southern Bobo Mandaré	bobo1253	Mande	Western Mande	4
+905	Bunun	bunu1267	Austronesian	Bunun	4
+910	Tboli	tbol1240	Austronesian	Malayo-Polynesian	4
+911	Mapun (Bajaw)	born1254	Austronesian	Malayo-Polynesian	4
+913	Hanunoo	hano1241	Austronesian	Malayo-Polynesian	4
+927	Sasak	sasa1249	Austronesian	Malayo-Polynesian	4
+932	Luang (Wetan)	luan1263	Austronesian	Malayo-Polynesian	4
+933	Kei	keii1239	Austronesian	Malayo-Polynesian	4
+940	Nias	nias1242	Austronesian	Malayo-Polynesian	4
+942	Dairi-Pakpak Batak	bata1294	Austronesian	Malayo-Polynesian	4
+955	Saisiyat	sais1237	Austronesian	Northwest Formosan	4
+967	Kadazan Dusun	cent2100	Austronesian	Malayo-Polynesian	4
+989	Yaruro (Pumé)	pume1238	Yaruro		4
+990	Chiriguano (Eastern Bolivian Guaraní)	chir1295	Tupian	Tupi–Guarani	4
+1012	Ngoreme (Ngurimi)	ngur1263	Atlantic–Congo	Benue–Congo	4
+1014	Tarifit Berber	tari1263	Afro-Asiatic	Berber	4
+1019	Madurese	madu1247	Austronesian	Malayo-Polynesian	4
+1037	Alekano	alek1238	Trans–New Guinea	Kainantu–Goroka	4
+1039	Baruya (Yipma)	baru1267	Trans–New Guinea	Angan	4
+1072	Lacandon	laca1243	Mayan	Yucatecan	4
+1099	Thalanyji	dhal1245	Pama–Nyungan	Kanyara–Mantharta	4
+1103	Sika	sika1262	Austronesian	Malayo-Polynesian	4
+1109	Witoto Mi̵ni̵ca	mini1256	Bora–Witoto	Witoto–Ocaina	4
+1118	Reta (Retta)	rett1240	Trans–New Guinea	Timor–Alor–Pantar	4
+1130	Sierra Puebla Nahuatl (Sierra de Zacapoaxtla)	high1278	Uto-Aztecan	Nahuan	4
+1209	Epena (Eperara)	epen1239	Chocoan	Emberá	4
+1225	Lule Sami	lule1254	Uralic	Sámi	4
+1252	Levantine Arabic	leva1239	Afro-Asiatic	West Semitic	4
+1253	Kawésqar (Qawasqar, Alacaluf)	qawa1238	Alacalufan	Kawésqar	4
+1287	Luganda	gand1255	Niger–Congo	Benue–Congo	4
+1290	Tem (Kotokoli)	temm1241	Niger–Congo	Gur	4
+1296	Bagirmi	bagi1246	Saharan	Central Sudanic	4
+1318	Paakantyi (Darling language)	darl1243	Pama–Nyungan	Yarli–Baagandji	4
+1329	Guahibo (Sikuaani)	guah1254	Guahiban	Guahibo	4
+1335	Cubeo	cube1242	Tucanoan	Central Tucanoan	4
+1336	Matsés (Mayoruna)	mats1244	Panoan	Mayoruna	4
+1343	Xavante	xava1240	Macro-Jê	Jê	4
+1354	Guayabero	guay1257	Guajiboan	Southwest Guajiboan	4
+1433	Achuar	achu1248	Chicham (Jivaroan)	Achuar	4
+1450	Highland Chinantec	chin1488	Oto-Mangue	Western Oto-Mangue	4
+1456	Sicilian	sici1248	Indo-European	Romance	4
+1461	Limburgish	limb1263	Indo-European	Germanic	4
+1509	Lakalai	laka1255	Austronesian	Malayo-Polynesian	4
+1534	Wu Chinese	wuch1236	Sino-Tibetan	Sinitic	4
+1548	Muinane	muin1242	Bora–Witoto	Boran	4
+1551	Teochew (Chaozhou)	chao1238	Sino-Tibetan	Sinitic	4
+1556	Khowar	khow1242	Indo-European	Indo-Iranian	4
+1557	Kashmiri	kash1277	Indo-European	Indo-Iranian	4
+1560	Texistepec	texi1237	Mixe–Zoquean	Zoquean	4
+1562	Eyak	eyak1241	Na-Dene	Athabaskan–Eyak	4
+1564	Yele (Rossel)	yele1255	Yele – West New Britain	Yele	4
+1577	Akha	akha1245	Sino-Tibetan	Lolo-Burmese	4
+1611	Bora	bora1263	Boran	Bora	4
+1686	Ordos	ordo1245	Altaic	Mongolic	4
+4	Kodagu	koda1255	Dravidian	South Dravidian	3
+13	Uma	umaa1242	Austronesian	Malayo-Polynesian	3
+23	Tamang	tama1367	Sino-Tibetan	Tamangic	3
+42	Yugh	yugh1239	Yeniseian	Northern Yeniseian	3
+47	Selti	silt1240	Afro-Asiatic	Ethiosemitic	3
+56	Gedeo	gede1246	Afro-Asiatic	Cushitic	3
+58	Lango	lang1322	Eastern Sudanic	Nilotic	3
+63	Siraya	sira1267	Austronesian	East Formosan	3
+75	Talysh	taly1247	Indo-European	Indo-Iranian	3
+103	Kankanabu	kana1286	Austronesian	Tsouic	3
+150	Middle Mongolian	midd1351	Altaic	Mongolic	3
+216	Gugu-Yalanji	kuku1273	Pama–Nyungan	Paman	3
+264	Khwaresmian	khwa1238	Indo-European	Indo-Iranian	3
+275	Assyrian Neo-Aramaic	assy1241	Afro-Asiatic	Central Semitic	3
+291	Kuuk-Thaayorre (Thayore)	thay1249	Pama–Nyungan	Paman	3
+302	Khumi	khum1248	Sino-Tibetan	Kuki-Chin-Mizo	3
+319	Endegany	inor1238	Afro-Asiatic	Ethiosemitic	3
+338	Muher	seba1251	Afro-Asiatic	Ethiosemitic	3
+347	Harari	hara1271	Afro-Asiatic	Ethiosemitic	3
+367	Ponapean (Pohnpeian)	pohn1238	Austronesian	Malayo-Polynesian	3
+368	Hupa	hupa1239	Na-Dené	Athabaskan	3
+369	Kwamera	kwam1252	Austronesian	Malayo-Polynesian	3
+370	Old Czech	czec1258	Indo-European	Slavic	3
+377	Kiribati	gilb1244	Austronesian	Malayo-Polynesian	3
+385	Laz	lazz1240	Kartvelian	Karto-Zan	3
+386	Manang	mana1290	Sino-Tibetan	Manang	3
+387	Marshallese	mars1254	Austronesian	Malayo-Polynesian	3
+402	Walmajarri	walm1241	Pama–Nyungan	Ngumpin–Yapa	3
+407	Ngalakgan	ngal1293	Arnhem	Gunwinyguan	3
+423	Eastern Canadian Inuktitut	east2534	Eskimo–Aleut	Eskimo	3
+425	Pintupi-Luritja	pint1250	Pama–Nyungan	Wati	3
+427	Wagaya	waga1260	Pama–Nyungan	Ngarna	3
+466	Sau (Samberigi)	samb1321	Engan	South Engan	3
+475	Waskia	wask1241	Trans–New Guinea	Madang	3
+502	Wikchamni	wikc1234	Yok-Utian	Yokuts	3
+504	Lake Miwok	lake1258	Yok-Utian	Utian	3
+505	Maidu	nort2952	Maiduan	Maidu	3
+506	Central Hill Nisenan	nise1244	Maiduan	Nisenan	3
+511	Wappo	wapp1239	Yuki–Wappo	Wappo	3
+514	Kitanemuk	serr1255	Uto-Aztecan	Northern Uto-Aztecan	3
+517	Quechan	quec1382	Yuman	Core Yuman	3
+522	Ipai	ipai1240	Yuman	Core Yuman	3
+530	Yankton-Yanktonai	nako1239	Siouan	Western Siouan	3
+531	Santee-Sisseton	dako1259	Siouan	Western Siouan	3
+534	Konkow (Northwest Maidu)	nort2951	Maiduan	Konkow	3
+535	Serrano	serr1255	Uto-Aztecan	Northern Uto-Aztecan	3
+541	Tojolabal	tojo1241	Mayan	Qʼanjobalan–Chujean	3
+546	Orokaiva	orok1269	Trans–New Guinea	Binanderean	3
+549	Barai	nucl1630	Trans–New Guinea	Koiarian	3
+560	Seward Alaska Inupiatun	nort2945	Eskimo–Aleut	Eskimo	3
+562	Rek (Southwestern Dinka)	rekk1238	Eastern Sudanic	Nilotic	3
+565	Chippewa (Minnesota Ojibwe)	chip1241	Algic	Algonquian	3
+568	Ixil	ixil1251	Mayan	Eastern Mayan	3
+575	Alutiiq Alaskan Yupik	paci1278	Eskimo–Aleut	Eskimo	3
+577	Chavacano	chav1241	Spanish-based creole		3
+581	Maguindanao	magu1243	Austronesian	Malayo-Polynesian	3
+584	Nootka (Nuu-chah-nulth)	nuuc1236	Wakashan	Southern Wakashan	3
+595	Lingala	ling1263	Atlantic–Congo	Benue–Congo	3
+607	Cashibo	cash1251	Panoan	Mainline Panoan	3
+608	Maca	maca1260	Matacoan	Maca	3
+631	Wa	waaa1245	Austroasiatic	Khasi–Palaungic	3
+633	Lotha	loth1237	Sino-Tibetan	Lotha	3
+637	Mangdi	sout3210	Sino-Tibetan	Lolo–Burmese	3
+646	Pukapukan	puka1242	Austronesian	Malayo-Polynesian	3
+650	Manang (Manange, Nyishang)	mana1288	Sino-Tibetan	Manang	3
+659	Favorlang	favo1235	Austronesian	Western Plains Formosan	3
+675	Wetarese (Ili'uun)	weta1245	Austronesian	Malayo-Polynesian	3
+676	Teiwa	teiw1236	Trans–New Guinea	Timor–Alor–Pantar	3
+707	Khasi	khas1269	Austroasiatic	Khasi–Palaungic	3
+713	Chuka (Meru)	mwim1241	Atlantic–Congo	Benue–Congo	3
+715	Gusii	gusi1247	Atlantic–Congo	Benue–Congo	3
+716	Kwere	kwer1261	Atlantic–Congo	Benue–Congo	3
+719	Mwera	mwer1248	Atlantic–Congo	Benue–Congo	3
+723	Rundi	rund1242	Atlantic–Congo	Benue–Congo	3
+740	Cavineña	cavi1250	Pano–Tacanan	Tacanan	3
+744	Chorote (Iyo'wujwa Chorote)	iyow1239	Matacoan	Chorote	3
+752	Prai (Phai)	phai1238	Austroasiatic	Khmuic	3
+753	Cuoi (Thổ)	cuoi1242	Austroasiatic	Vietic	3
+756	Tai Khün	khun1259	Kra–Dai	Tai	3
+763	Ngaanyatjarra	ngaa1240	Pama–Nyungan	Wati	3
+764	Wathawurrung	wath1238	Pama–Nyungan	Kulinic	3
+769	Awa (New Guinea)	awap1236	Trans–New Guinea	Kainantu–Goroka	3
+774	Fore	fore1270	Trans–New Guinea	Kainantu–Goroka	3
+777	Inoke-Yate	inok1238	Trans–New Guinea	Kainantu–Goroka	3
+785	Yaweyuha	yawe1241	Trans–New Guinea	Kainantu–Goroka	3
+787	Lakkia	lakk1238	Kra–Dai	Lakkia	3
+806	Macushi	macu1259	Cariban	Venezuelan Carib	3
+814	North Alaskan Inupiatun	nort2943	Eskimo–Aleut	Eskimo	3
+815	Western Canadian Inuit	west2618	Eskimo–Aleut	Eskimo	3
+846	Kalam	kala1397	Trans–New Guinea	Madang	3
+847	Emae	emae1237	Austronesian	Malayo-Polynesian	3
+854	Rapa	rapa1245	Austronesian	Malayo-Polynesian	3
+876	Kakabe	kaka1265	Mande	Western Mande	3
+890	Juǀʼhoan (South-Eastern Ju, Zhuǀ'hoan)	juho1239	Khoisan	Kxʼa	3
+899	Old Tamil	oldt1248	Dravidian	Southern Dravidian	3
+923	Atayal	atay1247	Austronesian	Atayalic	3
+930	Mandar	mand1442	Austronesian	Malayo-Polynesian	3
+947	Bintulu	bint1246	Austronesian	Malayo-Polynesian	3
+962	Kavalan	kava1241	Austronesian	East Formosan	3
+971	Kenyah	main1275	Austronesian	Malayo-Polynesian	3
+974	Binukid (Bukid)	binu1244	Austronesian	Malayo-Polynesian	3
+985	Dedua	dedu1240	Trans–New Guinea	Finisterre–Huon	3
+1015	Lamboya	lamb1273	Austronesian	Malayo-Polynesian	3
+1020	Seediq	taro1264	Austronesian	Atayalic	3
+1025	Lau (Malaita island)	lauu1247	Austronesian	Malayo-Polynesian	3
+1031	Kalamian Tagbanwa	cala1258	Austronesian	Malayo-Polynesian	3
+1046	Mum	mumm1238	Trans–New Guinea	Madang	3
+1071	Mopan Maya	mopa1243	Mayan	Yucatecan	3
+1079	Kedang	keda1252	Austronesian	Malayo-Polynesian	3
+1082	Kelabit	kela1258	Austronesian	Malayo-Polynesian	3
+1084	Kwaio	kwai1243	Austronesian	Malayo-Polynesian	3
+1087	Berawan	bera1264	Austronesian	Malayo-Polynesian	3
+1095	Komodo	komo1261	Austronesian	Malayo-Polynesian	3
+1096	Gurdjar (Kurtjar)	ribg1235	Pama–Nyungan	Paman	3
+1100	Mantharta (Warriyangga)	mant1266	Pama–Nyungan	Kanyara–Mantharta	3
+1101	Trinitario	moxo1234	Arawakan	Southern Arawakan	3
+1108	Witoto Murui	muru1274	Bora–Witoto	Witoto–Ocaina	3
+1113	Resígaro	resi1247	Arawakan	Northern Arawakan	3
+1114	Nukak	kaku1242	Puinave-Maku	Northwestern Puinave-Maku	3
+1138	Adang	adan1252	Trans–New Guinea	Timor–Alor–Pantar	3
+1139	Bima (Austronesian)	bima1247	Austronesian	Malayo-Polynesian	3
+1140	Bunak	buna1278	Trans–New Guinea	Timor–Alor–Pantar	3
+1149	Ocaina	ocai1244	Bora–Huitoto	Huitoto–Ocaina	3
+1150	Yahgan (Yagán, Yámana)	yama1264	Yahgan		3
+1155	Meixian Hakka Chinese	yuet1238	Sino-Tibetan	Sinitic	3
+1168	Tae'	taee1237	Austronesian	Malayo-Polynesian	3
+1184	Western Yugur	west2402	Altaic	Turkic	3
+1194	Tocharian B	tokh1243	Indo-European	Tocharian	3
+1202	Western Pantar (Tubbe, Lamma)	lamm1241	Trans–New Guinea	Timor–Alor–Pantar	3
+1211	Yavitero (Paraene)	yavi1244	Arawakan	Northern Arawakan	3
+1228	Sizaki (Shashi)	siza1240	Atlantic–Congo	Benue–Congo	3
+1275	Uldeme (Ouldémé, Wuzlam)		Afro-Asiatic	Chadic	3
+1282	Nancowry	nanc1247	Austroasiatic	Nicobarese	3
+1284	Gedaged	geda1237	Austronesian	Malayo-Polynesian	3
+1286	Kusaal (Kusasi)	kusa1250	Niger–Congo	Atlantic–Congo	3
+1288	Shingazidja (Comorian)	como1260	Niger–Congo	Benue–Congo	3
+1332	Soteapanec (Sierra Popoluca)	high1276	Mixe–Zoque	Zoquean	3
+1333	Chiapas Zoque (Copainalá Zoque)	copa1236	Mixe–Zoque	Zoquean	3
+1342	Puelche (Gününa Küne)	puel1244	Chonan	Puelche–Het	3
+1353	Mapuche (Mapudungun)	mapu1245	Araucanian	Mapuche	3
+1362	Tapirapé (Apyãwa)	tapi1254	Tupian	Tupí–Guaraní	3
+1390	Anuta	anut1237	Austronesian	Malayo-Polynesian	3
+1393	Opuo (Opo)	opuu1239	Nilo-Saharan	Komuz	3
+1394	Komo (Nilo-Saharan)	komo1238	Nilo-Saharan	Komuz	3
+1406	Ekoka !Xung (North-Central Ju)	kung1261	Khoisan	Peripheral Khoisan	3
+1410	Mattole–Bear River	matt1238	Na-Dené	Athabaskan	3
+1412	Central Ahtena	ahte1237	Na-Dené	Athabaskan	3
+1413	Dogrib	dogr1252	Na-Dené	Athabaskan	3
+1414	North Slavey	nort2942	Na-Dené	Athabaskan	3
+1419	Koyukon	koyu1237	Na-Dené	Athabaskan	3
+1443	Bravanese (Chimwiini)	chim1312	Niger–Congo	Benue–Congo	3
+1460	Witoto Ni̵pode (Nüpode Huitoto)	nupo1240	Witotoan	Witoto	3
+1508	Bilba (Rotinese)	bilb1242	Austronesian	Malayo-Polynesian	3
+1523	Gulf Arabic	gulf1241	Afro-Asiatic	West Semitic	3
+1544	Yorta Yorta	yort1237	Pama–Nyungan	Yotayotic	3
+1563	Ekari (Kapauku)	ekar1243	Trans–New Guinea	West Trans–New Guinea	3
+1565	Gizzra	gizr1240	Trans-Fly	Eastern Trans-Fly	3
+1569	Ewe	ewee1241	Niger–Congo	Atlantic–Congo	3
+1576	Naxi	naxi1245	Sino-Tibetan	Lolo-Burmese	3
+1633	Kikuyu	kiku1240	Niger–Congo	Atlantic–Congo	3
+1653	Kurmanji Kurdish	nort2641	Indo-European	Indo-Iranian	3
+1660	Lepcha	lepc1244	Sino-Tibetan	Tibeto-Burman	3
+1681	Coeur d'Alene	coeu1236	Salishan	Interior Salish	3
+1717	Cheke Holo (Maringe)	chek1238	Austronesian	Malayo-Polynesian	3
+1	Svan	svan1243	Kartvelian	Svan	2
+5	Old Chinese	oldc1244	Sino-Tibetan	Sinitic	2
+8	Tha'oa		Sino-Tibetan	Maraic	2
+15	Paamese	paam1238	Austronesian	Malayo-Polynesian	2
+26	Gogot	sodd1242	Afro-Asiatic	Ethiosemitic	2
+50	Tsangla	tsha1245	Sino-Tibetan	Tibeto-Kanauri	2
+61	Timogon-Murut	timu1262	Austronesian	Malayo-Polynesian	2
+66	Bilin	bili1260	Afro-Asiatic	Cushitic	2
+68	Sulung	sulu1241	Sino-Tibetan	Kho-Bwa	2
+73	Arin	arin1243	Yeniseian	Arin–Pumpokol	2
+82	Mao	naga1397	Sino-Tibetan	Angami–Pochuri	2
+90	Kambata	kamb1316	Afro-Asiatic	Cushitic	2
+96	Luwian	luvi1235	Indo-European	Anatolian	2
+97	Kipchak	kipc1239	Altaic	Turkic	2
+101	Montenegrin	mont1282	Indo-European	Slavic	2
+106	Dangaleat	dang1274	Afro-Asiatic	Chadic	2
+191	Inxokvari	inxo1238	Northeast Caucasian	Tsezic	2
+254	Baonan	bona1250	Altaic	Mongolic	2
+268	Munji	munj1244	Indo-European	Indo-Iranian	2
+274	Old Tupian		Tupian	Tupí–Guarani	2
+283	Atakapa	atak1252	Atakapa		2
+292	Ennemor	inor1238	Afro-Asiatic	Ethiosemitic	2
+298	Sariqoli	sari1246	Indo-European	Indo-Iranian	2
+300	Nocte	noct1238	Sino-Tibetan	Brahmaputran	2
+301	Sawai	sawa1247	Austronesian	Malayo-Polynesian	2
+311	Megrelian	ming1252	Kartvelian	Karto-Zan	2
+336	Chepang	chep1245	Sino-Tibetan	Chepangic	2
+344	Kemant	qima1242	Afro-Asiatic	Cushitic	2
+346	Kuria	kuri1259	Atlantic–Congo	Benue–Congo	2
+354	Yidgha	yidg1240	Indo-European	Indo-Iranian	2
+358	Solon	solo1263	Altaic	Manchu-Tungusic	2
+359	Ormuri	ormu1247	Indo-European	Indo-Iranian	2
+361	Tangsa	tase1235	Sino-Tibetan	Brahmaputran	2
+373	Khotanese	khot1251	Indo-European	Indo-Iranian	2
+384	Idu	idum1241	Sino-Tibetan	Greater Siangic	2
+406	Alyawarr	alya1239	Pama–Nyungan	Arandic	2
+408	Wolof	nucl1347	Atlantic–Congo	Atlantic	2
+415	Kumak	kuma1276	Austronesian	Malayo-Polynesian	2
+416	Araki	arak1252	Austronesian	Malayo-Polynesian	2
+418	Sar (of Chad)	sarr1246	Central Sudanic	Bongo–Bagirmi	2
+424	Lardil	lard1243	Tangkic	Lardil	2
+428	Yawuru	yawu1244	Nyulnyulan	Eastern Nyulnyulan	2
+430	Ganggalida	gang1267	Tangkic	Yukulta	2
+438	Warluwara	warl1256	Pama–Nyungan	Ngarna	2
+448	Old Welsh	oldw1239	Indo-European	Celtic	2
+458	Duna	duna1248	Trans–New Guinea	Duna–Pogaya	2
+462	Daga	daga1275	Trans–New Guinea	Dagan	2
+467	Fasu	fasu1242	Trans–New Guinea	Kikorian	2
+473	Yenimu (South Awyu)	sout2941	Trans–New Guinea	Greater Awyu	2
+498	Tho (Tày)	tayy1238	Kra–Dai	Tai	2
+500	Molala	mola1238	Plateau Penutian	Molala	2
+510	Yuki	yuki1243	Yuki–Wappo	Yuki	2
+516	Maricopa	mari1440	Yuman	Core Yuman	2
+520	Ko’alh	kwat1246	Yuman	Core Yuman	2
+523	Kiliwa	kili1268	Yuman–Cochimí	Kiliwa	2
+524	Cochimi	coch1272	Yuman–Cochimí	Cochimi	2
+527	Lowland Oaxaca Chontal	lowl1260	Hokan	Tequistlatecan	2
+532	Skiri Pawnee	skir1238	Caddoan	Northern Caddoan	2
+533	Menominee	meno1252	Algic	Algonquian	2
+548	Gaina	gain1243	Trans–New Guinea	Binanderean	2
+552	Suena	suen1241	Trans–New Guinea	Binanderean	2
+555	Aeka	aeka1244	Trans–New Guinea	Binanderean	2
+561	Bube	bube1242	Atlantic–Congo	Benue–Congo	2
+563	Bor (Southeastern Dinka)	borr1242	Eastern Sudanic	Nilotic	2
+574	Kerek	kere1280	Chukotko-Kamchatkan	Chukotkan	2
+587	Oowekyala	oowe1239	Wakashan	Northern Wakashan	2
+588	Heiltsuk	bell1263	Wakashan	Northern Wakashan	2
+589	Haisla	hais1244	Wakashan	Northern Wakashan	2
+625	Lish	lish1235	Kho-Bwa	Lish	2
+628	Mulam	mula1253	Kra–Dai	Kam–Sui	2
+634	Tangkhul	tang1336	Sino-Tibetan	Tangkhulic	2
+660	Jingpho (Kachin)	jing1260	Sino-Tibetan	Sal	2
+666	Warembori	ware1253	Lower Mamberamo	Warembori	2
+677	Tii	tiii1241	Austronesian	Malayo-Polynesian	2
+687	Iduh (O’du)	oduu1239	Austroasiatic	Khmuic	2
+691	Tsudakhar Dargwa	cuda1238	Northeast Caucasian	Dargin	2
+697	Cayapa (Cha'palaa)	chac1249	Barbacoan	Southern Barbacoan	2
+704	Kam	kami1255	Kra–Dai	Kam–Sui	2
+709	Palaung	pala1336	Austroasiatic	Khasi–Palaungic	2
+711	Mang (Austroasiatic)	mang1378	Austroasiatic	Mangic	2
+712	Bungu	bung1265	Atlantic–Congo	Benue–Congo	2
+714	Fipa	fipa1238	Atlantic–Congo	Benue–Congo	2
+721	Nyamwezi	nyam1276	Atlantic–Congo	Benue–Congo	2
+722	Pangwa	pang1287	Atlantic–Congo	Benue–Congo	2
+728	Bauzi	bauz1241	East Geelvink Bay	Bauzi–Demisa	2
+729	Berik	beri1254	Foja Range	Orya–Tor	2
+730	Biritai	biri1259	Lakes Plain	Central Lakes Plain	2
+734	Orya	orya1242	Foja Range	Orya–Tor	2
+737	Zuni	zuni1245	Zuni		2
+748	Mamaindé (Northern Nambikwara)	nort3153	Nambikwaran	Mamaindé	2
+749	Kashinawa	cash1252	Pano–Tacanan	Panoan	2
+751	Gelao (Kelao)	gela1265	Kra–Dai	Kra	2
+758	Southern Sami	sout2674	Uralic	Sami	2
+765	Orejón	orej1242	Tucanoan	Western Tucanoan	2
+770	Awiyaana	awiy1238	Trans–New Guinea	Kainantu–Goroka	2
+771	Benabena	bena1264	Trans–New Guinea	Kainantu–Goroka	2
+772	Dano	dano1240	Trans–New Guinea	Kainantu–Goroka	2
+773	Folopa	folo1238	Trans–New Guinea	Teberan–Pawaian	2
+775	Gadsup	gads1258	Trans–New Guinea	Kainantu–Goroka	2
+776	Gimi	gimi1243	Trans–New Guinea	Kainantu–Goroka	2
+778	Kamano	kama1370	Trans–New Guinea	Kainantu–Goroka	2
+782	North Tairoa	nort2920	Trans–New Guinea	Kainantu–Goroka	2
+783	Tokano	toka1244	Trans–New Guinea	Kainantu–Goroka	2
+784	Yagaria	yaga1260	Trans–New Guinea	Kainantu–Goroka	2
+796	Dhao	dhao1237	Austronesian	Malayo-Polynesian	2
+797	Riffian (Tarifiyt)	tari1263	Afro-Asiatic	Berber	2
+798	Rongga	rong1269	Austronesian	Malayo-Polynesian	2
+799	Ndali	ndal1241	Atlantic–Congo	Benue–Congo	2
+802	Pancana	panc1247	Austronesian	Malayo-Polynesian	2
+803	Mongsen Ao	mong1332	Sino-Tibetan	Ao	2
+807	Bit (Pusing)	bitt1240	Austroasiatic	Khasi–Palaungic	2
+808	Fali Mucella	fali1285	Afro-Asiatic	Chadic	2
+810	Apulia-Calabrian Greek	apul1236	Indo-European	Greek	2
+813	Susu	susu1250	Mande	Western Mande	2
+816	Ogea	ogea1238	Trans–New Guinea	Madang	2
+819	Muskogee (Creek)	cree1270	Muskogean	Eastern Muskogean	2
+823	Chulym	chul1246	Altaic	Turkic	2
+824	Zazaki	zaza1246	Indo-European	Indo-Iranian	2
+828	Nimo	nimo1247	Arai–Samaia	Left May (Arai)	2
+831	Khams Tibetan	kham1299	Sino-Tibetan	Bodic	2
+834	Qiandong Miao (Hmu)	east2369	Hmong–Mien	Hmongic	2
+838	Wapishana	wapi1253	Arawakan	Northern Arawakan	2
+860	Raivavae	raiv1237	Austronesian	Malayo-Polynesian	2
+862	Anglo-Norman	angl1258	Indo-European	Romance	2
+865	Urum	urum1249	Altaic	Turkic	2
+867	Nukumanu	nuku1258	Austronesian	Malayo-Polynesian	2
+878	Kassonke (Khassonké)	xaas1235	Mande	Western Mande	2
+879	Maninka	mani1303	Mande	Western Mande	2
+886	Guro	guro1248	Mande	Eastern Mande	2
+893	Ma'di	madi1260	Central Sudanic	Moru–Madi	2
+907	Rejang	reja1240	Austronesian	Malayo-Polynesian	2
+912	Tiruray	tiru1241	Austronesian	Malayo-Polynesian	2
+938	Tausug	taus1251	Austronesian	Malayo-Polynesian	2
+943	Wariʼ (Orowari)	wari1268	Chapacuran	Wari	2
+948	Ida'an Begak	idaa1241	Austronesian	Malayo-Polynesian	2
+949	Mamanwa	mama1275	Austronesian	Malayo-Polynesian	2
+950	Chamorro	cham1312	Austronesian	Malayo-Polynesian	2
+953	Futunan	east2447	Austronesian	Malayo-Polynesian	2
+957	Remontado	remo1247	Austronesian	Malayo-Polynesian	2
+958	Romblomanon	romb1245	Austronesian	Malayo-Polynesian	2
+970	Buli (Indonesia)	buli1255	Austronesian	Malayo-Polynesian	2
+972	Wallisian (East Uvea)	wall1257	Austronesian	Malayo-Polynesian	2
+975	Blaan (Koronadal)		Austronesian	Malayo-Polynesian	2
+979	Som	somm1240	Trans–New Guinea	Finisterre–Huon	2
+991	Maca (Maká)	maca1260	Matacoan	Maká	2
+1004	Karekare (Karai-Karai)	kare1348	Afro-Asiatic	Chadic	2
+1006	Ngamo	ngam1282	Afro-Asiatic	Chadic	2
+1021	Saaroa	saar1237	Austronesian	Tsouic	2
+1022	Trukese (Chuukese)	chuu1238	Austronesian	Malayo-Polynesian	2
+1023	Tsou	tsou1248	Austronesian	Tsouic	2
+1024	Tukang Besi	tuka1247	Austronesian	Malayo-Polynesian	2
+1035	Yulparija	yulp1239	Pama–Nyungan	Wati	2
+1053	Uyajitaya (Duduela)	dudu1240	Trans–New Guinea	Madang	2
+1061	Araona	arao1248	Pano–Tacanan	Tacanan	2
+1064	West Uvea	west1216	Austronesian	Malayo-Polynesian	2
+1065	Cayuvava	cayu1262	Cayuvava		2
+1068	Wetarese (Erai)	weta1245	Austronesian	Malayo-Polynesian	2
+1070	Itza	itza1241	Mayan	Yucatecan	2
+1075	Toba Qom	toba1269	Guaicuruan	Southern Guaicuruan	2
+1077	Kamayurá	kama1373	Tupian	Tupi–Guarani	2
+1081	Klata (Giangan)	gian1241	Austronesian	Malayo-Polynesian	2
+1085	Mota	mota1237	Austronesian	Malayo-Polynesian	2
+1086	Batak Simalungun	bata1288	Austronesian	Malayo-Polynesian	2
+1089	Kosraean	kosr1238	Austronesian	Malayo-Polynesian	2
+1090	Gilbertese	gilb1244	Austronesian	Malayo-Polynesian	2
+1098	Burduna (Bayungu, Payungu)	bayu1249	Pama–Nyungan	Kanyara–Mantharta	2
+1117	Langja Buyang (E'ma Buyang)	emab1235	Tai-Kadai	Kadaic	2
+1119	Kambowa	kamb1300	Austronesian	Malayo-Polynesian	2
+1120	Lasalimu	lasa1237	Austronesian	Malayo-Polynesian	2
+1124	Awa (Awa Pit, Cuaiquer)	awac1239	Barbacoan	Awan	2
+1125	Carapana	cara1272	Tucanoan	Eastern Tucanoan	2
+1131	Zacatepec Chatino	zaca1242	Oto-Manguean	Zapotecan	2
+1134	Mashco Piro	mash1270	Arawakan	Southern Arawakan	2
+1136	Kirya-Konzəl (Fali Kiria)	kiry1234	Afro-Asiatic	Chadic	2
+1144	Idate (Idalaka )	east2733	Austronesian	Malayo-Polynesian	2
+1148	Chami Emberá	uppe1440	Chocoan	Emberá	2
+1157	Ceq Wong (Cheq Wong)	chew1245	Austroasiatic	Aslian	2
+1164	Western Bukidnon Manobo	west2555	Austronesian	Malayo-Polynesian	2
+1166	Sa'ban	saba1265	Austronesian	Malayo-Polynesian	2
+1170	Yamdena	yamd1240	Austronesian	Malayo-Polynesian	2
+1175	Asilulu	asil1242	Austronesian	Malayo-Polynesian	2
+1182	Sartang	sart1249	Sino-Tibetan	Kho-Bwa	2
+1183	Sherdukpen	sher1257	Sino-Tibetan	Kho-Bwa	2
+1188	Northern Bashkardi	bash1263	Indo-European	Indo-Iranian	2
+1196	Wardandi	nyun1247	Pama–Nyungan	Nyungic	2
+1199	Apali (Emerum)	apal1256	Trans–New Guinea	Madang	2
+1213	Chipaya	chip1262	Uru–Chipaya	Chipaya	2
+1214	Tsimané (Mosetén, Chimane)	mose1249	Moseten–Chonan	Chimane	2
+1216	Selknam (Ona)	onaa1245	Chonan	Chon proper	2
+1219	Gujarati	guja1252	Indo-European	Indo-Iranian	2
+1233	Tswana	tswa1253	Atlantic–Congo	Benue–Congo	2
+1234	Hiri Motu	hiri1237	Motu-based pidgin		2
+1237	She	shee1238	Hmong–Mien	Hmongic	2
+1240	Okinawan	cent2126	Altaic	Japonic	2
+1241	Middle Low German	midd1318	Indo-European	Germanic	2
+1250	Kolyma (Southern) Yukaghir	sout2750	Yukaghir		2
+1255	Dagur	daur1238	Altaic	Mongolic	2
+1259	Ugaritic	ugar1238	Semitic	Afro-Asiatic	2
+1260	Pilagá	pila1245	Guaicuruan	Southern Guaicuruan	2
+1280	Tshangla (Monpa Dirang)	tsha1247	Sino-Tibetan	Kanauri	2
+1307	Komnzo	komn1238	Yam	Tonda	2
+1310	Maybrat	mayb1239	Maybrat		2
+1322	Djambarrpuyngu	djam1256	Pama–Nyungan	Yolŋu	2
+1324	Turrbal (Turubul, Durubul)	yaga1256	Pama–Nyungan	Durubalic	2
+1344	Maxakalí	west2636	Macro-Jê	Maxakalian	2
+1346	Barí (Colombia)	bari1297	Chibchan	Chibcha–Motilon	2
+1359	Seneca	sene1264	Iroquoian	Northern Iroquoian	2
+1367	Daw	daww1239	Nadahup	Daw	2
+1373	Southeastern Pomo	sout2982	Pomoan	Southeastern Pomo	2
+1379	Mabaan (Southern Burun)	maba1272	Nilo-Saharan	Eastern Sudanic	2
+1380	Shilluk	shil1265	Nilo-Saharan	Eastern Sudanic	2
+1381	Anywa (Anuak)	anua1242	Nilo-Saharan	Eastern Sudanic	2
+1401	Chimariko	chim1301	Hokan	Chimariko	2
+1407	ǀXam	xamm1241	Khoisan	Peripheral Khoisan	2
+1408	ǀǀNg!ke	ngke1238	Khoisan	Peripheral Khoisan	2
+1415	Tanacross	tana1290	Na-Dené	Athabaskan	2
+1422	Mesa Grande 'Iipay	ipai1239	Hokan	Yuman	2
+1425	Cahuilla	cahu1264	Uto-Aztecan	Northern Uto-Aztecan	2
+1427	Western Shoshoni	west2622	Uto-Aztecan	Numic	2
+1434	Old Spanish	olds1249	Indo-European	Romance	2
+1446	Ngan'gi	nang1259	Southern Daly	Ngan&#39;gi	2
+1447	Naukan Siberian Yupik	nauk1242	Eskimo–Aleut	Eskimo	2
+1455	Cape Verdean Creole	kabu1256	Portuguese-based creole		2
+1470	Moroccan Arabic	moro1292	Afro-Asiatic	West Semitic	2
+1482	Santali	sant1410	Austroasiatic	Munda	2
+1490	Murrinh-patha	murr1258	Southern Daly	Murrinh-patha	2
+1500	Melanau (Mukah)	muka1237	Austronesian	Malayo-Polynesian	2
+1506	Banggai	bang1368	Austronesian	Malayo-Polynesian	2
+1510	Toʼabaita (Toqabaqita)	toab1237	Austronesian	Malayo-Polynesian	2
+1511	Wayan (Western Fijian)	west2519	Austronesian	Malayo-Polynesian	2
+1540	Gunya	guny1241	Pama–Nyungan	Maric	2
+1545	Chimila	chim1309	Chibchan	Arwako–Chimila	2
+1547	Lamaholot	lama1277	Austronesian	Malayo-Polynesian	2
+1550	Mòcheno	moch1255	Indo-European	Germanic	2
+1566	Sandawe	sand1273	Khoisan	Sandawe	2
+1568	Nandi	nand1266	Nilo-Saharan	Eastern Sudanic	2
+1574	Katu (Low Katu)	west2398	Austroasiatic	Katuic	2
+1578	Tal	tall1250	Afro-Asiatic	Chadic	2
+1579	Kabyle	kaby1243	Afro-Asiatic	Berber	2
+1584	Lisu	lisu1250	Sino-Tibetan	Lolo-Burmese	2
+1588	Swazi	swat1243	Niger–Congo	Atlantic–Congo	2
+1593	Nehan (Nissan)	neha1247	Austronesian	Malayo-Polynesian	2
+1595	Palana	pala1340	Chukotko-Kamchatkan	Chukotkan	2
+1597	Old Saxon	olds1250	Indo-European	Germanic	2
+1598	Coptic	copt1239	Afro-Asiatic	Egyptian	2
+1601	Magahi	maga1260	Indo-European	Indo-Iranian	2
+1602	Ushojo	usho1238	Indo-European	Indo-Iranian	2
+1607	Tutelo	tute1247	Siouan	Western Siouan	2
+1609	Kashubian	kash1274	Indo-European	Slavic	2
+1610	Middle Dutch		Indo-European	Germanic	2
+1616	Meruimenti	imen1238	Niger–Congo	Atlantic–Congo	2
+1622	Taos	nort1550	Tanoan	Tiwa	2
+1626	Nend	nend1239	Trans–New Guinea	Madang	2
+1627	Panyjima	pany1241	Pama–Nyungan	Ngayarda	2
+1630	Amarasi	amar1273	Austronesian	Malayo-Polynesian	2
+1635	Inanwatan (Suabo)	suab1238	Trans–New Guinea	Berau Gulf	2
+1637	Mirandese	mira1251	Indo-European	Romance	2
+1642	Doe	doee1238	Niger–Congo	Atlantic–Congo	2
+1652	Sorani Kurdish	cent1972	Indo-European	Indo-Iranian	2
+1662	Slovincian	slov1270	Indo-European	Slavic	2
+2	Gude	gude1246	Afro-Asiatic	Chadic	1
+12	Burji	burj1242	Afro-Asiatic	Cushitic	1
+16	Assan	assa1266	Yeniseian	Kott–Assan	1
+18	Phrygian	phry1239	Indo-European	Phrygian	1
+20	Mikasuki	mika1239	Muskogean	Eastern Muskogean	1
+21	Woleaian	wole1240	Austronesian	Malayo-Polynesian	1
+39	Postbiblical Hebrew		Afro-Asiatic	West Semitic	1
+40	Shawnee	shaw1249	Algic	Algonquian	1
+45	Ishkashmi	ishk1246	Indo-European	Indo-Iranian	1
+48	Dami (Marik)	mari1428	Austronesian	Malayo-Polynesian	1
+49	Old Japanese	oldj1239	Altaic	Japonic	1
+57	Newar	newa1246	Sino-Tibetan	Newaric	1
+77	Mekeo	meke1243	Austronesian	Malayo-Polynesian	1
+84	Old Udi	aghw1237	Northeast Caucasian	Lezgic	1
+91	Natchez	natc1249	Natchez		1
+99	North Junín Quechua	nort2980	Quechua	Quechua I	1
+100	Tangale	nucl1696	Afro-Asiatic	Chadic	1
+105	Harsusi	hars1241	Afro-Asiatic	West Semitic	1
+144	Moldavian	roma1327	Indo-European	Romance	1
+195	Old Lithuanian	oldl1240	Indo-European	Baltic	1
+196	Vampaya	wamb1258	Mirndi	Ngurlun	1
+197	Ngarinman	ngar1235	Pama–Nyungan	Ngumpin–Yapa	1
+198	Anmatjirra (Anmatyerre)	anma1239	Pama–Nyungan	Arandic	1
+200	Koyo (Republic of Congo)	koyo1242	Atlantic–Congo	Benue–Congo	1
+207	Yankunytjatjara	yank1247	Pama–Nyungan	Wati	1
+263	Parthian	part1239	Indo-European	Indo-Iranian	1
+269	Bunan	gahr1239	Sino-Tibetan	Tibeto-Kanauri	1
+270	Yuchi	yuch1247	Yuchi		1
+277	Icari Dargwa		Northeast Caucasian	Dargin	1
+278	Bahing	bahi1252	Sino-Tibetan	Kiranti	1
+279	Melpa	melp1238	Trans–New Guinea	Chimbu–Wahgi	1
+280	Huave	huav1256	Huave		1
+286	Kaulong	kaul1240	Austronesian	Malayo-Polynesian	1
+296	Garo	garo1247	Sino-Tibetan	Sal	1
+299	Konda (Papuan)	kond1303	Trans–New Guinea	Berau Gulf	1
+303	Ofo	ofoo1242	Siouan	Western Siouan	1
+310	Tequistlatec	tequ1245	Hokan	Tequistlatecan	1
+329	Endo	mark1255	Eastern Sudanic	Nilotic	1
+331	Mesqan	mesq1240	Afro-Asiatic	Ethiosemitic	1
+333	Munduruku	mund1330	Tupian	Munduruku	1
+342	Yucatec	yuca1254	Mayan	Yucatecan	1
+351	Nyawaygi	nyaw1247	Pama–Nyungan	Dyirbalic	1
+353	Tunika	tuni1252	Tunika		1
+356	Bokar	damu1236	Sino-Tibetan	Tani	1
+362	Scythian	oldo1234	Indo-European	Indo-Iranian	1
+376	Yabem	yabe1254	Austronesian	Malayo-Polynesian	1
+378	Kanauri	kanu1281	Sino-Tibetan	Tibeto-Kanauri	1
+381	Dogon	dogo1299	Dogon	Dogon	1
+389	Maung	maun1240	Iwaidjan	Iwaidjic	1
+391	test		None	None	1
+399	Semnani	semn1249	Indo-European	Indo-Iranian	1
+400	Kaurna	kaur1267	Pama–Nyungan	Thura-Yura	1
+401	Burarra	bura1267	Arnhem	Maningrida	1
+404	Gaagudju	gaga1251	Macro-Gunwinyguan	Gaagudju	1
+405	Ngarinyin	ngar1284	Worrorran	Ngarinyin	1
+413	Sotho	soth1252	Atlantic–Congo	Benue–Congo	1
+414	Makonde	mako1251	Atlantic–Congo	Benue–Congo	1
+422	Bodoe	bodo1270	Atlantic–Congo	Benue–Congo	1
+429	Bislama	bisl1239	English-based creole		1
+433	Palenquero	pale1260	Spanish-based creole		1
+435	Ngalkbun	ngal1292	Macro-Gunwinyguan	Gunwinyguan	1
+439	Suyá	suya1243	Macro-Jê	Jê	1
+441	Jaru	jaru1254	Pama–Nyungan	Ngumpin–Yapa	1
+444	Wemba Wemba	wemb1241	Pama–Nyungan	Kulinic	1
+445	Gurdjar	gurd1238	Pama–Nyungan	Paman	1
+446	Kung	kung1260	Atlantic–Congo	Benue–Congo	1
+449	Kyakhta Russian–Chinese Pidgin	kjac1234	Russian-based pidgin		1
+452	Bushong	bush1247	Atlantic–Congo	Benue–Congo	1
+453	Edo	bini1246	Atlantic–Congo	Benue–Congo	1
+454	Epie	epie1238	Atlantic–Congo	Volta–Niger	1
+455	Engenni	enge1239	Atlantic–Congo	Volta–Niger	1
+456	Dibabawon	east2478	Austronesian	Malayo-Polynesian	1
+457	Bunama	buna1276	Austronesian	Malayo-Polynesian	1
+459	Mendi (Angal)	anga1314	Trans–New Guinea	Engan	1
+461	Southern Kewa (Erave)	erav1244	Trans–New Guinea	Engan	1
+463	Sirva (Sileibi)	sile1255	Trans–New Guinea	Madang	1
+464	Bimin	bimi1240	Trans–New Guinea	Central &amp; South New Guinea	1
+468	Foe	foii1241	Trans–New Guinea	Kikorian	1
+470	Rumu (Kairi)	rumu1243	Trans–New Guinea	Turama–Kikorian	1
+471	Namia	nami1256	Sepik	Yellow River	1
+472	Shiaxa (Awyu)	awyu1264	Trans–New Guinea	Greater Awyu	1
+474	Mandobo	mand1473	Trans–New Guinea	Greater Awyu	1
+476	Barupu (Bauni, Warapu)	wara1302	Skou	Piore River	1
+478	Lembena	lemb1266	Trans–New Guinea	Engan	1
+479	Wambon (Digul, Ketum)	ketu1238	Trans–New Guinea	Greater Awyu	1
+480	Wambon (Yonggom)	wamb1259	Trans–New Guinea	Greater Awyu	1
+481	Guhu-Samane	guhu1244	Trans–New Guinea	Binanderean	1
+482	Mian	mian1255	Trans–New Guinea	Central &amp; South New Guinea	1
+483	Tifal	tifa1245	Trans–New Guinea	Central &amp; South New Guinea	1
+484	Oksapmin	oksa1245	Trans–New Guinea	Oksapmin	1
+486	Huli	huli1244	Trans–New Guinea	Engan	1
+487	Girramay (Dyirbal)	dyir1250	Pama–Nyungan	Eastern Pama–Nyungan	1
+488	Warrgamay	warr1255	Pama–Nyungan	Eastern Pama–Nyungan	1
+489	Matngele	madn1237	Eastern Daly	Matngele	1
+490	Wadjiginy	wadj1254	Wagaydyic	Wadjiginy	1
+491	Kuwema (Pungupungu, Kandjerramalh)	pung1239	Wagaydyic	Kandjerramalh	1
+492	Kungarakany	kung1259	Macro-Gunwinyguan	Kungarakany	1
+493	Marrgu	marg1251	Marrku–Wurrugu	Marrgu	1
+503	Palewyami	pale1254	Yok-Utian	Yokuts	1
+512	Tübatulabal	tuba1278	Uto-Aztecan	Tübatulabal	1
+515	Southeastern Tepehuan	sout2976	Uto-Aztecan	Southern Uto-Aztecan	1
+518	Paipai	paip1241	Yuman	Core Yuman	1
+521	Ja’a	kumi1248	Yuman	Core Yuman	1
+537	Dane-zaa (Beaver)	beav1236	Na-Dené	Athabaskan	1
+538	Slavey	slav1253	Na-Dené	Athabaskan	1
+539	Quiché	kich1262	Mayan	Quichean–Mamean	1
+540	Awakatek (Aguateco)	aqua1252	Mayan	Quichean–Mamean	1
+550	Mountain Koiarj	moun1252	Trans–New Guinea	Koiarian	1
+553	Kuot	kuot1243	Kuot		1
+554	Hunjara-Kaina Ke	hunj1241	Trans–New Guinea	Binanderean	1
+556	Luri	luri1252	Indo-European	Indo-Iranian	1
+557	Kaqchikel	kaqc1270	Mayan	Quichean–Mamean	1
+564	Soo		Kuliak	Soo	1
+567	Paumarí	paum1247	Arauan	Paumarí	1
+580	S'gaw Karen	sout1554	Sino-Tibetan	Karen	1
+586	Makah	maka1318	Wakashan	Southern Wakashan	1
+590	Koitabu	koit1244	Trans–New Guinea	Koiarian	1
+593	Angor	ango1254	Senagi	Angor	1
+594	Enindhilyagwa	anin1240	Gunwinyguan	Eastern Gunwinyguan	1
+596	Efik	efik1245	Atlantic–Congo	Benue–Congo	1
+598	Sora	sora1254	Austroasiatic	Munda	1
+599	Yanomamö	yano1261	Yanomam	Yanomamö	1
+626	Kajtak	kajt1238	Northeast Caucasian	Dargin	1
+639	Kerebe (Kerewe)	kere1283	Atlantic–Congo	Benue–Congo	1
+651	Sherpa	sher1255	Sino-Tibetan	Bodic	1
+657	Hruso	hrus1242	Hrusish	Hruso	1
+658	Kalamian	kala1389	Austronesian	Malayo-Polynesian	1
+667	Ainu	ainu1252	Ainu		1
+668	Kaman (Miju)	miju1243	Kaman		1
+669	Keoru-Ahia	keor1235	Trans–New Guinea	Eleman	1
+670	Bogaya (Pogaya)	boga1247	Trans–New Guinea	Duna–Pogaya	1
+671	Opao	opao1240	Trans–New Guinea	Eleman	1
+672	Orokolo	orok1267	Trans–New Guinea	Eleman	1
+673	Tairuma	tair1256	Trans–New Guinea	Eleman	1
+674	Tangko	tang1353	Trans–New Guinea	Central &amp; South New Guinea	1
+679	Arguni	argu1237	Austronesian	Malayo-Polynesian	1
+680	Dawera-Daweloor	dawe1237	Austronesian	Malayo-Polynesian	1
+681	Emplawas	empl1237	Austronesian	Malayo-Polynesian	1
+682	Geser-Gorom	gese1240	Austronesian	Malayo-Polynesian	1
+683	Karas (Kalamang)	kara1499	Trans–New Guinea	Berau Gulf	1
+684	North Babar	nort2860	Austronesian	Malayo-Polynesian	1
+685	Kamang (Woisika)	kama1365	Trans–New Guinea	Timor–Alor–Pantar	1
+710	Hu	huuu1240	Austroasiatic	Khasi–Palaungic	1
+717	Langi	lang1320	Atlantic–Congo	Benue–Congo	1
+718	Luhya	kabr1240	Atlantic–Congo	Benue–Congo	1
+720	Nyakyusa	nyak1260	Atlantic–Congo	Benue–Congo	1
+724	Sambaa (Shambaa)	sham1280	Atlantic–Congo	Benue–Congo	1
+725	Shubi	shub1238	Atlantic–Congo	Benue–Congo	1
+726	Wanji	vwan1235	Atlantic–Congo	Benue–Congo	1
+727	Zigua	zigu1244	Atlantic–Congo	Benue–Congo	1
+731	Eritai	erit1239	Lakes Plain	Central Lakes Plain	1
+732	Kaiy	kaiy1239	Lakes Plain	Central Lakes Plain	1
+733	Obokuitai	obok1239	Lakes Plain	Central Lakes Plain	1
+735	Sikaritai	sika1263	Lakes Plain	Central Lakes Plain	1
+736	Waritai	wari1264	Lakes Plain	Central Lakes Plain	1
+754	Nyakur	nyah1250	Austroasiatic	Monic	1
+760	Jaminjung	djam1255	Mirndi	Yirram	1
+762	Kariyarra	ngar1293	Pama–Nyungan	Ngayarda	1
+766	Kui (Indonesia)	kuii1253	Trans–New Guinea	Timor–Alor–Pantar	1
+767	Sawila	sawi1256	Trans–New Guinea	Timor–Alor–Pantar	1
+779	Keuw	kehu1238	Lakes Plain	Wapoga River	1
+780	Korowai	koro1312	Trans-New Guinea	Central West New Guinea	1
+781	Kuman (New Guinea)	kuma1280	Trans–New Guinea	Chimbu–Wahgi	1
+788	Marghi South (Hildi)	marg1266	Afro-Asiatic	Chadic	1
+789	Marghi Central	marg1265	Afro-Asiatic	Chadic	1
+790	Yimchungrü	yimc1240	Sino-Tibetan	Central Naga	1
+791	Yekora	yeko1240	Trans–New Guinea	Binanderean	1
+793	Jinuo (Jino)	youl1235	Sino-Tibetan	Lolo–Burmese	1
+800	Samei	same1240	Sino-Tibetan	Lolo–Burmese	1
+804	Muya	muya1239	Sino-Tibetan	Qiangic	1
+809	Bine	bine1240	Trans-Fly	Eastern Trans-Fly	1
+811	Classical Mongolian		Altaic	Mongolic	1
+827	Khamyang	kham1291	Kra–Dai	Tai	1
+829	Pyu (Papuan)	pyuu1245	Arai–Samaia	Pyu	1
+830	Tauade	taua1242	Goilalan	Tauade	1
+832	Atsi (Zaiwa)	zaiw1241	Sino-Tibetan	Lolo–Burmese	1
+841	Kim Mun	kimm1245	Hmong–Mien	Mienic	1
+843	Pumi	pumi1242	Sino-Tibetan	Qiangic	1
+844	Xuzhang	xuzh1234	Sino-Tibetan	Lolo–Burmese	1
+848	Luangiua (Ontong Java)	onto1237	Austronesian	Malayo-Polynesian	1
+869	Ifira-Mele	mele1250	Austronesian	Malayo-Polynesian	1
+870	Jola-Fonyi (Diola-Fogny)	jola1263	Atlantic–Congo	Bak	1
+871	Laal	laal1242	Laal		1
+873	Western Maninka	west2500	Mande	Western Mande	1
+874	Bassari	bass1258	Atlantic–Congo	Atlantic	1
+880	Bissa	biss1248	Mande	Eastern Mande	1
+881	Busa (Bokobaru)	boko1267	Mande	Eastern Mande	1
+882	Toro So (Escarpment Dogon)	esca1235	Dogon	Escarpment Dogon	1
+883	Ben Tey Dogon	bent1238	Dogon	Nanga	1
+884	Bondum Dogon	bond1248	Dogon	North Plateau	1
+885	Kolum So (Mombo Dogon)	momb1254	Dogon	West Dogon	1
+888	Kono	kono1268	Mande	Western Mande	1
+889	Mano	mann1248	Mande	Eastern Mande	1
+891	Mixifore	mixi1241	Mande	Western Mande	1
+892	Ganza	ganz1246	Afro-Asiatic	Omotic	1
+894	Kayan (of Burma)	kaya1315	Sino-Tibetan	Karen	1
+898	Esperanto	espe1235	Constructed language		1
+925	Mentawai	ment1249	Austronesian	Malayo-Polynesian	1
+936	Embaloh (Maloh)	emba1238	Austronesian	Malayo-Polynesian	1
+944	Xokleng	xokl1240	Macro-Jê	Jê	1
+952	Antsi (Ayta Maganchi)	maga1263	Austronesian	Malayo-Polynesian	1
+959	Masbateño	masb1238	Austronesian	Malayo-Polynesian	1
+961	Labuk-Kinabatangan Kadazan	labu1249	Austronesian	Malayo-Polynesian	1
+964	Miri (dialect of Narom)	miri1269	Austronesian	Malayo-Polynesian	1
+968	Balantak	bala1315	Austronesian	Malayo-Polynesian	1
+969	Helong	helo1243	Austronesian	Malayo-Polynesian	1
+977	Waboda	wabo1241	Kiwaian	Waboda	1
+978	Southern Kiwai	sout2949	Kiwaian	Kiwai	1
+980	Selepet	sele1250	Trans–New Guinea	Finisterre–Huon	1
+981	Pare (Pa)	pare1271	Trans–New Guinea	Awin–Pa	1
+982	Ono	onoo1246	Trans–New Guinea	Finisterre–Huon	1
+983	Kube (Tobo-Kube)	kube1244	Trans–New Guinea	Finisterre–Huon	1
+984	Gobasi	goba1246	Trans–New Guinea	East Strickland	1
+986	Borong	boro1279	Trans–New Guinea	Finisterre–Huon	1
+987	Beami	beam1240	Trans–New Guinea	Bosavi	1
+988	Central Asmat	cent2247	Trans–New Guinea	Asmat–Kamoro	1
+993	Zinza (Dzinza)	zinz1238	Atlantic–Congo	Benue–Congo	1
+995	Dulong (Trung, Derung)	drun1238	Sino-Tibetan	Nungish	1
+997	Ngas (Angas)	ngas1240	Afro-Asiatic	Chadic	1
+998	Bacama	baca1246	Afro-Asiatic	Chadic	1
+999	Bura-Pabir (Bura)	bura1292	Afro-Asiatic	Chadic	1
+1000	Miship (Chip, cip)	mish1244	Afro-Asiatic	Chadic	1
+1001	Dera (Kanakuru)	dera1248	Afro-Asiatic	Chadic	1
+1002	Ga'anda	gaan1243	Afro-Asiatic	Chadic	1
+1003	Izere (Jari)	izer1242	Atlantic–Congo	Benue–Congo	1
+1005	Miya	miya1266	Afro-Asiatic	Chadic	1
+1007	Tera (Pidlimdi)	tera1251	Afro-Asiatic	Chadic	1
+1008	Gwere	gwer1238	Atlantic–Congo	Benue–Congo	1
+1009	Masaba (Lumasaaba)	masa1299	Atlantic–Congo	Benue–Congo	1
+1010	Rombo (Mkuu)	romb1244	Atlantic–Congo	Benue–Congo	1
+1013	Rungwa	rung1255	Atlantic–Congo	Benue–Congo	1
+1016	Lakon (Lakona)	lako1245	Austronesian	Malayo-Polynesian	1
+1017	Irarutu	irar1238	Austronesian	Malayo-Polynesian	1
+1018	Palawano	nucl1738	Austronesian	Malayo-Polynesian	1
+1026	Cemuhî	cemu1238	Austronesian	Malayo-Polynesian	1
+1027	Ajië	ajie1238	Austronesian	Malayo-Polynesian	1
+1028	Rukai	ruka1240	Austronesian	Rukai	1
+1032	Adzera	adze1240	Austronesian	Malayo-Polynesian	1
+1033	Bilinarra	bili1250	Pama–Nyungan	Ngumpin–Yapa	1
+1034	Warlmanpa	warl1255	Pama–Nyungan	Ngumpin–Yapa	1
+1036	Akoye	akoy1238	Trans–New Guinea	Angan	1
+1038	Ankave	anka1246	Trans–New Guinea	Angan	1
+1040	Binahari	bina1273	Trans–New Guinea	Mailuan	1
+1041	Buna	buna1277	Torricelli	Marienberg	1
+1042	Domung	domu1246	Trans–New Guinea	Finisterre–Huon	1
+1043	Hamtai	hamt1247	Trans–New Guinea	Angan	1
+1044	Kamasa	kama1360	Trans–New Guinea	Angan	1
+1045	Kawacha	kawa1276	Trans–New Guinea	Angan	1
+1047	Mungkip	mung1272	Trans–New Guinea	Finisterre–Huon	1
+1048	Nek	nekk1240	Trans–New Guinea	Finisterre–Huon	1
+1049	Nuk	nukk1240	Trans–New Guinea	Finisterre–Huon	1
+1050	Numanggang	numa1254	Trans–New Guinea	Finisterre–Huon	1
+1051	Safeyoka	safe1240	Trans–New Guinea	Angan	1
+1052	Uri	urii1240	Trans–New Guinea	Finisterre–Huon	1
+1054	Yagwoia	yagw1240	Trans–New Guinea	Angan	1
+1055	Isabi	isab1240	Trans–New Guinea	Kainantu–Goroka	1
+1056	Dadibi	dadi1250	Trans–New Guinea	Teberan–Pawaian	1
+1057	Maiwa (Papuan)	maiw1251	Trans–New Guinea	Dagan	1
+1058	Tabo	tabo1241	Trans-Fly	Tabo	1
+1059	Wiru	wiru1244	Trans–New Guinea	Teberan–Pawaian	1
+1060	Peve (Lame)	peve1243	Afro-Asiatic	Chadic	1
+1066	Irula	irul1243	Dravidian	South Dravidian	1
+1073	Ibatan	ibat1238	Austronesian	Malayo-Polynesian	1
+1076	Oro Win	orow1243	Chapacuran	Wari	1
+1078	Gaddang	gadd1244	Austronesian	Malayo-Polynesian	1
+1083	Masbatenyo (Masbateño)	masb1238	Austronesian	Malayo-Polynesian	1
+1088	Minangkabau	mina1268	Austronesian	Malayo-Polynesian	1
+1091	Ruc	rucc1239	Austroasiatic	Vietic	1
+1097	Ngarla	ngar1296	Pama–Nyungan	Ngayarda	1
+1102	Batuley	batu1258	Austronesian	Malayo-Polynesian	1
+1104	Wancho	wanc1238	Sino-Tibetan	Brahmaputran	1
+1105	Kalaallisut (West Greenlandic)	kala1399	Eskimo–Aleut	Eskimo	1
+1106	Wayampi	waya1270	Tupian	Tupi–Guarani	1
+1107	Raivavae	raiv1237	Austronesian	Malayo-Polynesian	1
+1111	Siriano	siri1274	Tucanoan	Eastern Tucanoan	1
+1112	Secoya	seco1241	Tucanoan	Western Tucanoan	1
+1115	Desano	desa1247	Tucanoan	Eastern Tucanoan	1
+1121	Magar	maga1261	Sino-Tibetan	Magaric	1
+1122	Bukusu	buku1249	Atlantic–Congo	Benue–Congo	1
+1123	Luobenzhuo Bai	luob1236	Sino-Tibetan	Macro-Bai	1
+1126	Coconuco (Guambiano)	coco1262	Barbacoan	Coconuco	1
+1127	Kamsá (Camsá)	cams1241	Kamsá (Camsá)		1
+1132	Bella Coola (Nuxalk)	bell1243	Salishan	Nuxalk	1
+1133	Yanomámi (Waiká)	yano1262	Yanomam	Waiká	1
+1135	Kunza	kunz1244	Kunza		1
+1141	Wetarese (Dadu'a)	weta1245	Austronesian	Malayo-Polynesian	1
+1142	Deing	dein1238	Trans–New Guinea	Timor–Alor–Pantar	1
+1143	Ende (Flores island)	ende1246	Austronesian	Malayo-Polynesian	1
+1146	Wamas	wama1247	Trans–New Guinea	Madang	1
+1152	Classical Chinese	lite1248	Sino-Tibetan	Sinitic	1
+1153	Jin Chinese	jiny1235	Sino-Tibetan	Sinitic	1
+1158	Konso	kons1243	Afro-Asiatic	Cushitic	1
+1159	Miriwoong (Miriwung)	miri1266	Jarrakan	Miriwoong	1
+1160	Bargam	barg1252	Trans–New Guinea	Madang	1
+1161	Hoanya	papo1239	Austronesian	Western Plains Formosan	1
+1162	Kanakanabu (Kanakanavu)	kana1286	Austronesian	Tsouic	1
+1163	Itawis	itaw1240	Austronesian	Malayo-Polynesian	1
+1165	Mansaka	mans1262	Austronesian	Malayo-Polynesian	1
+1167	Moken	moke1242	Austronesian	Malayo-Polynesian	1
+1169	Leti (Indonesia)	leti1246	Austronesian	Malayo-Polynesian	1
+1171	Fordata	ford1242	Austronesian	Malayo-Polynesian	1
+1172	Kamarian	kama1362	Austronesian	Malayo-Polynesian	1
+1173	Paulohi	paul1238	Austronesian	Malayo-Polynesian	1
+1174	Alune	alun1238	Austronesian	Malayo-Polynesian	1
+1176	Titan	tita1241	Austronesian	Malayo-Polynesian	1
+1177	Wuvulu-Aua	wuvu1239	Austronesian	Malayo-Polynesian	1
+1178	Mussau-Emira	muss1246	Austronesian	Malayo-Polynesian	1
+1179	'Āre'āre	area1240	Austronesian	Malayo-Polynesian	1
+1180	Bugun (Khowa)	bugu1246	Sino-Tibetan	Kho-Bwa	1
+1181	Miji (Dmay, Dhammai, Dhammai, Sajolang)	saja1240	Sino-Tibetan	Hrusish	1
+1187	Garmsiri	nort2644	Indo-European	Indo-Iranian	1
+1189	Southern Bashkardi	sout2644	Indo-European	Indo-Iranian	1
+1191	Old Frisian	oldf1241	Indo-European	Germanic	1
+1195	Kartutjarra		Pama–Nyungan	Wati	1
+1198	Wirangu	wira1265	Pama–Nyungan	Thura-Yura	1
+1200	Numbami (Siboma)	numb1247	Austronesian	Malayo-Polynesian	1
+1203	Chungli Ao	chon1248	Sino-Tibetan	Ao	1
+1204	Dimasa	dima1251	Sino-Tibetan	Brahmaputran	1
+1205	Konyak	kony1248	Sino-Tibetan	Brahmaputran	1
+1206	Rongmei (Nruanghmei)	rong1266	Sino-Tibetan	Zemeic	1
+1207	Phom	phom1236	Sino-Tibetan	Brahmaputran	1
+1208	Gogodala	gogo1265	Gogodala–Suki	Gogodala	1
+1210	Aguaruna	agua1253	Chicham	Aguaruna	1
+1217	Wolio	woli1241	Austronesian	Malayo-Polynesian	1
+1218	Gitua	gitu1237	Austronesian	Malayo-Polynesian	1
+1220	Middle Vietnamese	viet1252	Austroasiatic	Vietic	1
+1222	Min Dong (Eastern Min)	mind1253	Sino-Tibetan	Sinitic	1
+1223	Gan Chinese	ganc1239	Sino-Tibetan	Sinitic	1
+1224	Xamtanga (Khamir)	xamt1239	Afro-Asiatic	Cushitic	1
+1226	Kiga (Rukiga)	chig1238	Atlantic–Congo	Benue–Congo	1
+1227	Nkore (Runyankore)	nyan1307	Atlantic–Congo	Benue–Congo	1
+1229	Amba, Nembao (Solomon Islands)	amba1266	Austronesian	Malayo-Polynesian	1
+1232	Akan	akan1250	Atlantic–Congo	Volta-Congo	1
+1235	Saamic	n	n	n	1
+1236	Yurok	yuro1248	Algic	Yurok	1
+1242	Middle French	midd1316	Indo-European	Romance	1
+1243	Mobilian Jargon	mobi1236	Muskogean-based pidgin		1
+1246	Enets	enet1250	Uralic	Samoyedic	1
+1247	Dalmatian	dalm1243	Indo-European	Romance	1
+1248	Istriot	istr1244	Indo-European	Romance	1
+1249	Gaulish	tran1282	Indo-European	Celtic	1
+1256	Mangghuer	minh1238	Altaic		1
+1257	Mongghul	huzh1238	Altaic	Mongolic	1
+1258	Kangjia	kang1281	Altaic	Mongolic	1
+1261	Chadong		Kam–Sui	chad1240	1
+1266	Pennsylvania German	penn1240	Indo-European	Germanic	1
+1267	Anatolian Arabic	anat1256	Afro-Asiatic	West Semitic	1
+1268	Lahnda (Western Punjabi)	lahn1241	Indo-European	Indo-Iranian	1
+1269	Western Pahari	hima1250	Indo-European	Indo-Iranian	1
+1270	Tundra Nenets	tund1255	Uralic	Samoyedic	1
+1271	Mator	nucl1288	Uralic	Samoyedic	1
+1272	Taigi	taig1245	Uralic	Samoyedic	1
+1273	Naiki (Southeastern Kolami)	sout1249	Dravidian	Central Dravidian	1
+1274	Burushaski	buru1296	Burushaski		1
+1279	Takpa (Tawang Monpa)	dakp1242	Sino-Tibetan	Kanauri	1
+1281	Southern Thai	sout2746	Kra–Dai	Tai	1
+1285	Mbaenggu (Baeggu)	baeg1237	Austronesian	Malayo-Polynesian	1
+1294	Lega	lega1253	Niger–Congo	Atlantic–Congo	1
+1299	Tennet	tenn1246	Saharan	Eastern Sudanic	1
+1300	Kwegu	kweg1241	Saharan	Eastern Sudanic	1
+1301	Murle	murl1244	Saharan	Eastern Sudanic	1
+1312	Bilua (Mbilua, Vella Lavella)	bilu1245	Bilua		1
+1313	Blagar	blag1240	Trans–New Guinea	Timor–Alor–Pantar	1
+1314	Klon (Kelon)	kelo1247	Trans–New Guinea	Timor–Alor–Pantar	1
+1315	Nedebang	nede1245	Trans–New Guinea	Timor–Alor–Pantar	1
+1321	Dhuwal	dhuw1248	Pama–Nyungan	Yolŋu	1
+1323	Djapu	djap1238	Pama–Nyungan	Yolŋu	1
+1325	Gumatj	guma1253	Pama–Nyungan	Yolŋu	1
+1326	Gupapuyngu	gupa1247	Pama–Nyungan	Yolŋu	1
+1327	Karajarri (Garadjari)	kara1476	Pama–Nyungan	Marrngu	1
+1328	Yandruwandha	yand1252	Pama–Nyungan	Karnic	1
+1345	Karajá	kara1500	Macro-Jê	Karajá	1
+1347	Kogui (Kogi)	cogu1240	Chibchan	Arwako–Chimila	1
+1349	Chakobo (Pacahuara)	chac1251	Panoan	Mainline Panoan	1
+1350	Piapoco	piap1246	Arawakan	Northern Arawakan	1
+1351	Baure	baur1253	Arawakan	Southern Arawakan	1
+1352	Enxet (Southern Lengua)	sout2989	Mascoian	Enxet	1
+1356	Aasax (Aasá)		Cushitic	aasa1238	1
+1357	Lokono (Arawak)	araw1276	Arawakan	Northern Arawakan	1
+1358	Washo	wash1253	Washo		1
+1360	Kipeá (Kariri)	kipe1235	Macro-Gê	Karirian	1
+1361	Jebero (Shiwilu)	jebe1250	Cahuapanan	Jebero	1
+1363	Wayoró	wayo1238	Tupian	Tuparí	1
+1364	Xerénte	xere1240	Macro-Gê	Jê	1
+1365	Arikapú	arik1265	Macro-Jê	Yabutian	1
+1366	Nocten Wichi	wich1262	Matacoan	Wichi	1
+1368	Bodega (Coast) Miwok	coas1301	Yok-Utian	Utian	1
+1369	Southern Sierra Miwok	sout2985	Yok-Utian	Utian	1
+1370	Central Sierra Miwok	cent2140	Yok-Utian	Utian	1
+1371	Northern Sierra Miwok	nort2968	Yok-Utian	Utian	1
+1372	Plains Miwok	plai1259	Yok-Utian	Utian	1
+1374	Tima (Domorik, Lomorik)	tima1241	Niger–Congo	Katla	1
+1375	Nara	nara1262	Nilo-Saharan	Eastern Sudanic	1
+1376	Gaam (Ingessana)	gaam1241	Nilo-Saharan	Eastern Sudanic	1
+1377	Konda (Dravidian)	kond1295	Dravidian	South-Central Dravidian	1
+1378	Kuwi	kuvi1243	Dravidian	South-Central Dravidian	1
+1382	Phoenician	phoe1239	Afro-Asiatic	West Semitic	1
+1383	Didinga	didi1258	Nilo-Saharan	Eastern Sudanic	1
+1384	Baale	baal1234	Nilo-Saharan	Eastern Sudanic	1
+1385	Mursi	murs1242	Nilo-Saharan	Eastern Sudanic	1
+1386	Northern Yana	nort2963	Yana		1
+1387	Yahi	yahi1243	Yana		1
+1388	Sese Gumuz	sese1245	Nilo-Saharan	Komuz	1
+1391	Dupaningan Agta	dupa1235	Austronesian	Malayo-Polynesian	1
+1392	Kwama	kwam1249	Nilo-Saharan	Komuz	1
+1395	Uduk (Tw'ampa)	uduk1239	Nilo-Saharan	Komuz	1
+1396	Hadza	hadz1240	Hadza		1
+1397	Atong (Sino-Tibetan)	aton1241	Sino-Tibetan	Brahmaputran	1
+1398	Ineseño	ines1240	Chumashan	Southern Chumashan	1
+1399	Barbareño	barb1263	Chumashan	Southern Chumashan	1
+1400	Shasta	shas1239	Hokan	Shasta–Palaihnihan	1
+1402	Zhuǀ'hoan (South-Eastern Ju)	juho1239	Khoisan	Peripheral Khoisan	1
+1403	ǀǀKxauǀǀen	kxau1241	Khoisan	Peripheral Khoisan	1
+1404	!Kung (Central Ju)	cent2300	Khoisan	Peripheral Khoisan	1
+1405	!O!Kung	oung1238	Khoisan	Peripheral Khoisan	1
+1409	ǀ'Auni	auni1244	Khoisan	Peripheral Khoisan	1
+1411	Kato	kato1244	Na-Dené	Athabaskan	1
+1416	Mentasta Ahtena	ment1252	Na-Dené	Athabaskan	1
+1417	Lower Tanana	lowe1425	Na-Dené	Athabaskan	1
+1418	Central Carrier	carr1249	Na-Dené	Athabaskan	1
+1420	Degexit'an	dege1248	Na-Dené	Athabaskan	1
+1421	Jamul Tiipay	tipa1240	Hokan	Yuman	1
+1423	Hmong Njua	hmon1264	Hmong–Mien	Hmongic	1
+1424	Northern Pa-Hng	pahn1237	Hmong–Mien	Hmongic	1
+1426	Western Mono	mono1275	Uto-Aztecan	Numic	1
+1428	Dakota	dako1258	Siouan-Catawban		1
+1429	Tangga	tang1348	Austronesian	Malayo-Polynesian	1
+1430	Mbula	mbul1263	Austronesian	Malayo-Polynesian	1
+1431	Quileute	quil1240	Chimakuan	Quileute	1
+1432	Sougb (Manikion)	mani1235	West Papuan	Mantion–Meax	1
+1435	Southern Haida	sout2956	Haida		1
+1453	Rengma	sout2732	Sino-Tibetan	Angami–Pochuri	1
+1454	Papiamento	papi1253	Portuguese-based creole		1
+1457	Bongu	bong1291	Trans–New Guinea	Madang	1
+1458	Achagua (Achawa)	acha1250	Arawakan	Northern Arawakan	1
+1459	Waimaja (Bara, Barasano)	waim1255	Tucanoan	Eastern Tucanoan	1
+1462	Jamaican Creole (Patwah)	jama1262	English-based creole		1
+1463	Catio	embe1260	Chocoan	Embera	1
+1464	Northern Embera	nort2972	Chocoan	Embera	1
+1465	Tadó Emberá	embe1261	Chocoan	Embera	1
+1466	South Levantine Arabic	sout3123	Afro-Asiatic	West Semitic	1
+1467	Imbabura Highland Quichua	imba1240	Quechuan	Quechua II	1
+1468	Manga Kanuri	mang1399	Saharan	West Saharan	1
+1469	Reunionese creole	reun1238	French-based creole		1
+1471	Savosavo	savo1255	Central Solomon	Savosavo	1
+1472	Mungiki (Bellona)	mung1270	Austronesian	Malayo-Polynesian	1
+1473	Burum (Yaknge, Somba-Siawari)	buru1306	Trans–New Guinea	Finisterre–Huon	1
+1474	Uruangnirin	urua1244	Austronesian	Malayo-Polynesian	1
+1475	Kalao	kala1394	Austronesian	Malayo-Polynesian	1
+1476	Bonerate	bone1254	Austronesian	Malayo-Polynesian	1
+1477	Shinasha (Boro,Borna)	boro1277	Afro-Asiatic	Omotic	1
+1478	Jandai	jand1248	Pama–Nyungan	Durubalic	1
+1479	Golpa	golp1234	Pama–Nyungan	Yolŋu Matha	1
+1480	Purépecha (Tarascan)	tara1323	Purépecha		1
+1481	Munsee	muns1251	Algic	Delawaran	1
+1483	Arapaho	arap1274	Algic	Arapahoan	1
+1484	San Dionisio del Mar Huave	sand1278	Huave		1
+1485	San Mateo del Mar Huave	sanm1287	Huave		1
+1486	San Francisco del Mar Huave	sanf1258	Huave		1
+1487	Santa María del Mar Huave	sant1422	Huave		1
+1488	Skiri Pawnee	skir1238	Caddoan	Pawnee–Kitsai	1
+1491	Candoshi-Shapra	cand1248	Candoshi-Shapra		1
+1492	Onondaga	onon1246	Iroquoian	Lake Iroquoian	1
+1493	Molima	moli1248	Austronesian	Malayo-Polynesian	1
+1494	Yakan	yaka1277	Austronesian	Malayo-Polynesian	1
+1495	Tombonuwo	tomb1244	Austronesian	Malayo-Polynesian	1
+1496	Bisaya	brun1245	Austronesian	Malayo-Polynesian	1
+1497	Sebop	sebo1238	Austronesian	Malayo-Polynesian	1
+1498	Murik (Borneo)	muri1259	Austronesian	Malayo-Polynesian	1
+1499	Kiput	kipu1237	Austronesian	Malayo-Polynesian	1
+1501	Tunjung	tunj1244	Austronesian	Malayo-Polynesian	1
+1502	Taboyan	tawo1243	Austronesian	Malayo-Polynesian	1
+1503	Gayo	gayo1244	Austronesian	Malayo-Polynesian	1
+1504	Basai	basa1287	Austronesian	East Formosan	1
+1505	Lampung	lamp1241	Austronesian	Malayo-Polynesian	1
+1507	Muna	muna1247	Austronesian	Malayo-Polynesian	1
+1512	Jarai	jara1266	Austronesian	Malayo-Polynesian	1
+1513	Rade (Rhade)	rade1240	Austronesian	Malayo-Polynesian	1
+1514	Sedang	seda1262	Austroasiatic	Bahnaric	1
+1515	Mnong	mnon1259	Austroasiatic	Bahnaric	1
+1516	Nyaheun	nyah1249	Austroasiatic	Bahnaric	1
+1517	Sapuan	sapu1248	Austroasiatic	Bahnaric	1
+1518	Sre	sree1244	Austroasiatic	bah	1
+1519	Middle Mon		Austroasiatic	Monic	1
+1520	Northern Ndebele	nort2795	Niger–Congo	Atlantic–Congo	1
+1521	Romagnol	roma1328	Indo-European	Romance	1
+1524	Hadhrami Arabic	hadr1236	Afro-Asiatic	West Semitic	1
+1525	Northern Yemeni Arabic	sana1295	Afro-Asiatic	West Semitic	1
+1526	Silopi	silo1240	Trans–New Guinea	Madang	1
+1527	Utu	utuu1240	Trans–New Guinea	Madang	1
+1528	Klamath-Modoc	klam1254	Plateau Penutian	Klamath	1
+1529	Middle Irish	midd1360	Indo-European	Celtic	1
+1533	Saraiki	sera1259	Indo-European	Indo-Iranian	1
+1535	Palestinian Arabic	sout3123	Afroasiatic	Western Semitic	1
+1536	Antekerrepenhe	ande1247	Pama–Nyungan	Arandic	1
+1537	Batyala	baty1234	Pama–Nyungan	Waka–Kabic	1
+1538	Biri	east2716	Pama–Nyungan	Maric	1
+1539	Dhangu	dhan1270	Pama–Nyungan	Yolngu Matha	1
+1541	Kalkatungu	kalk1246	Pama–Nyungan	Kalkatungic	1
+1542	Muruwari	muru1266	Pama–Nyungan	Southeastern	1
+1543	Wilson River (Wangkumara)	ngur1261	Pama–Nyungan	Karnic	1
+1546	Tontemboan	tont1239	Austronesian	Malayo-Polynesian	1
+1552	Huasteca Nahuatl	huas1257	Uto-Aztecan	Nahuan	1
+1553	Pipil (Nawat)	pipi1250	Uto-Aztecan	Nahuan	1
+1554	Hidatsa	hida1246	Siouan	Western Siouan	1
+1555	Kansa	kans1243	Siouan	Western Siouan	1
+1558	Iskonawa (Isconahua)	isco1239	Panoan	Mainline Panoan	1
+1561	Chiapas Zoque	chia1261	Mixe–Zoquean	Zoquean	1
+1570	Pa'O Karen	paok1235	Sino-Tibetan	Karen	1
+1571	Karenni (Kayah, Red Karen)	kaya1317	Sino-Tibetan	Karen	1
+1572	Western Pwo (Delta Pao)	pwow1235	Sino-Tibetan	Karen	1
+1573	Eastern Pwo (Phlou)	pwoe1235	Sino-Tibetan	Karen	1
+1580	Jeju	jeju1234	Altaic	Korean	1
+1581	Piyo (Biyue)	biyo1243	Sino-Tibetan	Lolo-Burmese	1
+1582	Lahu Na	naaa1244	Sino-Tibetan	Lolo-Burmese	1
+1583	Nasu (Black Yi, Eastern Yi)	nesu1235	Sino-Tibetan	Lolo-Burmese	1
+1585	Bru (Brou)	brou1236	Austroasiatic	Katuic	1
+1586	Hainanese	hain1238	Sino-Tibetan	Sinitic	1
+1587	Dzongkha	nucl1307	Sino-Tibetan	Bodish	1
+1589	Venetian	vene1258	Indo-European	Romance	1
+1590	Tigak	tiga1245	Austronesian	Malayo-Polynesian	1
+1591	Vitu (Witu, Muduapa)	mudu1242	Austronesian	Malayo-Polynesian	1
+1592	Manam	mana1295	Austronesian	Malayo-Polynesian	1
+1594	Puluwat	pulu1242	Austronesian	Malayo-Polynesian	1
+1599	Moriori	mori1267	Austronesian	Malayo-Polynesian	1
+1600	Bhojpuri	bhoj1244	Indo-European	Indo-Iranian	1
+1603	Central Atlas Tamazight	cent2194	Afro-Asiatic	Berber	1
+1604	Xhosa	xhos1239	Niger–Congo	Atlantic–Congo	1
+1605	Brunei Malay	brun1242	Austronesian	Malayo-Polynesian	1
+1606	Osage	osag1243	Siouan	Western Siouan	1
+1608	Biloxi	bilo1248	Siouan	Western Siouan	1
+1612	Warluwarra	warl1256	Pama–Nyungan	Ngarna	1
+1613	Musey (Mouseye, Banana)	muse1242	Afro-Asiatic	Chadic	1
+1614	Ndyuka (Aukan, Eastern Maroon Creole)	ndyu1242	English-based creole		1
+1615	Sema (Sümi)	sumi1235	Sino-Tibetan	Angami–Pochuri	1
+1617	Nobonob	nobo1238	Trans–New Guinea	Madang	1
+1618	Aghwan	aghw1237	Northeast Caucasian	Lezgic	1
+1619	Tauro-Romaic (Mariupol Greek)	mari1411	Indo-European	Greek	1
+1620	Rajasthani	raja1256	Indo-European	Indo-Iranian	1
+1621	Nupe	nupe1254	Niger–Congo	Atlantic–Congo	1
+1623	Wutun	wutu1241	Chinese-Tibetan-Mongolian based creole		1
+1624	Baruga (Bareji)	baru1268	Trans–New Guinea	Binanderean	1
+1625	Mawak	mawa1266	Trans–New Guinea	Madang	1
+1628	Nage	nage1237	Austronesian	Malayo-Polynesian	1
+1629	Levuka (Painara)	levu1239	Austronesian	Malayo-Polynesian	1
+1631	Ye'kuana (Maquiritari, Dekwana)	maqu1238	Cariban	Guianan Carib	1
+1632	Negerhollands	nege1244	Dutch-based creole		1
+1634	Tiwi	tiwi1244	Tiwi		1
+1636	Liha (Lyha)	lyha1238	Austroasiatic	Vietic	1
+1638	Pendau	pend1242	Austronesian	Malayo-Polynesian	1
+1639	Haitian Creole	hait1244	French-based creole		1
+1641	Bai	baic1239	Sino-Tibetan	Sinitic	1
+1643	Tat (Caucasus)	musl1236	Indo-European	Indo-Iranian	1
+1644	Bakhtiari	bakh1245	Indo-European	Indo-Iranian	1
+1645	Southern Kurdish	sout2640	Indo-European	Indo-Iranian	1
+1646	Bartangi	bart1238	Indo-European	Indo-Iranian	1
+1647	Oroshori (Roshorvi)	oros1238	Indo-European	Indo-Iranian	1
+1648	Rushani	rush1239	Indo-European	Indo-Iranian	1
+1649	Khufi	khuf1238	Indo-European	Indo-Iranian	1
+1650	Larestani	lari1253	Indo-European	Indo-Iranian	1
+1651	Xonj Larestani	khon1246	Indo-European	Indo-Iranian	1
+1654	Gilaki	gila1241	Indo-European	Indo-Iranian	1
+1655	Hehe	hehe1240	Niger–Congo	Atlantic–Congo	1
+1656	Kinga	nucl1379	Niger–Congo	Atlantic–Congo	1
+1657	Sangu (Tanzania)	sang1330	Niger–Congo	Atlantic–Congo	1
+1658	Teleut	tele1257	Altaic	Turkic	1
+1659	Dampelas	damp1237	Austronesian	Malayo-Polynesian	1
+1661	Kulung (Nepal)	kulu1253	Sino-Tibetan	Tibeto-Burman	1
+1663	Duungidjawu	duun1241	Pama–Nyungan	Waka–Kabic	1
+1664	Iora (Iyora)	sydn1236	Pama–Nyungan	Yuin–Kuric	1
+1665	Kartujarra	kart1247	Pama–Nyungan	Wati	1
+1666	Ngadjumaya	ngad1258	Pama–Nyungan	Mirning	1
+1667	Toro-tegu Dogon	toro1253	Dogon	Plains Dogon	1
+1668	Guduf-Gava	gudu1252	Afro-Asiatic	Chadic	1
+1669	Glavda (Gələvda, Galavda)	glav1244	Afro-Asiatic	Chadic	1
+1670	Kamwe (Higi Futu)	kamw1239	Afro-Asiatic	Chadic	1
+1671	Wandala (Mandara, Chadic)	wand1278	Afro-Asiatic	Chadic	1
+1672	Misme (Mesme, Zime)	mesm1239	Afro-Asiatic	Chadic	1
+1673	Meru	meru1245	Niger–Congo	Atlantic–Congo	1
+1674	Siha	siha1242	Niger–Congo	Atlantic–Congo	1
+1675	Tharaka	thar1283	Niger–Congo	Atlantic–Congo	1
+1676	Silesian	sile1253	Indo-European	Slavic	1
+1677	Chichewa (Nyanja)	nyan1308	Niger–Congo	Atlantic–Congo	1
+1678	Tai Dam (Black Tai)	taid1247	Kra-Dai	Tai	1
+1679	Tai Phake	phak1238	Kra-Dai	Tai	1
+1680	Ligurian	ligu1248	Indo-European	Romance	1
+1682	Abellen (Ayta Abellan)	aben1249	Austronesian	Malayo-Polynesian	1
+1683	Dzao Min	dzao1238	Hmong–Mien	Mienic	1
+1684	Tacana	taca1256	Tacanan	Araona–Tacanan	1
+1685	Movima	movi1243	Movima		1
+1688	Divehi (Maldivian)	dhiv1236	Indo-European	Indo-Iranian	1
+1689	Aragones	arag1245	Indo-European	Romance	1
+1690	Leonese	leon1250	Indo-European	Romance	1
+1691	Zabana	zaba1237	Austronesian	Malayo-Polynesian	1
+1692	Angoram	ango1255	Ramu–Lower Sepik	Lower Sepik	1
+1693	Bilakura (Karian)	bila1257	Trans–New Guinea	Madang	1
+1694	Biwat (Mundugumor)	biwa1243	Yuat	Mundugumor	1
+1695	Chambri	cham1313	Ramu–Lower Sepik	Lower Sepik	1
+1696	Ese (Managalasi)	esee1247	Koiarian	Baraic	1
+1697	Faiwol	faiw1243	Central &amp; South New Guinea	Ok	1
+1698	Kobol (Koguman)	kobo1248	Trans–New Guinea	Madang	1
+1699	Kopar	kopa1248	Ramu–Lower Sepik	Lower Sepik	1
+1700	Siane	sian1257	Trans–New Guinea	Kainantu–Goroka	1
+1701	Tabriak (Karawari, Yokoim)	tabr1243	Ramu–Lower Sepik	Lower Sepik	1
+1702	Kirikiri		Lakes Plain	Tariku	1
+1703	Murik (New Guinea)	muri1260	Ramu–Lower Sepik	Lower Sepik	1
+1704	Usan	usan1239	Trans–New Guinea	Madang	1
+1705	Yaben	yade1255	Trans–New Guinea	Madang	1
+1706	Yimas	yima1243	Ramu–Lower Sepik	Lower Sepik	1
+1707	Ömie	omie1241	Koiarian	Baraic	1
+1708	Basaa (Mbene)	basa1284	Niger–Congo	Atlantic–Congo	1
+1709	Bende	bend1258	Niger–Congo	Atlantic–Congo	1
+1710	Yuwaalayaay	yuwa1243	Pama–Nyungan	Wiradhuric	1
+1711	Yuwaalaraay	yuwa1242	Pama–Nyungan	Wiradhuric	1
+1712	Dawawa	dawa1242	Austronesian	Malayo-Polynesian	1
+1713	Lungga	lung1249	Austronesian		1
+1714	Lungga	lung1249	Austronesian	Malayo-Polynesian	1
+1715	Kokota	koko1269	Austronesian	Malayo-Polynesian	1
+1716	Labo (Ninde)	labo1244	Austronesian	Malayo-Polynesian	1
+1718	Mi'kmaq	mikm1235	Algic	Algonquian	1
+1719	Kutchi (Kachhi)	kach1277	Indo-European	Indo-Iranian	1
+1720	Kukatja				0
+1721	Mari				0
+1722	Nanaj				0
+1723	Toc Pisin				0
+1724	Old Slavonic				0
+1725	Osetin				0
+1726	Ngariman				0
+1727	Koyo				0
+1728	Kui				0
+1729	Manda				0
+1730	Wichí				0
+1731	Gugu-yalanji				0
+1732	Russian–Chinese Pidgin				0
+1733	Iipay				0
+1734	Konda				0
+1735	Isneg				0
+1736	Sar				0
+1737	Kalam Pandanus				0
+1738	Nootka (Kyuquot)				0
+1739	Malto (Sauria Paharia, references do not distinguish with Kumarbhag Paharia)				0
+1740	Juǀʼhoan				0
+1741	Kayan				0
+1742	Miri (diaclet of Narom)				0
