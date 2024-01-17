@@ -27,10 +27,10 @@ def refine_gloss(gloss):
 class CustomConcept(Concept):
     Linked_Concepts = attr.ib(
             default=None,
-            metadata={"datatype": "string", "separator": " "})
+            metadata={"datatype": "json"})
     Target_Concepts = attr.ib(
             default=None,
-            metadata={"datatype": "string", "separator": " "})
+            metadata={"datatype": "json"})
     Shifts = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " "})
@@ -377,16 +377,21 @@ class Dataset(BaseDataset):
         c2i = {c.english: (c.concepticon_id, c.concepticon_gloss) for c in
                self.conceptlists[0].concepts.values()}
         # load concepts
+        # assemble data on shifts in concept before
         concepts = {}
+        concept_names = {}
+        concepts_to_add = {}
         for concept in self.concepts:
             idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
             cid, cgl = c2i.get(concept["ENGLISH"], ("", ""))
-            args.writer.add_concept(
-                    ID=idx,
-                    Name=concept["ENGLISH"],
-                    Concepticon_ID=cid,
-                    Concepticon_Gloss=cgl)
+            concepts_to_add[idx] = {
+                    "ID": idx,
+                    "Name": concept["ENGLISH"],
+                    "Concepticon_ID": cid,
+                    "Concepticon_Gloss": cgl,
+                    }
             concepts[concept["NUMBER"]] = idx
+            concept_names[idx] = concept["ENGLISH"]
 
         # load languages
         languages = args.writer.add_languages(lookup_factory="Name")
@@ -396,6 +401,23 @@ class Dataset(BaseDataset):
         # load individual semantic shifts
         shifts = self.raw_dir.read_csv("lexemes.tsv", delimiter="\t",
                                        dicts=True)
+        targets = {
+                concept["ID"]: defaultdict(
+                    lambda : {
+                        "Polysemy_Lexemes": [],
+                        "Derivation_Lexemes": [],
+                        "Polysemy": 0,
+                        "Derivation": 0
+                        }) for concept in concepts_to_add.values()}
+        links = {
+                concept["ID"]: defaultdict(
+                    lambda : {
+                        "Polysemy_Lexemes": [],
+                        "Derivation_Lexemes": [],
+                        "Polysemy": 0,
+                        "Derivation": 0}) for concept in concepts_to_add.values()}
+
+
         for row in shifts:
             language_data[
                     concepts[row["Source_Concept_ID"]],
@@ -419,9 +441,54 @@ class Dataset(BaseDataset):
                         "Shift_ID": row["Shift_ID"],
                         "Value": row["Target_Word"]
                         }]
+            if row["Direction"] == "→":
+                if row["Type"] in ["Polysemy", "Derivation"]:
+                    targets[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    targets[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
+            if row["Direction"] == "←":
+                if row["Type"] in ["Polysemy", "Derivation"]:
+                    targets[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    targets[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
+            if row["Direction"] in ["?", "-"]:
+                if row["Type"] in ["Polysemy", "Derivation"]:
+                    links[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    links[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
+
+
+
+
+        
+        for concept in pb(concepts_to_add.values(), desc="adding concepts"):
+            target_list = []
+            link_list = []
+            for target_id, values in targets[concept["ID"]].items():
+                target_list += [
+                        {"ID": target_id, "NAME": concept_names[target_id], 
+                         "Polysemy": values.get("Polysemy", 0),
+                         "Derivation": values.get("Derivation", 0),
+                         "Polysemy_Lexemes": values.get("Polysemy_Lexemes", 0),
+                         "Derivation_Lexemes": values.get("Derivation_Lexemes", 0)}]
+            for target_id, values in links[concept["ID"]].items():
+                link_list += [
+                        {"ID": target_id, "NAME": concept_names[target_id],
+                         "Polysemy": values.get("Polysemy", 0),
+                         "Derivation": values.get("Derivation", 0),
+                         "Polysemy_Lexemes": values.get("Polysemy_Lexemes", 0),
+                         "Derivation_Lexemes": values.get("Derivation_Lexemes", 0)}]
+
+                
+            concept["Target_Concepts"] = target_list
+            concept["Linked_Concepts"] = link_list 
+            args.writer.add_concept(**concept)
         for (c, l, w), values in pb(language_data.items()):
-            if len(values) > 1:
-                args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
+            #if len(values) > 1:
+            #    args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
             shifts = [c["Shift_ID"] for c in values]
             concepts = [c["Gloss"] for c in values]
 

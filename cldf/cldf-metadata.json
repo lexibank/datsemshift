@@ -17,19 +17,19 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "57e5c00",
+            "dc:created": "1fb0572",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v4.6",
             "dc:title": "Glottolog"
         },
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1.0-134-g1583cf54",
+            "dc:created": "v3.1.0",
             "dc:title": "Concepticon"
         },
         {
@@ -269,13 +269,11 @@
                         "name": "Concepticon_Gloss"
                     },
                     {
-                        "datatype": "string",
-                        "separator": " ",
+                        "datatype": "json",
                         "name": "Linked_Concepts"
                     },
                     {
-                        "datatype": "string",
-                        "separator": " ",
+                        "datatype": "json",
                         "name": "Target_Concepts"
                     },
                     {
