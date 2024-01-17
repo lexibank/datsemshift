@@ -9,8 +9,10 @@ ds = Dataset.from_metadata(Path(__file__).parent.parent / "cldf/cldf-metadata.js
 
 concepts = ds.objects("ParameterTable")
 pairs = defaultdict(lambda : {"directed": {}, "undirected": {}})
+visited = set()
 for concept in concepts:
-    if concept.data["Concepticon_ID"]:
+    if concept.data["Concepticon_ID"] and concept.data["Concepticon_ID"] not in visited:
+        visited.add(concept.data["Concepticon_ID"])
         if concept.data["Target_Concepts"]:
             print(concept.data["Concepticon_Gloss"])
             for t in concept.data["Target_Concepts"]:
@@ -39,7 +41,6 @@ table = [[
     ]]
 
 
-visited = set()
 for (cA, cB), d in pairs.items():
     # get values
     ab_polysemy, ab_derivation = (
@@ -59,6 +60,11 @@ for (cA, cB), d in pairs.items():
         if polysemy_ != polysemy:
             warn("Polysemy not symmetric in {0} / {1} / {2} / {3}".format(
                 cA, cB, polysemy, polysemy_))
+        if derivation_ != derivation:
+            warn("Derivation not symmetric in {0} / {1} / {2} / {3}".format(
+                cA, cB, polysemy, polysemy_))
+
+
     else:
         ba_polysemy, ba_derivation = 0, 0
     rowA = [

@@ -406,6 +406,8 @@ class Dataset(BaseDataset):
                     lambda : {
                         "Polysemy_Lexemes": [],
                         "Derivation_Lexemes": [],
+                        "Polysemy_Shifts": [],
+                        "Derivation_Shifts": [],
                         "Polysemy": 0,
                         "Derivation": 0
                         }) for concept in concepts_to_add.values()}
@@ -414,6 +416,8 @@ class Dataset(BaseDataset):
                     lambda : {
                         "Polysemy_Lexemes": [],
                         "Derivation_Lexemes": [],
+                        "Polysemy_Shifts": [],
+                        "Derivation_Shifts": [],
                         "Polysemy": 0,
                         "Derivation": 0}) for concept in concepts_to_add.values()}
 
@@ -447,12 +451,16 @@ class Dataset(BaseDataset):
                             concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
                     targets[concepts[row["Source_Concept_ID"]]][
                             concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
+                    targets[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
             if row["Direction"] == "←":
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     targets[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
                     targets[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
+                    targets[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
             if row["Direction"] in ["?", "-", "—"]:
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     links[concepts[row["Target_Concept_ID"]]][
@@ -463,6 +471,12 @@ class Dataset(BaseDataset):
                             concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
                     links[concepts[row["Source_Concept_ID"]]][
                             concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
+                    links[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    links[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+
+
 
 
 
@@ -476,15 +490,22 @@ class Dataset(BaseDataset):
                         {"ID": target_id, "NAME": concept_names[target_id], 
                          "Polysemy": values.get("Polysemy", 0),
                          "Derivation": values.get("Derivation", 0),
-                         "Polysemy_Lexemes": values.get("Polysemy_Lexemes", 0),
-                         "Derivation_Lexemes": values.get("Derivation_Lexemes", 0)}]
+                         "Polysemy_Lexemes": values.get("Polysemy_Lexemes", []),
+                         "Derivation_Lexemes": values.get("Derivation_Lexemes", []),
+                         "Polysemy_Shifts": values.get("Polysemy_Shifts", []),
+                         "Derivation_Shifts": values.get("Derivation_Shifts", []),
+                         }
+                        ]
             for target_id, values in links[concept["ID"]].items():
                 link_list += [
                         {"ID": target_id, "NAME": concept_names[target_id],
                          "Polysemy": values.get("Polysemy", 0),
                          "Derivation": values.get("Derivation", 0),
                          "Polysemy_Lexemes": values.get("Polysemy_Lexemes", 0),
-                         "Derivation_Lexemes": values.get("Derivation_Lexemes", 0)}]
+                         "Derivation_Lexemes": values.get("Derivation_Lexemes", 0),
+                         "Polysemy_Shifts": values.get("Polysemy_Shifts", []),
+                         "Derivation_Shifts": values.get("Derivation_Shifts", []),
+                         }]
 
                 
             concept["Target_Concepts"] = target_list
