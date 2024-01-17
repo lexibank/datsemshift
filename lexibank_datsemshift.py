@@ -453,12 +453,16 @@ class Dataset(BaseDataset):
                             concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
                     targets[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
-            if row["Direction"] in ["?", "-"]:
+            if row["Direction"] in ["?", "-", "—"]:
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     links[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
                     links[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
+                    links[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    links[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
 
 
 
