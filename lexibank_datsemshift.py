@@ -34,6 +34,11 @@ class CustomConcept(Concept):
     Shifts = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " "})
+    Number = attr.ib(default=None, metadata={"datatype": "integer"})
+    Gloss_in_Source = attr.ib(default=None)
+    Definition = attr.ib(default=None)
+    Alias = attr.ib(default=None)
+    Domain = attr.ib(default=None)
 
 
 
@@ -389,12 +394,19 @@ class Dataset(BaseDataset):
                     "Name": concept["ENGLISH"],
                     "Concepticon_ID": cid,
                     "Concepticon_Gloss": cgl,
+                    "Number": int(concept["NUMBER"]),
+                    "Alias": concept["ALIAS"],
+                    "Domain": concept["DOMAIN"],
+                    "Definition": concept["DEFINITION"]
                     }
             concepts[concept["NUMBER"]] = idx
             concept_names[idx] = concept["ENGLISH"]
 
         # load languages
         languages = args.writer.add_languages(lookup_factory="Name")
+        lang2fam = {}
+        for language in self.languages:
+            lang2fam[language["Name"]] = language["Family"]
 
         language_data = defaultdict(list)
 
@@ -408,8 +420,10 @@ class Dataset(BaseDataset):
                         "Derivation_Lexemes": [],
                         "Polysemy_Shifts": [],
                         "Derivation_Shifts": [],
+                        "Polysemy_Families": [],
+                        "Derivation_Families": [],
                         "Polysemy": 0,
-                        "Derivation": 0
+                        "Derivation": 0,
                         }) for concept in concepts_to_add.values()}
         links = {
                 concept["ID"]: defaultdict(
@@ -418,6 +432,8 @@ class Dataset(BaseDataset):
                         "Derivation_Lexemes": [],
                         "Polysemy_Shifts": [],
                         "Derivation_Shifts": [],
+                        "Polysemy_Families": [],
+                        "Derivation_Families": [],
                         "Polysemy": 0,
                         "Derivation": 0}) for concept in concepts_to_add.values()}
 
@@ -453,6 +469,10 @@ class Dataset(BaseDataset):
                             concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
                     targets[concepts[row["Source_Concept_ID"]]][
                             concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    targets[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+
+
             if row["Direction"] == "←":
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     targets[concepts[row["Target_Concept_ID"]]][
@@ -461,6 +481,8 @@ class Dataset(BaseDataset):
                             concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
                     targets[concepts[row["Target_Concept_ID"]]][
                             concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    targets[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
             if row["Direction"] in ["?", "-", "—"]:
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     links[concepts[row["Target_Concept_ID"]]][
@@ -475,6 +497,10 @@ class Dataset(BaseDataset):
                             concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
                     links[concepts[row["Source_Concept_ID"]]][
                             concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    links[concepts[row["Source_Concept_ID"]]][
+                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+                    links[concepts[row["Target_Concept_ID"]]][
+                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
 
 
 
@@ -490,10 +516,15 @@ class Dataset(BaseDataset):
                         {"ID": target_id, "NAME": concept_names[target_id], 
                          "Polysemy": values.get("Polysemy", 0),
                          "Derivation": values.get("Derivation", 0),
+                         "PolysemyByFamily": len(set(values.get("Polysemy_Families"))),
+                         "DerivationByFamily": len(set(
+                             values.get("Derivation_Families"))),
                          "Polysemy_Lexemes": values.get("Polysemy_Lexemes", []),
                          "Derivation_Lexemes": values.get("Derivation_Lexemes", []),
                          "Polysemy_Shifts": values.get("Polysemy_Shifts", []),
                          "Derivation_Shifts": values.get("Derivation_Shifts", []),
+                         "Polysemy_Families": values.get("Polysemy_Families", []),
+                         "Derivation_Families": values.get("Derivation_Families")
                          }
                         ]
             for target_id, values in links[concept["ID"]].items():
@@ -501,10 +532,15 @@ class Dataset(BaseDataset):
                         {"ID": target_id, "NAME": concept_names[target_id],
                          "Polysemy": values.get("Polysemy", 0),
                          "Derivation": values.get("Derivation", 0),
+                         "PolysemyByFamily": len(set(values.get("Polysemy_Families"))),
+                         "DerivationByFamily": len(set(
+                             values.get("Derivation_Families"))),
                          "Polysemy_Lexemes": values.get("Polysemy_Lexemes", 0),
                          "Derivation_Lexemes": values.get("Derivation_Lexemes", 0),
                          "Polysemy_Shifts": values.get("Polysemy_Shifts", []),
                          "Derivation_Shifts": values.get("Derivation_Shifts", []),
+                         "Polysemy_Families": values.get("Polysemy_Families", []),
+                         "Derivation_Families": values.get("Derivation_Families")
                          }]
 
                 

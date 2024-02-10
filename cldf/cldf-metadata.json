@@ -17,13 +17,13 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "1324efa",
+            "dc:created": "cb1c6eb",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.6",
+            "dc:created": "v4.8",
             "dc:title": "Glottolog"
         },
         {
@@ -280,6 +280,26 @@
                         "datatype": "string",
                         "separator": " ",
                         "name": "Shifts"
+                    },
+                    {
+                        "datatype": "integer",
+                        "name": "Number"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Gloss_in_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Definition"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Alias"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Domain"
                     }
                 ],
                 "primaryKey": [

@@ -13,7 +13,7 @@ setup(
     entry_points={
         'lexibank.dataset': [
             'datsemshift=lexibank_datsemshift:Dataset',
-        ]
+        ],
     },
     install_requires=[
         "pylexibank>=3.0.0"
