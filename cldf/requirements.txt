@@ -31,7 +31,7 @@ purl==1.6
 pybtex==0.24.0
 pycldf==1.36.0
 pyclts==3.1.1
-pyconcepticon==3.0.0
+-e git+https://lingulist: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@github.com/concepticon/pyconcepticon@ba7f81c00f79f2988d0708c6ea962280020c8945#egg=pyconcepticon
 pycountry==23.12.11
 pyglottolog==3.12.0
 pylatexenc==2.10
@@ -43,6 +43,7 @@ referencing==0.32.0
 regex==2023.12.25
 requests==2.31.0
 rfc3986==1.5.0
+scipy==1.12.0
 segments==2.2.1
 six==1.16.0
 smmap==5.0.1

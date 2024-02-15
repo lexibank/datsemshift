@@ -17,13 +17,13 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "cb1c6eb",
+            "dc:created": "8630900",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v4.6",
             "dc:title": "Glottolog"
         },
         {
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 58590,
+            "dc:extent": 58578,
             "tableSchema": {
                 "columns": [
                     {
@@ -245,7 +245,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 4403,
+            "dc:extent": 4379,
             "tableSchema": {
                 "columns": [
                     {

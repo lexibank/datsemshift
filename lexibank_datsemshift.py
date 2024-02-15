@@ -386,12 +386,21 @@ class Dataset(BaseDataset):
         concepts = {}
         concept_names = {}
         concepts_to_add = {}
+        unify_concepts = {}
         for concept in self.concepts:
             idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
             cid, cgl = c2i.get(concept["ENGLISH"], ("", ""))
+            if concept["ENGLISH"] in unify_concepts:
+                unify_concepts[concept["GLOSS_IN_SOURCE"]] = unify_concepts[
+                        concept["ENGLISH"]]
+            else:
+                unify_concepts[concept["ENGLISH"]] = concept["NUMBER"]
+                unify_concepts[concept["GLOSS_IN_SOURCE"]] = concept["NUMBER"]
+
             concepts_to_add[idx] = {
                     "ID": idx,
                     "Name": concept["ENGLISH"],
+                    "Gloss_in_Source": concept["GLOSS_IN_SOURCE"],
                     "Concepticon_ID": cid,
                     "Concepticon_Gloss": cgl,
                     "Number": int(concept["NUMBER"]),
@@ -401,6 +410,7 @@ class Dataset(BaseDataset):
                     }
             concepts[concept["NUMBER"]] = idx
             concept_names[idx] = concept["ENGLISH"]
+        args.log.info(len(concepts_to_add))
 
         # load languages
         languages = args.writer.add_languages(lookup_factory="Name")
@@ -437,77 +447,78 @@ class Dataset(BaseDataset):
                         "Polysemy": 0,
                         "Derivation": 0}) for concept in concepts_to_add.values()}
 
-
+        
+        args.log.info("unified concepts from {0} to {1}".format(len(concepts_to_add), len(set(unify_concepts.values()))))
         for row in shifts:
+            source_concept, target_concept = (
+                concepts[unify_concepts[row["Source_Concept"]]],
+                concepts[unify_concepts[row["Target_Concept"]]])
+
             language_data[
-                    concepts[row["Source_Concept_ID"]],
+                    source_concept,
                     row["Source_Language_ID"],
                     row["Source_Word"]
                     ] += [{
                         "Gloss": row["Source_Meaning"],
-                        "Parameter_ID": concepts[row["Source_Concept_ID"]],
+                        "Parameter_ID": source_concept,
                         "Language_ID": row["Source_Language_ID"],
                         "Shift_ID": row["Shift_ID"],
                         "Value": row["Source_Word"]
                         }]
             language_data[
-                    concepts[row["Target_Concept_ID"]],
+                    target_concept,
                     row["Target_Language_ID"],
                     row["Target_Word"]
                     ] += [{
                         "Gloss": row["Target_Meaning"],
-                        "Parameter_ID": concepts[row["Target_Concept_ID"]],
+                        "Parameter_ID": target_concept,
                         "Language_ID": row["Target_Language_ID"],
                         "Shift_ID": row["Shift_ID"],
                         "Value": row["Target_Word"]
                         }]
             if row["Direction"] == "→":
                 if row["Type"] in ["Polysemy", "Derivation"]:
-                    targets[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
-                    targets[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
-                    targets[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
-                    targets[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+                    targets[source_concept][
+                            target_concept][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    targets[source_concept][
+                            target_concept][row["Type"]] += 1
+                    targets[source_concept][
+                            target_concept][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    targets[source_concept][
+                            target_concept][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
 
 
             if row["Direction"] == "←":
                 if row["Type"] in ["Polysemy", "Derivation"]:
-                    targets[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
-                    targets[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
-                    targets[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
-                    targets[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+                    targets[target_concept][
+                            source_concept][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    targets[target_concept][
+                            source_concept][row["Type"]] += 1
+                    targets[target_concept][
+                            source_concept][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    targets[target_concept][
+                            source_concept][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
             if row["Direction"] in ["?", "-", "—"]:
                 if row["Type"] in ["Polysemy", "Derivation"]:
-                    links[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
-                    links[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]] += 1
-                    links[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Lexemes"] += [row["ID"]]
-                    links[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]] += 1
-                    links[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
-                    links[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
-                    links[concepts[row["Source_Concept_ID"]]][
-                            concepts[row["Target_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
-                    links[concepts[row["Target_Concept_ID"]]][
-                            concepts[row["Source_Concept_ID"]]][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+                    links[target_concept][
+                            source_concept][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    links[target_concept][
+                            source_concept][row["Type"]] += 1
+                    links[source_concept][
+                            target_concept][row["Type"]+"_Lexemes"] += [row["ID"]]
+                    links[source_concept][
+                            target_concept][row["Type"]] += 1
+                    links[target_concept][
+                            source_concept][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    links[source_concept][
+                            target_concept][row["Type"]+"_Shifts"] += [row["Shift_ID"]]
+                    links[source_concept][
+                            target_concept][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
+                    links[target_concept][
+                            source_concept][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
 
-
-
-
-
-
-        
+        args.log.info(len(concepts_to_add))
+        args.log.info(len(set([c["ID"] for c in concepts_to_add.values()])))
         for concept in pb(concepts_to_add.values(), desc="adding concepts"):
             target_list = []
             link_list = []
@@ -545,8 +556,9 @@ class Dataset(BaseDataset):
 
                 
             concept["Target_Concepts"] = target_list
-            concept["Linked_Concepts"] = link_list 
+            concept["Linked_Concepts"] = link_list
             args.writer.add_concept(**concept)
+            
         for (c, l, w), values in pb(language_data.items()):
             #if len(values) > 1:
             #    args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
