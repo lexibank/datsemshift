@@ -378,9 +378,12 @@ class Dataset(BaseDataset):
         args.writer.add_sources()
         args.log.info("added sources")
 
-        # load concepts
-        c2i = {c.english: (c.concepticon_id, c.concepticon_gloss) for c in
-               self.conceptlists[0].concepts.values()}
+        # concepts to concepticon id
+        c2i = {}
+        for c in self.concepts:
+            if c["ENGLISH"] not in c2i:
+                c2i[c["ENGLISH"]] = (c["CONCEPTICON_ID"], c["CONCEPTICON_GLOSS"]) 
+
         # load concepts
         # assemble data on shifts in concept before
         concepts = {}
