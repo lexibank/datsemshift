@@ -44,12 +44,19 @@ class CustomConcept(Concept):
 
 @attr.s
 class CustomLexeme(Lexeme):
+    Source_Lexeme = attr.ib(
+            default=None,
+            metadata={"datatype": "string"})
+    Source_Relation = attr.ib(default=None)
     Shifts = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " "})
     Concepts_in_Source = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " // "})
+    Shift_Types = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
 
 
 
@@ -380,9 +387,9 @@ class Dataset(BaseDataset):
 
         # concepts to concepticon id
         c2i = {}
-        for c in self.concepts:
-            if c["ENGLISH"] not in c2i:
-                c2i[c["ENGLISH"]] = (c["CONCEPTICON_ID"], c["CONCEPTICON_GLOSS"]) 
+        for c in self.conceptlists[0].concepts.values():
+            if c.english not in c2i:
+                c2i[c.english] = (c.concepticon_id, c.concepticon_gloss)
 
         # load concepts
         # assemble data on shifts in concept before
@@ -390,29 +397,29 @@ class Dataset(BaseDataset):
         concept_names = {}
         concepts_to_add = {}
         unify_concepts = {}
-        for concept in self.concepts:
-            idx = concept["NUMBER"] + "_" + slug(concept["ENGLISH"])
-            cid, cgl = c2i.get(concept["ENGLISH"], ("", ""))
-            if concept["ENGLISH"] in unify_concepts:
-                unify_concepts[concept["GLOSS_IN_SOURCE"]] = unify_concepts[
-                        concept["ENGLISH"]]
-            else:
-                unify_concepts[concept["ENGLISH"]] = concept["NUMBER"]
-                unify_concepts[concept["GLOSS_IN_SOURCE"]] = concept["NUMBER"]
+        for row in self.etc_dir.read_csv("unify_concepts.tsv", delimiter="\t", dicts=True):
+            for lexeme in row["LEXEME"].split(" // "):
+                unify_concepts[lexeme] = row["NUMBER"]
 
-            concepts_to_add[idx] = {
-                    "ID": idx,
-                    "Name": concept["ENGLISH"],
-                    "Gloss_in_Source": concept["GLOSS_IN_SOURCE"],
-                    "Concepticon_ID": cid,
-                    "Concepticon_Gloss": cgl,
-                    "Number": int(concept["NUMBER"]),
-                    "Alias": concept["ALIAS"],
-                    "Domain": concept["DOMAIN"],
-                    "Definition": concept["DEFINITION"]
-                    }
-            concepts[concept["NUMBER"]] = idx
-            concept_names[idx] = concept["ENGLISH"]
+        for concept in self.conceptlists[0].concepts.values():
+            if not concept.english.startswith("*"):
+                idx = concept.number + "_" + slug(concept.english)
+                cid, cgl = c2i.get(concept.english, ("", ""))
+
+                concepts_to_add[idx] = {
+                        "ID": idx,
+                        "Name": concept.english,
+                        "Gloss_in_Source": concept.attributes["gloss_in_source"],
+                        "Concepticon_ID": concept.concepticon_id,
+                        "Concepticon_Gloss": concept.concepticon_gloss,
+                        "Number": concept.number,
+                        "Alias": concept.attributes["alias"],
+                        "Domain": concept.attributes["domain"],
+                        "Definition": concept.attributes["definition"]
+                        }
+                concepts[concept.number] = idx
+                concept_names[idx] = concept.english
+                unify_concepts[concept.english] = concept.number
         args.log.info(len(concepts_to_add))
 
         # load languages
@@ -452,33 +459,49 @@ class Dataset(BaseDataset):
 
         
         args.log.info("unified concepts from {0} to {1}".format(len(concepts_to_add), len(set(unify_concepts.values()))))
+        lexeme_data, lexeme_graph = {}, {}
         for row in shifts:
             source_concept, target_concept = (
                 concepts[unify_concepts[row["Source_Concept"]]],
                 concepts[unify_concepts[row["Target_Concept"]]])
-
-            language_data[
-                    source_concept,
+            
+            source_id = (
+                    source_concept, 
                     row["Source_Language_ID"],
-                    row["Source_Word"]
-                    ] += [{
-                        "Gloss": row["Source_Meaning"],
-                        "Parameter_ID": source_concept,
-                        "Language_ID": row["Source_Language_ID"],
-                        "Shift_ID": row["Shift_ID"],
-                        "Value": row["Source_Word"]
-                        }]
-            language_data[
+                    row["Source_Word"])
+            target_id = (
                     target_concept,
                     row["Target_Language_ID"],
-                    row["Target_Word"]
-                    ] += [{
-                        "Gloss": row["Target_Meaning"],
-                        "Parameter_ID": target_concept,
-                        "Language_ID": row["Target_Language_ID"],
-                        "Shift_ID": row["Shift_ID"],
-                        "Value": row["Target_Word"]
-                        }]
+                    row["Target_Word"])
+            source_lexeme = (
+                    1, row["ID"], source_concept, row["Source_Language_ID"],
+                    row["Source_Word"], row["Source_Meaning"], row["Shift_ID"],
+                    row["Type"])
+            target_lexeme = (
+                    2, row["ID"], target_concept, row["Target_Language_ID"],
+                    row["Target_Word"], row["Target_Meaning"], row["Shift_ID"],
+                    row["Type"], )
+            
+
+            if row["Type"] in ["Polysemy", "Derivation"]:
+                if row["Direction"] == "→":
+                    pass
+                elif row["Direction"] == "←":
+                    source_id, target_id = target_id, source_id
+                    source_lexeme, target_lexeme = target_lexeme, source_lexeme
+
+                if source_id not in lexeme_graph:
+                    lexeme_graph[source_id] = []
+                
+                lexeme_graph[source_id] += [(target_id, row["Type"])]
+                if source_id not in lexeme_data:
+                    lexeme_data[source_id] = []
+                if target_id not in lexeme_data:
+                    lexeme_data[target_id] = []
+                
+                lexeme_data[source_id] += [source_lexeme]
+                lexeme_data[target_id] += [target_lexeme]
+            
             if row["Direction"] == "→":
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     targets[source_concept][
@@ -561,22 +584,87 @@ class Dataset(BaseDataset):
             concept["Target_Concepts"] = target_list
             concept["Linked_Concepts"] = link_list
             args.writer.add_concept(**concept)
-            
-        for (c, l, w), values in pb(language_data.items()):
-            #if len(values) > 1:
-            #    args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
-            shifts = [c["Shift_ID"] for c in values]
-            concepts = [c["Gloss"] for c in values]
+        
+        visited = set()
+        node2id = {}
+        idx = 1
+        source_nodes = set()
+        for source_node, target_nodes in pb(lexeme_graph.items()):
+            if source_node not in node2id:
+                node2id[source_node] = idx
+                idx += 1
+            sidx = node2id[source_node]
+            source_nodes.add(source_node)
+            for target_node, relation in target_nodes:
+                if target_node not in node2id:
+                    node2id[target_node] = idx
+                    idx += 1
+                tidx = node2id[target_node]
+                # write target nodes first
 
-            args.writer.add_form(
-                    Language_ID=l,
-                    Parameter_ID=c,
-                    Value=w,
-                    Form=w,
-                    Concepts_in_Source=concepts,
-                    Shifts=shifts,
-                    Source="DatSemShift"
-                    )
+                d = lexeme_data[target_node]
+                if target_node not in visited:
+                    concepts = [x[5] for x in d]
+                    shifts = [x[6] for x in d]
+                    types = [x[7] for x in d]
+                    args.writer.add_form(
+                            Language_ID=d[0][3],
+                            Parameter_ID=d[0][2],
+                            Local_ID=tidx,
+                            Value=d[0][4],
+                            Form=d[0][4],
+                            Concepts_in_Source=concepts,
+                            Shifts=shifts,
+                            Shift_Types=types,
+                            Source_Lexeme=sidx,
+                            Source_Relation=relation
+                            )
+                    visited.add(target_node)
+        for source_node in source_nodes:
+            if source_node not in visited:
+                d = lexeme_data[source_node]
+                concepts = [x[5] for x in d]
+                shifts = [x[6] for x in d]
+                types = [x[7] for x in d]
+                args.writer.add_form(
+                        Language_ID=d[0][3],
+                        Parameter_ID=d[0][2],
+                        Local_ID=node2id[source_node],
+                        Value=d[0][4],
+                        Form=d[0][4],
+                        Concepts_in_Source=concepts,
+                        Shifts=shifts,
+                        Shift_Types=types,
+                        Source_Lexeme="",
+                        Source_Relation=""
+                        )
+
+
+
+
+
+#            source_lexeme = (
+#                    1, row["ID"], source_concept, row["Source_Language_ID"],
+#                    row["Source_Word"], row["Source_Meaning"], row["Shift_ID"],
+#                    row["Type"])
+
+        #for (c, l, w), values in pb(language_data.items()):
+        #    #if len(values) > 1:
+        #    #    args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
+        #    shifts = [c["Shift_ID"] for c in values]
+        #    concepts = [c["Gloss"] for c in values]
+        #    lids = [c["Local_ID"] for c in values]
+
+        #    args.writer.add_form(
+        #            Language_ID=l,
+        #            Parameter_ID=c,
+        #            Local_IDS=lids,
+        #            Value=w,
+        #            Form=w,
+        #            Concepts_in_Source=concepts,
+        #            Shifts=shifts,
+        #            Source="DatSemShift"
+        #            )
                     
 
 

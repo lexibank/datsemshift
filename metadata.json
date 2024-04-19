@@ -1,8 +1,8 @@
 {
     "id": "datsemshift",
-    "title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2023",
+    "title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2024",
     "license": "CC-BY-4.0",
     "url": "https://datsemshift.ru",
-    "citation": "Zalizniak A. et al (2016-2020). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
-    "conceptlist": "Zalizniak-2020-2590"
+    "citation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
+    "conceptlist": "Zalizniak-2024-4583"
 }

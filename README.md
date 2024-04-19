@@ -1,10 +1,10 @@
-# CLDF dataset derived Zalizniak et al.'s "Database of Semantic Shifts" from 2023
+# CLDF dataset derived Zalizniak et al.'s "Database of Semantic Shifts" from 2024
 
 ## How to cite
 
 If you use these data please cite
 - the original source
-  > Zalizniak A. et al (2016-2020). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]
+  > Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -16,29 +16,25 @@ Available online at https://datsemshift.ru
 
 
 Conceptlists in Concepticon:
-- [Zalizniak-2020-2590](https://concepticon.clld.org/contributions/Zalizniak-2020-2590)
+- [Zalizniak-2024-4583](https://concepticon.clld.org/contributions/Zalizniak-2024-4583)
 ## Statistics
 
 
 ![Glottolog: 99%](https://img.shields.io/badge/Glottolog-99%25-brightgreen.svg "Glottolog: 99%")
 ![Concepticon: 79%](https://img.shields.io/badge/Concepticon-79%25-yellow.svg "Concepticon: 79%")
-![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
+![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
 
-- **Varieties:** 1,700
-- **Concepts:** 4,228
-- **Lexemes:** 58,495
-- **Sources:** 1
+- **Varieties:** 1,629
+- **Concepts:** 4,153
+- **Lexemes:** 55,115
+- **Sources:** 0
 - **Synonymy:** 1.04
 
 ## Possible Improvements:
 
-- Languages linked to [bookkeeping languoids in Glottolog](http://glottolog.org/glottolog/glottologinformation#bookkeepinglanguoids):
-  - Old Turkic [oldt1247](http://glottolog.org/resource/languoid/id/oldt1247)
-  - Kemie [kemi1240](http://glottolog.org/resource/languoid/id/kemi1240)
-  - Assan [assa1266](http://glottolog.org/resource/languoid/id/assa1266)
-  - !O!Kung [oung1238](http://glottolog.org/resource/languoid/id/oung1238)
 
 
+- Entries missing sources: 55115/55115 (100.00%)
 
 # Contributors
 
