@@ -6,9 +6,9 @@ SELECT
   table_a.LID as LID,
   table_a.Language, 
   table_b.LanguageB, 
-  table_a.Concept as ConceptA, 
+  table_a.Concepticon as ConceptA,
   table_a.Form as FormA,
-  table_b.ConceptB as ConceptB, 
+  table_b.Concepticon as ConceptB, 
   table_b.FormB as FormB,
   table_a.Shifts,
   table_b.ShiftsB
@@ -21,6 +21,7 @@ FROM
       l.cldf_glottocode as Glottocode, 
       l.family as Family, 
       p.cldf_name as Concept, 
+      p.concepticon_gloss as Concepticon,
       f.cldf_form as Form,
       f.source_lexeme as Source,
       f.shifts as Shifts
@@ -34,6 +35,8 @@ FROM
       l.cldf_id = f.cldf_languageReference
         AND
       l.cldf_glottocode = 'stan1295'
+        AND
+      p.concepticon_gloss != ''
 ) as table_a
 -- query the words in the second table to join them
 INNER JOIN 
@@ -42,6 +45,7 @@ INNER JOIN
       f2.source_lexeme as IDB,
       l2.cldf_name as LanguageB,
       p2.cldf_name as ConceptB,
+      p2.concepticon_gloss as Concepticon,
       f2.cldf_form as FormB,
       f2.shifts as ShiftsB
     FROM
@@ -54,13 +58,15 @@ INNER JOIN
       f2.cldf_parameterReference = p2.cldf_id
         AND
       l2.cldf_glottocode = 'stan1295'
+        AND
+      p2.concepticon_gloss != ''
   ) as table_b
 -- conditions for the output, limit to the same language
 -- and also to diverging concepts
 ON
   table_a.LID == table_b.IDB
 -- order to retrieve data for each language in a block
-ORDER BY 
+ORDER BY
   Form,
   Language, 
   Concept

@@ -478,7 +478,7 @@ class Dataset(BaseDataset):
                     row["Source_Word"], row["Source_Meaning"], row["Shift_ID"],
                     row["Type"])
             target_lexeme = (
-                    2, row["ID"], source_concept, row["Target_Language_ID"],
+                    2, row["ID"], target_concept, row["Target_Language_ID"],
                     row["Target_Word"], row["Target_Meaning"], row["Shift_ID"],
                     row["Type"], )
             
@@ -501,35 +501,7 @@ class Dataset(BaseDataset):
                 
                 lexeme_data[source_id] += [source_lexeme]
                 lexeme_data[target_id] += [target_lexeme]
-
-
-            # include only those cases where we have polysemy and derivation
-            # attested in the data, with a clear direction
-
-            #language_data[
-            #        source_concept,
-            #        row["Source_Language_ID"],
-            #        row["Source_Word"]
-            #        ] += [{
-            #            "Gloss": row["Source_Meaning"],
-            #            "Parameter_ID": source_concept,
-            #            "Language_ID": row["Source_Language_ID"],
-            #            "Shift_ID": row["Shift_ID"],
-            #            "Value": row["Source_Word"],
-            #            "Local_ID": row["ID"]
-            #            }]
-            #language_data[
-            #        target_concept,
-            #        row["Target_Language_ID"],
-            #        row["Target_Word"]
-            #        ] += [{
-            #            "Gloss": row["Target_Meaning"],
-            #            "Parameter_ID": target_concept,
-            #            "Language_ID": row["Target_Language_ID"],
-            #            "Shift_ID": row["Shift_ID"],
-            #            "Value": row["Target_Word"],
-            #            "Local_ID": row["ID"]
-            #            }]
+            
             if row["Direction"] == "→":
                 if row["Type"] in ["Polysemy", "Derivation"]:
                     targets[source_concept][
@@ -631,7 +603,6 @@ class Dataset(BaseDataset):
                 # write target nodes first
 
                 d = lexeme_data[target_node]
-                print(d)
                 if target_node not in visited:
                     concepts = [x[5] for x in d]
                     shifts = [x[6] for x in d]

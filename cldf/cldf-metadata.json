@@ -1,23 +1,23 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Zalizniak A. et al (2016-2020). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
+    "dc:bibliographicCitation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
-        "http://concepticon.clld.org/contributions/Zalizniak-2020-2590"
+        "http://concepticon.clld.org/contributions/Zalizniak-2024-4583"
     ],
     "dc:identifier": "https://datsemshift.ru",
     "dc:isVersionOf": null,
     "dc:license": "https://creativecommons.org/licenses/by/4.0/",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2023",
+    "dc:title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2024",
     "dcat:accessURL": "git@github.com:lexibank/datsemshifts",
     "prov:wasDerivedFrom": [
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "5c507f9",
+            "dc:created": "4b1d811",
             "dc:title": "Repository"
         },
         {
@@ -29,7 +29,7 @@
         {
             "rdf:about": "https://github.com/concepticon/concepticon-data",
             "rdf:type": "prov:Entity",
-            "dc:created": "v3.1.0",
+            "dc:created": "v3.2.0",
             "dc:title": "Concepticon"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.11.5"
+            "dc:description": "3.11.6"
         },
         {
             "dc:title": "python-packages",
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 58495,
+            "dc:extent": 55115,
             "tableSchema": {
                 "columns": [
                     {
@@ -130,6 +130,14 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "Source_Lexeme"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Source_Relation"
+                    },
+                    {
+                        "datatype": "string",
                         "separator": " ",
                         "name": "Shifts"
                     },
@@ -137,6 +145,11 @@
                         "datatype": "string",
                         "separator": " // ",
                         "name": "Concepts_in_Source"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "Shift_Types"
                     }
                 ],
                 "foreignKeys": [
@@ -171,7 +184,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1700,
+            "dc:extent": 1629,
             "tableSchema": {
                 "columns": [
                     {
@@ -245,7 +258,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 4228,
+            "dc:extent": 4153,
             "tableSchema": {
                 "columns": [
                     {

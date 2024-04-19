@@ -1,5 +1,5 @@
 {
-    "title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2023",
+    "title": "CLDF dataset derived Zalizniak et al.'s \"Database of Semantic Shifts\" from 2024",
     "access_right": "open",
     "keywords": [
         "cldf:Wordlist",
@@ -58,7 +58,7 @@
         }
     ],
     "upload_type": "dataset",
-    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zalizniak A. et al (2016-2020). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]</p>\n</blockquote>",
+    "description": "<p>Cite the source of the dataset as:</p>\n\n<blockquote>\n<p>Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]</p>\n</blockquote>",
     "license": {
         "id": "CC-BY-4.0"
     }
