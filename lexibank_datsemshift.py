@@ -44,10 +44,12 @@ class CustomConcept(Concept):
 
 @attr.s
 class CustomLexeme(Lexeme):
-    Source_Lexeme = attr.ib(
+    Source_Lexemes = attr.ib(
             default=None,
-            metadata={"datatype": "string"})
-    Source_Relation = attr.ib(default=None)
+            metadata={"datatype": "string", "separator": " "})
+    Source_Relations = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
     Shifts = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " "})
@@ -589,6 +591,7 @@ class Dataset(BaseDataset):
         node2id = {}
         idx = 1
         source_nodes = set()
+        lexemes_to_add = {}
         for source_node, target_nodes in pb(lexeme_graph.items()):
             if source_node not in node2id:
                 node2id[source_node] = idx
@@ -607,26 +610,34 @@ class Dataset(BaseDataset):
                     concepts = [x[5] for x in d]
                     shifts = [x[6] for x in d]
                     types = [x[7] for x in d]
-                    args.writer.add_form(
-                            Language_ID=d[0][3],
-                            Parameter_ID=d[0][2],
-                            Local_ID=tidx,
-                            Value=d[0][4],
-                            Form=d[0][4],
-                            Concepts_in_Source=concepts,
-                            Shifts=shifts,
-                            Shift_Types=types,
-                            Source_Lexeme=sidx,
-                            Source_Relation=relation
-                            )
                     visited.add(target_node)
+                    lexemes_to_add[tidx] = dict(
+                                Language_ID=d[0][3],
+                                Parameter_ID=d[0][2],
+                                Local_ID=tidx,
+                                Value=d[0][4],
+                                Form=d[0][4],
+                                Concepts_in_Source=concepts,
+                                Shifts=shifts,
+                                Shift_Types=types,
+                                Source_Lexemes=[sidx],
+                                Source_Relations=[relation],
+                                Source="DatSemShift"
+                                )
+
+                else:
+                    #args.log.info("Lexeme {0} / {1} already in data.".format(
+                    #    target_node, source_node))
+                    lexemes_to_add[tidx]["Source_Lexemes"] += [sidx]
+                    lexemes_to_add[tidx]["Source_Relations"] += [relation]
+                    # update source lexemes and source relation
         for source_node in source_nodes:
             if source_node not in visited:
                 d = lexeme_data[source_node]
                 concepts = [x[5] for x in d]
                 shifts = [x[6] for x in d]
                 types = [x[7] for x in d]
-                args.writer.add_form(
+                lexemes_to_add[node2id[source_node]] = dict(
                         Language_ID=d[0][3],
                         Parameter_ID=d[0][2],
                         Local_ID=node2id[source_node],
@@ -635,36 +646,17 @@ class Dataset(BaseDataset):
                         Concepts_in_Source=concepts,
                         Shifts=shifts,
                         Shift_Types=types,
-                        Source_Lexeme="",
-                        Source_Relation=""
+                        Source_Lexemes=[],
+                        Source_Relations=[],
+                        Source="DatSemShift"
                         )
+        for lidx, lexeme in sorted(
+                lexemes_to_add.items(),
+                key=lambda x: x[0]):
+            args.writer.add_form(**lexeme)
 
 
 
-
-
-#            source_lexeme = (
-#                    1, row["ID"], source_concept, row["Source_Language_ID"],
-#                    row["Source_Word"], row["Source_Meaning"], row["Shift_ID"],
-#                    row["Type"])
-
-        #for (c, l, w), values in pb(language_data.items()):
-        #    #if len(values) > 1:
-        #    #    args.log.info("found duplicate for {0} / {1} / {2}".format(c, l, w))
-        #    shifts = [c["Shift_ID"] for c in values]
-        #    concepts = [c["Gloss"] for c in values]
-        #    lids = [c["Local_ID"] for c in values]
-
-        #    args.writer.add_form(
-        #            Language_ID=l,
-        #            Parameter_ID=c,
-        #            Local_IDS=lids,
-        #            Value=w,
-        #            Form=w,
-        #            Concepts_in_Source=concepts,
-        #            Shifts=shifts,
-        #            Source="DatSemShift"
-        #            )
                     
 
 
