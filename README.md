@@ -4,7 +4,7 @@
 
 If you use these data please cite
 - the original source
-  > Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]
+  > Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 05.02.2024]
 - the derived dataset using the DOI of the [particular released version](../../releases/) you were using
 
 ## Description
@@ -22,19 +22,13 @@ Conceptlists in Concepticon:
 
 ![Glottolog: 99%](https://img.shields.io/badge/Glottolog-99%25-brightgreen.svg "Glottolog: 99%")
 ![Concepticon: 79%](https://img.shields.io/badge/Concepticon-79%25-yellow.svg "Concepticon: 79%")
-![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 
-- **Varieties:** 1,629
-- **Concepts:** 4,153
-- **Lexemes:** 55,115
-- **Sources:** 0
+- **Varieties:** 1,627
+- **Concepts:** 4,095
+- **Lexemes:** 53,241
+- **Sources:** 1
 - **Synonymy:** 1.04
-
-## Possible Improvements:
-
-
-
-- Entries missing sources: 55115/55115 (100.00%)
 
 # Contributors
 
