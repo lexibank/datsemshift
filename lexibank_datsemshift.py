@@ -462,7 +462,13 @@ class Dataset(BaseDataset):
         
         args.log.info("unified concepts from {0} to {1}".format(len(concepts_to_add), len(set(unify_concepts.values()))))
         lexeme_data, lexeme_graph = {}, {}
-        for row in shifts:
+
+        # filter shifts excluding concepts in <> brackets, as they are general
+        # concepts with individual glosses being instances
+        filtered_shifts = [row for row in shifts if \
+                not row["Source_Concept"].startswith("&lt;") and \
+                not row["Target_Concept"].startswith("&lt;")]
+        for row in filtered_shifts:
             source_concept, target_concept = (
                 concepts[unify_concepts[row["Source_Concept"]]],
                 concepts[unify_concepts[row["Target_Concept"]]])

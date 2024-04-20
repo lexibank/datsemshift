@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
+    "dc:bibliographicCitation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 05.02.2024]",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Zalizniak-2024-4583"
@@ -17,7 +17,7 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "4b1d811",
+            "dc:created": "be2008f",
             "dc:title": "Repository"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.11.6"
+            "dc:description": "3.11.8"
         },
         {
             "dc:title": "python-packages",
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 55115,
+            "dc:extent": 53241,
             "tableSchema": {
                 "columns": [
                     {
@@ -130,11 +130,13 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_Lexeme"
+                        "separator": " ",
+                        "name": "Source_Lexemes"
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_Relation"
+                        "separator": " ",
+                        "name": "Source_Relations"
                     },
                     {
                         "datatype": "string",
@@ -184,7 +186,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1629,
+            "dc:extent": 1627,
             "tableSchema": {
                 "columns": [
                     {
@@ -258,7 +260,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 4153,
+            "dc:extent": 4095,
             "tableSchema": {
                 "columns": [
                     {
