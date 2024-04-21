@@ -1,7 +1,7 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 04.01.2024]",
+    "dc:bibliographicCitation": "Zalizniak A. et al (2024). Database of Semantic Shifts. Moscow: Institute of Linguistics, Russian Academy of Sciences. [Accessed on 05.02.2024]",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:format": [
         "http://concepticon.clld.org/contributions/Zalizniak-2024-4583"
@@ -17,13 +17,13 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "4b1d811",
+            "dc:created": "29e107f",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
@@ -46,7 +46,7 @@
         },
         {
             "dc:title": "python",
-            "dc:description": "3.11.6"
+            "dc:description": "3.11.8"
         },
         {
             "dc:title": "python-packages",
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 55115,
+            "dc:extent": 55127,
             "tableSchema": {
                 "columns": [
                     {
@@ -130,11 +130,13 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_Lexeme"
+                        "separator": " ",
+                        "name": "Source_Lexemes"
                     },
                     {
                         "datatype": "string",
-                        "name": "Source_Relation"
+                        "separator": " ",
+                        "name": "Source_Relations"
                     },
                     {
                         "datatype": "string",
@@ -150,6 +152,11 @@
                         "datatype": "string",
                         "separator": " ",
                         "name": "Shift_Types"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "IDS_in_Source"
                     }
                 ],
                 "foreignKeys": [
@@ -258,7 +265,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 4153,
+            "dc:extent": 4185,
             "tableSchema": {
                 "columns": [
                     {

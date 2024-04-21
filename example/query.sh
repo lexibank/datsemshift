@@ -1,75 +1,77 @@
 sqlite3 dss.sqlite <<EOF
 .headers on
-.mode csv 
+.mode csv
+.separator "\t" 
 
 SELECT 
-  table_a.LID as LID,
-  table_a.Language, 
-  table_b.LanguageB, 
-  table_a.Concepticon as ConceptA,
-  table_a.Form as FormA,
-  table_b.Concepticon as ConceptB, 
-  table_b.FormB as FormB,
-  table_a.Shifts,
-  table_b.ShiftsB
+  table_a.Lexeme_ID as ID_A,
+  table_a.Language as Language_A, 
+  table_a.Concept as Concept_A,
+  table_a.Form ||
+  ' «' || table_a.Concept_in_Source || '»' as Word_A,
+  table_b.Lexeme_ID as ID_B,
+  table_b.Language as Language_B, 
+  table_b.Concept as Concept_B, 
+  table_b.Form ||
+  ' «' || table_b.Concept_in_Source || '»' as Word_B,
+  table_b.Sources,
+  table_b.Source_Relations
 -- query German words in the first table
 FROM
   (
     SELECT 
-      f.local_id as LID,
-      l.cldf_name as Language,
-      l.cldf_glottocode as Glottocode, 
-      l.family as Family, 
-      p.cldf_name as Concept, 
-      p.concepticon_gloss as Concepticon,
-      f.cldf_form as Form,
-      f.source_lexeme as Source,
-      f.shifts as Shifts
+      f1.local_id as Lexeme_ID,
+      l1.cldf_name as Language,
+      p1.concepticon_gloss as Concept,
+      p1.cldf_name as Concept_in_Source,
+      f1.cldf_form as Form,
+      f1.shifts as Shifts
     FROM 
-      formtable as f, 
-      languagetable as l, 
-      parametertable as p
+      formtable as f1, 
+      languagetable as l1, 
+      parametertable as p1
     WHERE
-      p.cldf_id = f.cldf_parameterReference
-        AND
-      l.cldf_id = f.cldf_languageReference
-        AND
-      l.cldf_glottocode = 'stan1295'
-        AND
-      p.concepticon_gloss != ''
+      p1.cldf_id = f1.cldf_parameterReference
+      AND l1.cldf_id = f1.cldf_languageReference
+      AND l1.cldf_glottocode = 'stan1295'
+      AND p1.concepticon_gloss != ''
 ) as table_a
 -- query the words in the second table to join them
-INNER JOIN 
+JOIN 
   (
     SELECT 
-      f2.source_lexeme as IDB,
-      l2.cldf_name as LanguageB,
-      p2.cldf_name as ConceptB,
-      p2.concepticon_gloss as Concepticon,
-      f2.cldf_form as FormB,
-      f2.shifts as ShiftsB
+      f2.local_id as Lexeme_ID,
+      l2.cldf_name as Language,
+      p2.concepticon_gloss as Concept,
+      p2.cldf_name as Concept_in_Source,
+      f2.cldf_form as Form,
+      f2.shifts as Shifts,
+      f2.source_relations,
+      f2.source_lexemes as Sources
     FROM
       formtable as f2,
       parametertable as p2,
       languagetable as l2
     WHERE
       f2.cldf_languageReference = l2.cldf_id
-        AND
-      f2.cldf_parameterReference = p2.cldf_id
-        AND
-      l2.cldf_glottocode = 'stan1295'
-        AND
-      p2.concepticon_gloss != ''
+      AND f2.cldf_parameterReference = p2.cldf_id
+      AND l2.cldf_glottocode = 'stan1295'
+      AND p2.concepticon_gloss != ''
   ) as table_b
 -- conditions for the output, limit to the same language
--- and also to diverging concepts
+-- and to concepts related via source_lexemes
 ON
-  table_a.LID == table_b.IDB
+  (
+    table_b.Sources like '% ' || table_a.Lexeme_ID || ' %' 
+    OR table_b.Sources like table_a.Lexeme_ID || ' %' 
+    OR table_b.Sources like table_a.Lexeme_ID
+    OR table_b.Sources like '% ' || table_a.Lexeme_ID
+  ) 
 -- order to retrieve data for each language in a block
 ORDER BY
-  Form,
-  Language, 
-  Concept
+  Word_A,
+  Language_A, 
+  Concept_A
 ;
 
 EOF
