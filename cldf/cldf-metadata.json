@@ -17,13 +17,13 @@
         {
             "rdf:about": "git@github.com:lexibank/datsemshifts",
             "rdf:type": "prov:Entity",
-            "dc:created": "be2008f",
+            "dc:created": "29e107f",
             "dc:title": "Repository"
         },
         {
             "rdf:about": "https://github.com/glottolog/glottolog",
             "rdf:type": "prov:Entity",
-            "dc:created": "v4.8",
+            "dc:created": "v5.0",
             "dc:title": "Glottolog"
         },
         {
@@ -58,7 +58,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#FormTable",
-            "dc:extent": 53241,
+            "dc:extent": 55127,
             "tableSchema": {
                 "columns": [
                     {
@@ -152,6 +152,11 @@
                         "datatype": "string",
                         "separator": " ",
                         "name": "Shift_Types"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "IDS_in_Source"
                     }
                 ],
                 "foreignKeys": [
@@ -186,7 +191,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 1627,
+            "dc:extent": 1629,
             "tableSchema": {
                 "columns": [
                     {
@@ -260,7 +265,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 4095,
+            "dc:extent": 4185,
             "tableSchema": {
                 "columns": [
                     {

@@ -59,6 +59,9 @@ class CustomLexeme(Lexeme):
     Shift_Types = attr.ib(
             default=None,
             metadata={"datatype": "string", "separator": " "})
+    IDS_in_Source = attr.ib(
+            default=None,
+            metadata={"datatype": "string", "separator": " "})
 
 
 
@@ -399,9 +402,24 @@ class Dataset(BaseDataset):
         concept_names = {}
         concepts_to_add = {}
         unify_concepts = {}
+        new_number = 4584
         for row in self.etc_dir.read_csv("unify_concepts.tsv", delimiter="\t", dicts=True):
             for lexeme in row["LEXEME"].split(" // "):
-                unify_concepts[lexeme] = row["NUMBER"]
+                if lexeme.startswith("&lt;"):
+                    unify_concepts[lexeme] = str(new_number)
+                    idx = str(new_number) + "_" + slug(lexeme)
+                    concepts_to_add[idx] = {
+                            "ID": idx,
+                            "Name": lexeme.replace("&lt;", "<").replace(
+                                "&gt;", ">"),
+                            "Gloss_in_Source": lexeme,
+                            "Number": str(new_number)
+                            }
+                    concepts[str(new_number)] = idx
+                    concept_names[idx] = concepts_to_add[idx]["Name"]
+                    new_number += 1
+                else:
+                    unify_concepts[lexeme] = row["NUMBER"]
 
         for concept in self.conceptlists[0].concepts.values():
             if not concept.english.startswith("*"):
@@ -422,7 +440,6 @@ class Dataset(BaseDataset):
                 concepts[concept.number] = idx
                 concept_names[idx] = concept.english
                 unify_concepts[concept.english] = concept.number
-        args.log.info(len(concepts_to_add))
 
         # load languages
         languages = args.writer.add_languages(lookup_factory="Name")
@@ -463,12 +480,7 @@ class Dataset(BaseDataset):
         args.log.info("unified concepts from {0} to {1}".format(len(concepts_to_add), len(set(unify_concepts.values()))))
         lexeme_data, lexeme_graph = {}, {}
 
-        # filter shifts excluding concepts in <> brackets, as they are general
-        # concepts with individual glosses being instances
-        filtered_shifts = [row for row in shifts if \
-                not row["Source_Concept"].startswith("&lt;") and \
-                not row["Target_Concept"].startswith("&lt;")]
-        for row in filtered_shifts:
+        for row in shifts:
             source_concept, target_concept = (
                 concepts[unify_concepts[row["Source_Concept"]]],
                 concepts[unify_concepts[row["Target_Concept"]]])
@@ -551,9 +563,12 @@ class Dataset(BaseDataset):
                     links[target_concept][
                             source_concept][row["Type"]+"_Families"] += [lang2fam[row["Source_Language"]]]
 
-        args.log.info(len(concepts_to_add))
-        args.log.info(len(set([c["ID"] for c in concepts_to_add.values()])))
-        for concept in pb(concepts_to_add.values(), desc="adding concepts"):
+        args.log.info("assembled concepts")
+        for k, concept in pb(
+                sorted(concepts_to_add.items(),
+                       key=lambda x: x[0]), 
+                desc="adding concepts"
+                ):
             target_list = []
             link_list = []
             for target_id, values in targets[concept["ID"]].items():
@@ -616,6 +631,7 @@ class Dataset(BaseDataset):
                     concepts = [x[5] for x in d]
                     shifts = [x[6] for x in d]
                     types = [x[7] for x in d]
+                    ids = [x[1] for x in d]
                     visited.add(target_node)
                     lexemes_to_add[tidx] = dict(
                                 Language_ID=d[0][3],
@@ -624,6 +640,7 @@ class Dataset(BaseDataset):
                                 Value=d[0][4],
                                 Form=d[0][4],
                                 Concepts_in_Source=concepts,
+                                IDS_in_Source=ids,
                                 Shifts=shifts,
                                 Shift_Types=types,
                                 Source_Lexemes=[sidx],
@@ -643,6 +660,7 @@ class Dataset(BaseDataset):
                 concepts = [x[5] for x in d]
                 shifts = [x[6] for x in d]
                 types = [x[7] for x in d]
+                ids = [x[1] for x in d]
                 lexemes_to_add[node2id[source_node]] = dict(
                         Language_ID=d[0][3],
                         Parameter_ID=d[0][2],
@@ -650,6 +668,7 @@ class Dataset(BaseDataset):
                         Value=d[0][4],
                         Form=d[0][4],
                         Concepts_in_Source=concepts,
+                        IDS_in_Source=ids,
                         Shifts=shifts,
                         Shift_Types=types,
                         Source_Lexemes=[],
