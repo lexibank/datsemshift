@@ -245,7 +245,7 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 1156,Southern Min (Min Nan),minn1241,Min Nan Chinese,nan,Eurasia,24.5,118.17,Sino-Tibetan,Sinitic,13
 41,Tolai (Kuanua),kuan1248,Kuanua,ksd,Papunesia,-4.30986,152.114,Austronesian,Malayo-Polynesian,12
 366,Jewish Palestinian Aramaic,pale1261,Jewish Palestinian Aramaic,jpa,Eurasia,,,Afro-Asiatic,West Semitic,12
-469,Telefol,tele1256,Telefol,tlf,Papunesia,-5.07444,141.731,Trans–New Guinea,Central &amp; South New Guinea,12
+469,Telefol,tele1256,Telefol,tlf,Papunesia,-5.07444,141.731,Trans–New Guinea,Central & South New Guinea,12
 603,Marquesan,nort2845,North Marquesan,mrq,Papunesia,-8.89412,-140.108,Austronesian,Malayo-Polynesian,12
 617,Tongan,tong1325,Tonga (Tonga Islands),ton,Papunesia,-21.17,-175.25,Austronesian,Malayo-Polynesian,12
 821,Southern Altai,sout2694,Southern Altai,alt,Eurasia,50.1347,86.8705,Altaic,Turkic,12
@@ -1007,7 +1007,7 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 1422,Mesa Grande 'Iipay,ipai1239,,,,,,Hokan,Yuman,2
 1425,Cahuilla,cahu1264,Cahuilla,chl,North America,33.5324,-116.691,Uto-Aztecan,Northern Uto-Aztecan,2
 1427,Western Shoshoni,west2622,Western Shoshoni,,North America,,,Uto-Aztecan,Numic,2
-1446,Ngan'gi,nang1259,Nangikurrunggurr,nam,Australia,-14.268,131.237,Southern Daly,Ngan&#39;gi,2
+1446,Ngan'gi,nang1259,Nangikurrunggurr,nam,Australia,-14.268,131.237,Southern Daly,Ngan'gi,2
 1455,Cape Verdean Creole,kabu1256,Kabuverdianu,kea,Africa,15.0586,-23.6148,Portuguese-based creole,,2
 1470,Moroccan Arabic,moro1292,Moroccan Arabic,ary,Africa,32.5,-7.5,Afro-Asiatic,West Semitic,2
 1482,Santali,sant1410,Santali,sat,Eurasia,25.0317,87.8185,Austroasiatic,Munda,2
@@ -1097,7 +1097,7 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 459,Mendi (Angal),anga1314,Angal Mendi,,,,,Trans–New Guinea,Engan,1
 461,Southern Kewa (Erave),erav1244,Erave,kjy,Papunesia,-6.55011,143.918,Trans–New Guinea,Engan,1
 463,Sirva (Sileibi),sile1255,Sirva,sbq,Papunesia,-4.98243,145.225,Trans–New Guinea,Madang,1
-464,Bimin,bimi1240,Bimin,bhl,Papunesia,-5.38732,142.04,Trans–New Guinea,Central &amp; South New Guinea,1
+464,Bimin,bimi1240,Bimin,bhl,Papunesia,-5.38732,142.04,Trans–New Guinea,Central & South New Guinea,1
 468,Foe,foii1241,Foi,foi,Papunesia,-6.47258,143.495,Trans–New Guinea,Kikorian,1
 470,Rumu (Kairi),rumu1243,Rumu,klq,Papunesia,-7.17149,144.179,Trans–New Guinea,Turama–Kikorian,1
 471,Namia,nami1256,Namia,nnm,Papunesia,-3.85538,141.788,Sepik,Yellow River,1
@@ -1108,8 +1108,8 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 479,"Wambon (Digul, Ketum)",ketu1238,Ketum,ktt,Papunesia,-5.34647,140.604,Trans–New Guinea,Greater Awyu,1
 480,Wambon (Yonggom),wamb1259,Wambon,wms,Papunesia,-5.44334,140.48,Trans–New Guinea,Greater Awyu,1
 481,Guhu-Samane,guhu1244,Guhu-Samane,ghs,Papunesia,-7.99922,147.228,Trans–New Guinea,Binanderean,1
-482,Mian,mian1255,Mianic,,,,,Trans–New Guinea,Central &amp; South New Guinea,1
-483,Tifal,tifa1245,Tifal,tif,Papunesia,-5.03899,141.293,Trans–New Guinea,Central &amp; South New Guinea,1
+482,Mian,mian1255,Mianic,,,,,Trans–New Guinea,Central & South New Guinea,1
+483,Tifal,tifa1245,Tifal,tif,Papunesia,-5.03899,141.293,Trans–New Guinea,Central & South New Guinea,1
 484,Oksapmin,oksa1245,Oksapmin,opm,Papunesia,-5.20797,142.177,Trans–New Guinea,Oksapmin,1
 486,Huli,huli1244,Huli,hui,Papunesia,-5.97212,142.963,Trans–New Guinea,Engan,1
 487,Girramay (Dyirbal),dyir1250,Dyirbal,dbl,Australia,-17.4516,145.544,Pama–Nyungan,Eastern Pama–Nyungan,1
@@ -1153,7 +1153,7 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 671,Opao,opao1240,Opao,opo,Papunesia,-7.85988,145.751,Trans–New Guinea,Eleman,1
 672,Orokolo,orok1267,Orokolo,oro,Papunesia,-7.81309,145.34,Trans–New Guinea,Eleman,1
 673,Tairuma,tair1256,Tairuma,uar,Papunesia,-7.94866,145.732,Trans–New Guinea,Eleman,1
-674,Tangko,tang1353,Tangko,tkx,Papunesia,-5.13343,140.269,Trans–New Guinea,Central &amp; South New Guinea,1
+674,Tangko,tang1353,Tangko,tkx,Papunesia,-5.13343,140.269,Trans–New Guinea,Central & South New Guinea,1
 679,Arguni,argu1237,Arguni,agf,Papunesia,-2.645798,132.5556,Austronesian,Malayo-Polynesian,1
 680,Dawera-Daweloor,dawe1237,Dawera-Daweloor,ddw,Papunesia,-7.76324,130.06,Austronesian,Malayo-Polynesian,1
 681,Emplawas,empl1237,Emplawas,emw,Papunesia,-8.03209,129.721,Austronesian,Malayo-Polynesian,1
@@ -1587,7 +1587,7 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 1694,Biwat (Mundugumor),biwa1243,Biwat,bwm,Papunesia,-4.39429,143.873,Yuat,Mundugumor,1
 1695,Chambri,cham1313,Chambri,can,Papunesia,-4.27831,143.097,Ramu–Lower Sepik,Lower Sepik,1
 1696,Ese (Managalasi),esee1247,Ese,mcq,Papunesia,-9.09451,148.376,Koiarian,Baraic,1
-1697,Faiwol,faiw1243,Faiwol,fai,Papunesia,-5.4967,141.656,Central &amp; South New Guinea,Ok,1
+1697,Faiwol,faiw1243,Faiwol,fai,Papunesia,-5.4967,141.656,Central & South New Guinea,Ok,1
 1698,Kobol (Koguman),kobo1248,Kobol,kgu,Papunesia,-4.79614,145.284,Trans–New Guinea,Madang,1
 1699,Kopar,kopa1248,Kopar,xop,Papunesia,-3.98259,144.466,Ramu–Lower Sepik,Lower Sepik,1
 1700,Siane,sian1257,Siane,snp,Papunesia,-6.13188,145.247,Trans–New Guinea,Kainantu–Goroka,1
@@ -1608,23 +1608,23 @@ ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Fami
 1716,Labo (Ninde),labo1244,Ninde,mwi,Papunesia,-16.4291,167.442,Austronesian,Malayo-Polynesian,1
 1718,Mi'kmaq,mikm1235,Mi'kmaq,mic,North America,46.0,-64.0,Algic,Algonquian,1
 1719,Kutchi (Kachhi),kach1277,Kachchi,kfr,Eurasia,23.83,69.0,Indo-European,Indo-Iranian,1
-1720,Kukatja,,,,,,,,,0
-1721,Mari,,,,,,,,,0
-1722,Nanaj,,,,,,,,,0
-1723,Toc Pisin,,,,,,,,,0
-1724,Old Slavonic,,,,,,,,,0
-1725,Osetin,,,,,,,,,0
-1726,Ngariman,,,,,,,,,0
-1727,Koyo,,,,,,,,,0
-1728,Kui,,,,,,,,,0
-1729,Manda,,,,,,,,,0
-1730,Wichí,,,,,,,,,0
+1720,Old Slavonic,,,,,,,,,0
+1721,Toc Pisin,,,,,,,,,0
+1722,Kukatja,,,,,,,,,0
+1723,Sar,,,,,,,,,0
+1724,Osetin,,,,,,,,,0
+1725,Kui,,,,,,,,,0
+1726,Manda,,,,,,,,,0
+1727,Kalam Pandanus,,,,,,,,,0
+1728,Wichí,,,,,,,,,0
+1729,Iipay,,,,,,,,,0
 1731,Gugu-yalanji,,,,,,,,,0
-1732,Russian–Chinese Pidgin,,,,,,,,,0
-1733,Iipay,,,,,,,,,0
-1734,Konda,,,,,,,,,0
-1735,Isneg,,,,,,,,,0
-1736,Sar,,,,,,,,,0
-1737,Kalam Pandanus,,,,,,,,,0
-1740,Juǀʼhoan,,,,,,,,,0
+1732,Nanaj,,,,,,,,,0
+1733,Mari,,,,,,,,,0
+1734,Russian–Chinese Pidgin,,,,,,,,,0
+1736,Konda,,,,,,,,,0
+1737,Koyo,,,,,,,,,0
+1738,Isneg,,,,,,,,,0
+1739,Juǀʼhoan,,,,,,,,,0
 1741,Kayan,,,,,,,,,0
+1742,Ngariman,,,,,,,,,0
