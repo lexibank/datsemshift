@@ -9,6 +9,7 @@ from csvw.dsv import UnicodeWriter
 import re
 from collections import defaultdict
 
+from html import unescape
 
 DOWNLOAD = False
 
@@ -372,7 +373,7 @@ class Dataset(BaseDataset):
     
         with UnicodeWriter(self.raw_dir / "shifts.tsv", delimiter="\t") as writer:
             for row in base_shifts:
-                writer.writerow(row)
+                writer.writerow([unescape(e) if isinstance(e, str) else e for e in row])
         
         with UnicodeWriter(self.raw_dir / "lexemes.tsv", delimiter="\t") as writer:
             for row in table:
@@ -380,10 +381,10 @@ class Dataset(BaseDataset):
         with UnicodeWriter(self.etc_dir / "languages.tsv", delimiter="\t") as writer:
             for row in language_table:
                 row[1] = refine_gloss(row[1])
-                writer.writerow(row)
+                writer.writerow([unescape(e) if isinstance(e, str) else e for e in row])
         with UnicodeWriter(self.etc_dir / "concepts.tsv", delimiter="\t") as writer:
             for row in concept_table:
-                writer.writerow(row)
+                writer.writerow([unescape(e) if isinstance(e, str) else e for e in row])
 
     def cmd_makecldf(self, args):
         # add bib
@@ -637,8 +638,8 @@ class Dataset(BaseDataset):
                                 Language_ID=d[0][3],
                                 Parameter_ID=d[0][2],
                                 Local_ID=tidx,
-                                Value=d[0][4],
-                                Form=d[0][4],
+                                Value=unescape(d[0][4]),
+                                Form=unescape(d[0][4]),
                                 Concepts_in_Source=concepts,
                                 IDS_in_Source=ids,
                                 Shifts=shifts,
@@ -665,8 +666,8 @@ class Dataset(BaseDataset):
                         Language_ID=d[0][3],
                         Parameter_ID=d[0][2],
                         Local_ID=node2id[source_node],
-                        Value=d[0][4],
-                        Form=d[0][4],
+                        Value=unescape(d[0][4]),
+                        Form=unescape(d[0][4]),
                         Concepts_in_Source=concepts,
                         IDS_in_Source=ids,
                         Shifts=shifts,

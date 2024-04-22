@@ -245,7 +245,7 @@ ID	Name	Glottocode	Family	SubGroup	Words
 1156	Southern Min (Min Nan)	minn1241	Sino-Tibetan	Sinitic	13
 41	Tolai (Kuanua)	kuan1248	Austronesian	Malayo-Polynesian	12
 366	Jewish Palestinian Aramaic	pale1261	Afro-Asiatic	West Semitic	12
-469	Telefol	tele1256	Trans–New Guinea	Central &amp; South New Guinea	12
+469	Telefol	tele1256	Trans–New Guinea	Central & South New Guinea	12
 603	Marquesan	nort2845	Austronesian	Malayo-Polynesian	12
 617	Tongan	tong1325	Austronesian	Malayo-Polynesian	12
 821	Southern Altai	sout2694	Altaic	Turkic	12
@@ -1043,7 +1043,7 @@ ID	Name	Glottocode	Family	SubGroup	Words
 1425	Cahuilla	cahu1264	Uto-Aztecan	Northern Uto-Aztecan	2
 1427	Western Shoshoni	west2622	Uto-Aztecan	Numic	2
 1434	Old Spanish	olds1249	Indo-European	Romance	2
-1446	Ngan'gi	nang1259	Southern Daly	Ngan&#39;gi	2
+1446	Ngan'gi	nang1259	Southern Daly	Ngan'gi	2
 1447	Naukan Siberian Yupik	nauk1242	Eskimo–Aleut	Eskimo	2
 1455	Cape Verdean Creole	kabu1256	Portuguese-based creole		2
 1470	Moroccan Arabic	moro1292	Afro-Asiatic	West Semitic	2
@@ -1159,7 +1159,7 @@ ID	Name	Glottocode	Family	SubGroup	Words
 459	Mendi (Angal)	anga1314	Trans–New Guinea	Engan	1
 461	Southern Kewa (Erave)	erav1244	Trans–New Guinea	Engan	1
 463	Sirva (Sileibi)	sile1255	Trans–New Guinea	Madang	1
-464	Bimin	bimi1240	Trans–New Guinea	Central &amp; South New Guinea	1
+464	Bimin	bimi1240	Trans–New Guinea	Central & South New Guinea	1
 468	Foe	foii1241	Trans–New Guinea	Kikorian	1
 470	Rumu (Kairi)	rumu1243	Trans–New Guinea	Turama–Kikorian	1
 471	Namia	nami1256	Sepik	Yellow River	1
@@ -1170,8 +1170,8 @@ ID	Name	Glottocode	Family	SubGroup	Words
 479	Wambon (Digul, Ketum)	ketu1238	Trans–New Guinea	Greater Awyu	1
 480	Wambon (Yonggom)	wamb1259	Trans–New Guinea	Greater Awyu	1
 481	Guhu-Samane	guhu1244	Trans–New Guinea	Binanderean	1
-482	Mian	mian1255	Trans–New Guinea	Central &amp; South New Guinea	1
-483	Tifal	tifa1245	Trans–New Guinea	Central &amp; South New Guinea	1
+482	Mian	mian1255	Trans–New Guinea	Central & South New Guinea	1
+483	Tifal	tifa1245	Trans–New Guinea	Central & South New Guinea	1
 484	Oksapmin	oksa1245	Trans–New Guinea	Oksapmin	1
 486	Huli	huli1244	Trans–New Guinea	Engan	1
 487	Girramay (Dyirbal)	dyir1250	Pama–Nyungan	Eastern Pama–Nyungan	1
@@ -1217,7 +1217,7 @@ ID	Name	Glottocode	Family	SubGroup	Words
 671	Opao	opao1240	Trans–New Guinea	Eleman	1
 672	Orokolo	orok1267	Trans–New Guinea	Eleman	1
 673	Tairuma	tair1256	Trans–New Guinea	Eleman	1
-674	Tangko	tang1353	Trans–New Guinea	Central &amp; South New Guinea	1
+674	Tangko	tang1353	Trans–New Guinea	Central & South New Guinea	1
 679	Arguni	argu1237	Austronesian	Malayo-Polynesian	1
 680	Dawera-Daweloor	dawe1237	Austronesian	Malayo-Polynesian	1
 681	Emplawas	empl1237	Austronesian	Malayo-Polynesian	1
@@ -1682,7 +1682,7 @@ ID	Name	Glottocode	Family	SubGroup	Words
 1694	Biwat (Mundugumor)	biwa1243	Yuat	Mundugumor	1
 1695	Chambri	cham1313	Ramu–Lower Sepik	Lower Sepik	1
 1696	Ese (Managalasi)	esee1247	Koiarian	Baraic	1
-1697	Faiwol	faiw1243	Central &amp; South New Guinea	Ok	1
+1697	Faiwol	faiw1243	Central & South New Guinea	Ok	1
 1698	Kobol (Koguman)	kobo1248	Trans–New Guinea	Madang	1
 1699	Kopar	kopa1248	Ramu–Lower Sepik	Lower Sepik	1
 1700	Siane	sian1257	Trans–New Guinea	Kainantu–Goroka	1
@@ -1704,26 +1704,26 @@ ID	Name	Glottocode	Family	SubGroup	Words
 1716	Labo (Ninde)	labo1244	Austronesian	Malayo-Polynesian	1
 1718	Mi'kmaq	mikm1235	Algic	Algonquian	1
 1719	Kutchi (Kachhi)	kach1277	Indo-European	Indo-Iranian	1
-1720	Kukatja				0
-1721	Mari				0
-1722	Nanaj				0
-1723	Toc Pisin				0
-1724	Old Slavonic				0
-1725	Osetin				0
-1726	Ngariman				0
-1727	Koyo				0
-1728	Kui				0
-1729	Manda				0
-1730	Wichí				0
+1720	Old Slavonic				0
+1721	Toc Pisin				0
+1722	Kukatja				0
+1723	Sar				0
+1724	Osetin				0
+1725	Kui				0
+1726	Manda				0
+1727	Kalam Pandanus				0
+1728	Wichí				0
+1729	Iipay				0
+1730	Miri (diaclet of Narom)				0
 1731	Gugu-yalanji				0
-1732	Russian–Chinese Pidgin				0
-1733	Iipay				0
-1734	Konda				0
-1735	Isneg				0
-1736	Sar				0
-1737	Kalam Pandanus				0
-1738	Nootka (Kyuquot)				0
-1739	Malto (Sauria Paharia, references do not distinguish with Kumarbhag Paharia)				0
-1740	Juǀʼhoan				0
+1732	Nanaj				0
+1733	Mari				0
+1734	Russian–Chinese Pidgin				0
+1735	Nootka (Kyuquot)				0
+1736	Konda				0
+1737	Koyo				0
+1738	Isneg				0
+1739	Juǀʼhoan				0
+1740	Malto (Sauria Paharia, references do not distinguish with Kumarbhag Paharia)				0
 1741	Kayan				0
-1742	Miri (diaclet of Narom)				0
+1742	Ngariman				0
