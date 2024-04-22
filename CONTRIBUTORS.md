@@ -16,3 +16,5 @@ Tatiana Mikhailova| | Author | Author |
 Maria Bibaeva| | Author | Author |
 Mikhail Voronov | | Author | Author|  
 Johann-Mattis List | @LinguList| CLDF Conversion | Editor
+Christoph Rzymski  | @chrzyki  | small fixes     | Editor
+

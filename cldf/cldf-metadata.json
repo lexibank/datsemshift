@@ -17,7 +17,7 @@
         {
             "rdf:about": "https://github.com/lexibank/datsemshift",
             "rdf:type": "prov:Entity",
-            "dc:created": "v.1.0.rc",
+            "dc:created": "v.1.0.rc-4-gf9e422b",
             "dc:title": "Repository"
         },
         {
